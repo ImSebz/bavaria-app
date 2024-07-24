@@ -13,8 +13,8 @@ const locationDisplay = ({ category }) => {
             <h2> Nuestros lugares </h2>
             <div className='location-display-list'>
                 {location_list.map((item, index) => {
-                    if ( category ==="All" || category === item.category) {
-                        return <LocationItem key={index} id={item._id} name={item.name} description={item.description} image={item.image} />
+                    if (category === "All" || category === item.category) {
+                        return <LocationItem key={index} id={item._id} name={item.name} description={item.description} image={item.image} url_reserva={item.url_reserva} carta={item.carta} />
                     }
                 })}
             </div>

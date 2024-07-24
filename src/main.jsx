@@ -9,12 +9,12 @@ import StoreContextProvider from './context/StoreContext.jsx';
 Modal.setAppElement('#root');
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
-  <BrowserRouter>
-    <StoreContextProvider>
-      <App />
-    </StoreContextProvider>
-  </BrowserRouter>
-  // </React.StrictMode>
+  <React.StrictMode>
+    <BrowserRouter>
+      <StoreContextProvider>
+        <App />
+      </StoreContextProvider>
+    </BrowserRouter>
+  </React.StrictMode>
 
 )

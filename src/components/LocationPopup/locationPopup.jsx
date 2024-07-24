@@ -25,6 +25,19 @@ const customStyles = {
 };
 
 const LocationPopup = ({ isOpen, onRequestClose, location }) => {
+
+    const handleApartaClick = () => {
+        if (location.url_reserva === "") return;
+        window.open(location.url_reserva, '_blank');
+    };
+
+    const handleCartaClick = () => {
+        if (location.carta === "") return;
+        window.open(location.carta, '_blank');
+    };
+
+    
+
     return (
         <Modal
             isOpen={isOpen}
@@ -39,11 +52,11 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
             <img src={location.image} alt={location.name} className='modal-location-img' />
             <p className='modal-location-desc'>{location.description}</p>
             <div className='modal-location-btn-container'>
-                <button className='modal-location-btn'>
+                <button className='modal-location-btn' onClick={handleApartaClick}>
                     <img src={assets.apartaIcon} alt="Aparta Icon" />
                     <p>Aparta</p>
                 </button>
-                <button className='modal-location-btn'>
+                <button className='modal-location-btn' onClick={handleCartaClick}>
                     <img src={assets.cartaIcon} alt="Carta Icon" />
                     <p>Carta</p>
                 </button>

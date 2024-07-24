@@ -112,6 +112,8 @@ export const location_list = [
         image: don_juan,
         description: "El sitio ideal para compartir con amigos y familia.",
         category: "Restaurante",
+        url_reserva: "https://donjuan.precompro.com/select/",
+        carta: "https://qr.precompro.com/?source=donjuan.precompro.com"
     },
     {
         _id: "2",
@@ -119,6 +121,8 @@ export const location_list = [
         image: clock_pub,
         description: "",
         category: "Bar",
+        url_reserva: "https://api.whatsapp.com/send/?phone=573054446051&text&type=phone_number&app_absent=0",
+        carta: "https://drive.google.com/file/d/1XfNuhZ4ruCEvGBONUJ8PdQ4Fr1lAizCu/view"
     },
     {
         _id: "3",
@@ -126,6 +130,8 @@ export const location_list = [
         image: inkanto,
         description: "",
         category: "Restaurante",
+        url_reserva: "https://api.whatsapp.com/send?phone=573184987259&text=Hola!%20quiero%20contactar%20a%20Inkanto%20Cartagena",
+        carta: "https://issuu.com/graninkacartagena/docs/menu_gran_inka_espan_ol_julio_22_compressed/1?ff"
     },
     {
         _id: "4",
@@ -133,6 +139,8 @@ export const location_list = [
         image: casa_cruxada,
         description: "",
         category: "Restaurante",
+        url_reserva: "https://restaurante.covermanager.com/reservas-casa-cruxada/",
+        carta: "https://casacruxada.com/wp-content/uploads/2023/11/Carta_CC_QR-w-J.pdf"
     },
     {
         _id: "5",
@@ -140,6 +148,8 @@ export const location_list = [
         image: mistura,
         description: "",
         category: "Restaurante",
+        url_reserva: "https://mistura-1.cluvi.co/mistura-cartagena-2/reservar",
+        carta: "https://mistura-1.cluvi.co/mistura-cartagena-2/menu-digital/home"
     },
     {
         _id: "6",
@@ -147,6 +157,8 @@ export const location_list = [
         image: uma,
         description: "",
         category: "Restaurante",
+        url_reserva: "https://www.covermanager.com/reservation/module_restaurant/uma-cartagena/spanish?source=Instagram",
+        carta: "https://www.umacantinaperuana.com/"
     },
     {
         _id: "7",
@@ -154,6 +166,8 @@ export const location_list = [
         image: la_unica,
         description: "",
         category: "Restaurante",
+        url_reserva: "https://launica.precompro.com/select?source=instagram&fbclid=PAZXh0bgNhZW0CMTEAAaYtXepo07zGPSAaT4TO57gTP73osrqBya55YiJIPPp4aPVqBg2wHkQIR5M_aem_Moa84kU1m4F4I5_bdnMzSw",
+        carta: "https://la-unica.cluvi.co/la-unica/menu-digital/home?fbclid=PAZXh0bgNhZW0CMTEAAaY2dD9_oE4jzQ5sPOXLHkY3Kv-kKbfviaeqkPsN4mxcqwF_igwsi0HBa6c_aem_3Jlz8_BX7frT-1igF7elBQ"
     },
     {
         _id: "8",
@@ -161,6 +175,7 @@ export const location_list = [
         image: hotel_movich,
         description: "",
         category: "Hotel",
+        url_reserva: "",
     },
     {
         _id: "9",
@@ -168,6 +183,7 @@ export const location_list = [
         image: sophia_rooftop,
         description: "",
         category: "Rooftop",
+        url_reserva: "",
     },
     {
         _id: "10",
@@ -175,6 +191,6 @@ export const location_list = [
         image: marina_todomar,
         description: "",
         category: "Marinas",
+        url_reserva: "",
     }
-
 ]
