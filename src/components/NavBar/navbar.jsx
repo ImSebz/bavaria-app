@@ -18,9 +18,6 @@ const navbar = () => {
                 <div className="nav-search-icon">
                     <img src={assets.basket_icon} alt="" />
                 </div>
-                <button>
-                    Sign In
-                </button>
             </div>
         </div>
     )

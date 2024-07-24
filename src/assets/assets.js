@@ -36,6 +36,10 @@ import hotel_movich from './hotel_movich.jpg'
 import sophia_rooftop from './sophia_rooftop.jpg'
 import marina_todomar from './marina_todomar.jpg'
 
+import apartaIcon from './aparta.svg'
+import cartaIcon from './carta.svg'
+import mapaIcon from './mapa.svg'
+
 
 export const assets = {
     logoBaravia,
@@ -71,7 +75,10 @@ export const assets = {
     la_unica,
     hotel_movich,
     sophia_rooftop,
-    marina_todomar
+    marina_todomar,
+    apartaIcon,
+    cartaIcon,
+    mapaIcon
 }
 
 export const sites_list = [

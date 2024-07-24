@@ -6,10 +6,11 @@
     transition: 0.3s;
     animation: forwards fadeIn 1s;
     background: #66666615;
+    cursor: pointer;
 }
 
 .location-item:hover {
-    box-shadow: 0px 0px 10px #00000030;
+    transform: scale(1.08);
 }
 
 .location-item-image {

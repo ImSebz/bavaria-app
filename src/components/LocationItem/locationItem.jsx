@@ -1,22 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './locationItem.css';
+import LocationPopup from '../LocationPopup/locationPopup';
 
 const locationItem = ({ id, name, description, image }) => {
-    return (
-        <div className='location-item'>
-            <div className='location-item-img-container'>
-                <img className='location-item-image' src={image} alt={name} />
-            </div>
-            <div className='location-item-info'>
-                <div className="location-item-name">
-                    <p>{name}</p>
-                </div>
-                <p className="location-item-desc">
-                    {description}
-                </p>
-            </div>
-        </div>
-    )
-}
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-export default locationItem
+    const handleItemClick = () => {
+        setIsPopupOpen(true);
+    };
+
+    const handleClosePopup = () => {
+        setIsPopupOpen(false);
+    };
+
+    return (
+        <div>
+            <div className='location-item' onClick={handleItemClick}>
+                <div className='location-item-img-container'>
+                    <img className='location-item-image' src={image} alt={name} />
+                </div>
+                <div className='location-item-info'>
+                    <div className="location-item-name">
+                        <p>{name}</p>
+                    </div>
+                    <p className="location-item-desc">
+                        {description}
+                    </p>
+                </div>
+            </div>
+            <LocationPopup
+                isOpen={isPopupOpen}
+                onRequestClose={handleClosePopup}
+                location={{ id, name, description, image }}
+            />
+        </div>
+    );
+};
+
+export default locationItem;
