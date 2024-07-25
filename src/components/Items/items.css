@@ -43,7 +43,7 @@
     border-radius: 50%;
     object-fit: cover;
     transition: all 0.8s;
-    
+
 }
 
 .explore-items-list p {
@@ -56,9 +56,3 @@
     background-color: var(--primary-red);
     border: none;
 }
-
-
-
-
-
-

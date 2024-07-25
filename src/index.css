@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
-  --primary-red : #E31B28;
-  --primary-grey : #F2F2F2;
-  --secondary-grey : #575756;
+  --primary-red: #E31B28;
+  --primary-grey: #F2F2F2;
+  --secondary-grey: #575756;
+  --primary-blue: #0C233F;
+  --primary-yellow: #FFC72C;
+  --primary-blue-gradient: linear-gradient(180deg, #080061, #0A0541);
+  --primary-red-gradient: linear-gradient(180deg, #DC0019 0%, #A50005 100%);
 }
 
 * {
