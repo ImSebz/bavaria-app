@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './navbar.css';
 import { assets } from '../../assets/assets';
 
@@ -8,10 +9,10 @@ const navbar = () => {
 
     return (
         <div className='navbar'>
-            <img src={assets.logoBaravia} className='logo' alt="Logo" />
+            <Link to="/" onClick={() => { setMenu("home") }}><img src={assets.logoBaravia} className='logo' alt="Logo" /></Link>
             <ul className="navbar-menu">
-                <li onClick={()=> setMenu("home")} className={menu === "home"?"active":""}>Inicio</li>
-                <li onClick={()=> setMenu("map")} className={menu === "map"?"active":""}>Mapa</li>
+                <Link to="/" onClick={() => { setMenu("home") }} ><li onClick={() => setMenu("home")} className={menu === "home" ? "active" : ""}>Inicio</li></Link>
+                <Link to="/mapa" onClick={() => { setMenu("map") }}><li onClick={() => setMenu("map")} className={menu === "map" ? "active" : ""}>Mapa</li></Link>
             </ul>
             <div className="navbar-right">
                 <img src={assets.search_icon} alt="Search Icon" />

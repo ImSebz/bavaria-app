@@ -8,9 +8,9 @@ import add_icon_green from './add_icon_green.png'
 import remove_icon_red from './remove_icon_red.png'
 import app_store from './app_store.png'
 import play_store from './play_store.png'
-import linkedin_icon from './linkedin_icon.png'
-import facebook_icon from './facebook_icon.png'
-import twitter_icon from './twitter_icon.png'
+import facebook_icon from './facebook_icon.svg'
+import x_icon from './x_icon.svg'
+import instagram_icon   from './instagram_icon.svg'
 import cross_icon from './cross_icon.png'
 import selector_icon from './selector_icon.png'
 import rating_starts from './rating_starts.png'
@@ -36,10 +36,9 @@ import hotel_movich from './hotel_movich.jpg'
 import sophia_rooftop from './sophia_rooftop.jpg'
 import marina_todomar from './marina_todomar.jpg'
 
-import apartaIcon from './aparta.svg'
+import reservaIcon from './reserva.svg'
 import cartaIcon from './carta.svg'
 import mapaIcon from './mapa.svg'
-
 
 export const assets = {
     logoBaravia,
@@ -52,9 +51,9 @@ export const assets = {
     remove_icon_red,
     app_store,
     play_store,
-    linkedin_icon,
     facebook_icon,
-    twitter_icon,
+    x_icon,
+    instagram_icon,
     cross_icon,
     selector_icon,
     profile_icon,
@@ -76,9 +75,9 @@ export const assets = {
     hotel_movich,
     sophia_rooftop,
     marina_todomar,
-    apartaIcon,
+    reservaIcon,
     cartaIcon,
-    mapaIcon
+    mapaIcon,
 }
 
 export const sites_list = [
@@ -176,6 +175,7 @@ export const location_list = [
         description: "",
         category: "Hotel",
         url_reserva: "",
+        carta: ""
     },
     {
         _id: "9",
@@ -184,6 +184,7 @@ export const location_list = [
         description: "",
         category: "Rooftop",
         url_reserva: "",
+        carta: ""
     },
     {
         _id: "10",
@@ -192,5 +193,6 @@ export const location_list = [
         description: "",
         category: "Marinas",
         url_reserva: "",
+        carta: ""
     }
 ]

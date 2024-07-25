@@ -26,13 +26,13 @@ const customStyles = {
 
 const LocationPopup = ({ isOpen, onRequestClose, location }) => {
 
-    const handleApartaClick = () => {
-        if (location.url_reserva === "") return;
+    const handleReservaClick = () => {
+        if (location.url_reserva === "") return alert('No hay reservas disponibles, intente de nuevo más tarde');
         window.open(location.url_reserva, '_blank');
     };
 
     const handleCartaClick = () => {
-        if (location.carta === "") return;
+        if (location.carta === "") return alert('No hay carta disponible, intente de nuevo más tarde');
         window.open(location.carta, '_blank');
     };
 
@@ -52,13 +52,13 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
             <img src={location.image} alt={location.name} className='modal-location-img' />
             <p className='modal-location-desc'>{location.description}</p>
             <div className='modal-location-btn-container'>
-                <button className='modal-location-btn' onClick={handleApartaClick}>
-                    <img src={assets.apartaIcon} alt="Aparta Icon" />
-                    <p>Aparta</p>
-                </button>
                 <button className='modal-location-btn' onClick={handleCartaClick}>
                     <img src={assets.cartaIcon} alt="Carta Icon" />
                     <p>Carta</p>
+                </button>
+                <button className='modal-location-btn' onClick={handleReservaClick}>
+                    <img src={assets.reservaIcon} alt="Reserva Icon" />
+                    <p>Reserva</p>
                 </button>
                 <button className='modal-location-btn'>
                     <img src={assets.mapaIcon} alt="Mapa Icon" />
