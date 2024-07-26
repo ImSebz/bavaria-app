@@ -20,24 +20,77 @@
     display: flex;
     list-style: none;
     gap: 20px;
-    color: #49557E;
+    color: #000;
     font-size: 18px;
 }
 
-.navbar-right {
-    display: flex;
+.sidebar-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50vh;
+    width: 100%;
+    top: 90px;
+    z-index: 999;
+    display: none;
+    list-style: none;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
     align-items: center;
-    gap: 40px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
 }
 
+.sidebar-menu.open {
+    display: flex;
+    transform: translateY(0);
+}
+
+.sidebar-menu li {
+    margin-top: 40px;
+    font-size: 1.3rem;
+}
 
 .navbar .active {
     padding-bottom: 2px;
     border-bottom: 2px solid #49557E;
 }
 
+.hamburger {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#home-li, #mapa-li {
+    display: inline;
+}
+
 @media screen and (max-width: 1050px) {
     .navbar .logo {
         width: 60px;
     }
+
+    .navbar li {
+        cursor: pointer;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    #home-li, #mapa-li {
+        display: none;
+    }
+
+    
+
 }
