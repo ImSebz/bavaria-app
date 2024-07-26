@@ -28,6 +28,9 @@ const Navbar = () => {
                 <img src={assets.logoBaravia} className='logo' alt="Logo" />
             </Link>
             <ul className={`sidebar-menu ${isSidebarOpen ? 'open' : ''}`}>
+                <li onClick={handleMenuClick} className='hamburger'>
+                    <FontAwesomeIcon icon={isSidebarOpen ? faXmark : faBars} className='menu-icon' />
+                </li>
                 <Link to="/" onClick={() => { setMenu("home"); setIsSidebarOpen(false); }}>
                     <li className={menu === "home" ? "active" : ""}>Inicio</li>
                 </Link>
