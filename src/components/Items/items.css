@@ -22,7 +22,7 @@
     cursor: pointer;
     gap: 10px;
     border-radius: 20px;
-    background-color: var(--primary-red);
+    background-color: #000;
     color: #fff;
 }
 
@@ -42,6 +42,7 @@
     border-radius: 50%;
     object-fit: cover;
     transition: all 0.8s;
+    box-shadow: #fff 0 0 0 1px;
 
 }
 
@@ -51,7 +52,7 @@
 }
 
 .items-menu hr {
-    height: 4px;
-    background-color: var(--primary-red);
+    height: 3px;
+    background-color: var(--primary-grey);
     border: none;
 }
