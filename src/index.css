@@ -30,3 +30,10 @@ a {
   width: 80%;
   margin: auto;
 }
+
+
+@media screen and (max-width: 1050px) {
+  .app {
+    width: 90%;
+  }
+}

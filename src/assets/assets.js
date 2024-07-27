@@ -1,5 +1,5 @@
 import basket_icon from './basket_icon.png'
-import logoBaravia from './bavaria_logo.svg'
+import logoHighEnd from './logo_high_end.svg'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 
@@ -41,7 +41,7 @@ import cartaIcon from './carta.svg'
 import mapaIcon from './mapa.svg'
 
 export const assets = {
-    logoBaravia,
+    logoHighEnd,
     basket_icon,
     header_img,
     search_icon,

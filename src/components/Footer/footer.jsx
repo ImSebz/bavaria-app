@@ -15,7 +15,7 @@ function Footer() {
             <div className='footer-content'>
                 <div className='footer-content-left'>
                     <div className='footer-logo-cont'>
-                        <img className='footer-logo-img' src={assets.logoBaravia} alt="Logo Bavaria" />
+                        <img className='footer-logo-img' src={assets.logoHighEnd} alt="Logo Bavaria" />
                     </div>
                     <div className="footer-social-icons">
                         <img src={assets.facebook_icon} alt="" />

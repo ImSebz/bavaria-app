@@ -25,7 +25,7 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <Link to="/" onClick={() => { setMenu("home") }}>
-                <img src={assets.logoBaravia} className='logo' alt="Logo" />
+                <img src={assets.logoHighEnd} className='logo' alt="Logo" />
             </Link>
             <ul className={`sidebar-menu ${isSidebarOpen ? 'open' : ''}`}>
                 <li onClick={handleMenuClick} className='hamburger'>
