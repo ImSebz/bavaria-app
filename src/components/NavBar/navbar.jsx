@@ -38,6 +38,7 @@ const Navbar = () => {
                     <li className={menu === "map" ? "active" : ""}>Mapa</li>
                 </Link>
             </ul>
+            <center><p className='navbar-ruta-p'>LA RUTA DE LA <span>CERVEZA</span></p></center>
             <ul className="navbar-menu">
                 <Link to="/" onClick={() => { setMenu("home") }}>
                     <li className={menu === "home" ? "active" : ""} id='home-li'>Inicio</li>
