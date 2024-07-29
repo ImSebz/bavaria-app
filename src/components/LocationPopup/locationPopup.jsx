@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes, faMapMarked } from '@fortawesome/free-solid-svg-icons';
+import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 import './locationPopup.css';
 import { assets } from '../../assets/assets';
 
@@ -36,7 +36,7 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
         window.open(location.carta, '_blank');
     };
 
-    
+
 
     return (
         <Modal
@@ -46,11 +46,14 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
             style={customStyles}
         >
             <button className='modal-location-close' onClick={onRequestClose}>
-                <FontAwesomeIcon icon={faTimes} />
+                <FontAwesomeIcon icon={faCircleXmark} />
             </button>
             <h2 className='modal-location-name'>{location.name}</h2>
             <img src={location.image} alt={location.name} className='modal-location-img' />
-            <p className='modal-location-desc'>{location.description}</p>
+            <div className='modal-location-desc'>
+                <p>{location.description}</p>
+            </div>
+            <hr className='hr-modal' />
             <div className='modal-location-btn-container'>
                 <button className='modal-location-btn' onClick={handleCartaClick}>
                     <img src={assets.cartaIcon} alt="Carta Icon" />

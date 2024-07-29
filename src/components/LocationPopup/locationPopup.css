@@ -1,9 +1,8 @@
-
 .modal-location-name {
-    font-size: 26px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    text-align: center;
+    font-size: 23px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: left;
 }
 
 .modal-location-img {
@@ -18,12 +17,13 @@
 
 .modal-location-close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 15px;
+    right: 15px;
     background: none;
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
+    color: var(--primary-gold);
 }
 
 .modal-location-btn-container {
@@ -52,4 +52,12 @@
 
 .modal-location-btn p {
     margin-top: 5px;
+}
+
+.hr-modal {
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    background-color: var(--primary-gold);
+    border: none;
 }
