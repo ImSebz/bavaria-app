@@ -51,13 +51,23 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
             <h2 className='modal-location-name'>{location.name}</h2>
             <img src={location.image} alt={location.name} className='modal-location-img' />
             <div className='modal-location-desc'>
-                <p>{location.description}</p>
+                <div className='modal-location-desc-right'>
+                    <p>{location.description}</p>
+                </div>
+                <div className="modal-location-desc-left">
+                    <img src={location.marca_logo} alt="Imagen logo" />
+                </div>
+
             </div>
             <hr className='hr-modal' />
             <div className='modal-location-btn-container'>
                 <button className='modal-location-btn' onClick={handleCartaClick}>
                     <img src={assets.cartaIcon} alt="Carta Icon" />
                     <p>Carta</p>
+                </button>
+                <button className='modal-location-btn'>
+                    <img src={assets.promoActivas} alt="Promo Activa Icon" />
+                    <p>Promos</p>
                 </button>
                 <button className='modal-location-btn' onClick={handleReservaClick}>
                     <img src={assets.reservaIcon} alt="Reserva Icon" />

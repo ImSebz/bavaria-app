@@ -11,8 +11,31 @@
 }
 
 .modal-location-desc {
-    font-size: 18px;
+    display: flex;
+    flex-direction: row;
     margin-top: 20px;
+    justify-content: space-around;
+}
+
+.modal-location-desc-right {
+    width: 60%;
+}
+
+.modal-location-desc-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.modal-location-desc-left img {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.modal-location-desc p {
+    font-size: 1rem;
+    text-align: left;
 }
 
 .modal-location-close {
@@ -30,7 +53,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    gap: 20%;
+    gap: 10%;
     align-items: center;
     margin-top: 30px;
 }
@@ -42,8 +65,8 @@
 }
 
 .modal-location-btn img {
-    width: 3rem;
-    height: 3rem;
+    width: 2.8rem;
+    height: 2.8rem;
 }
 
 .modal-location-btn img:hover {
@@ -52,6 +75,7 @@
 
 .modal-location-btn p {
     margin-top: 5px;
+    font-weight: 400;
 }
 
 .hr-modal {

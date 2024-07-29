@@ -1,29 +1,14 @@
-import basket_icon from './basket_icon.png'
-import logoHighEnd from './logo_high_end.svg'
-import header_img from './header_img.png'
-import search_icon from './search_icon.png'
 
-import add_icon_white from './add_icon_white.png'
-import add_icon_green from './add_icon_green.png'
-import remove_icon_red from './remove_icon_red.png'
-import app_store from './app_store.png'
-import play_store from './play_store.png'
+import logoHighEnd from './logo_high_end.svg'
+
 import facebook_icon from './facebook_icon.svg'
 import x_icon from './x_icon.svg'
 import instagram_icon   from './instagram_icon.svg'
-import cross_icon from './cross_icon.png'
-import selector_icon from './selector_icon.png'
-import rating_starts from './rating_starts.png'
-import profile_icon from './profile_icon.png'
-import bag_icon from './bag_icon.png'
-import logout_icon from './logout_icon.png'
-import parcel_icon from './parcel_icon.png'
 
 import restaurante from './restaurante.png'
 import rooftop from './rooftop.png'
 import bar from './bar.jpg'
 import marinas from './marinas.png'
-import hotel from './hotel.png'
 
 import don_juan from './don_juan.jpg'
 import clock_pub from './clock_pub.jpg'
@@ -39,32 +24,24 @@ import marina_todomar from './marina_todomar.jpg'
 import reservaIcon from './reserva.svg'
 import cartaIcon from './carta.svg'
 import mapaIcon from './mapa.svg'
+import promoActivas from './promo_activas.svg'
+
+import corona from './corona.svg'
+import corona_logo from './corona_logo.svg'
+import clubColombia from './club_colombia.svg'
+import clubColombia_logo from './club_colombia_logo.svg'
+import stella from './stella.svg'
+import stella_logo from './stella_logo.svg'
 
 export const assets = {
     logoHighEnd,
-    basket_icon,
-    header_img,
-    search_icon,
-    rating_starts,
-    add_icon_green,
-    add_icon_white,
-    remove_icon_red,
-    app_store,
-    play_store,
     facebook_icon,
     x_icon,
     instagram_icon,
-    cross_icon,
-    selector_icon,
-    profile_icon,
-    logout_icon,
-    bag_icon,
-    parcel_icon,
     restaurante,
     rooftop,
     bar,
     marinas,
-    hotel,
     don_juan,
     clock_pub,
     inkanto,
@@ -78,6 +55,13 @@ export const assets = {
     reservaIcon,
     cartaIcon,
     mapaIcon,
+    promoActivas,
+    corona,
+    corona_logo,
+    clubColombia,
+    clubColombia_logo,
+    stella,
+    stella_logo
 }
 
 export const sites_list = [
@@ -98,10 +82,6 @@ export const sites_list = [
         site_name: "Marinas",
         site_image: marinas
     },
-    {
-        site_name: "Hotel",
-        site_image: hotel
-    }
 ]
 
 export const location_list = [
@@ -112,43 +92,53 @@ export const location_list = [
         description: "El sitio ideal para compartir con amigos y familia.",
         category: "Restaurante",
         url_reserva: "https://donjuan.precompro.com/select/",
-        carta: "https://qr.precompro.com/?source=donjuan.precompro.com"
+        carta: "https://qr.precompro.com/?source=donjuan.precompro.com",
+        marca: stella,
+        marca_logo: stella_logo
     },
     {
         _id: "2",
         name: "The Clock Pub",
         image: clock_pub,
-        description: "",
+        description: "Tomate el tiempo para pasarla bien",
         category: "Bar",
         url_reserva: "https://api.whatsapp.com/send/?phone=573054446051&text&type=phone_number&app_absent=0",
-        carta: "https://drive.google.com/file/d/1XfNuhZ4ruCEvGBONUJ8PdQ4Fr1lAizCu/view"
+        carta: "https://drive.google.com/file/d/1XfNuhZ4ruCEvGBONUJ8PdQ4Fr1lAizCu/view",
+        marca: clubColombia,
+        marca_logo: clubColombia_logo
     },
     {
         _id: "3",
         name: "Inkanto",
         image: inkanto,
-        description: "",
+        description: "Cocina Ancestral Peruana",
         category: "Restaurante",
         url_reserva: "https://api.whatsapp.com/send?phone=573184987259&text=Hola!%20quiero%20contactar%20a%20Inkanto%20Cartagena",
-        carta: "https://issuu.com/graninkacartagena/docs/menu_gran_inka_espan_ol_julio_22_compressed/1?ff"
+        carta: "https://issuu.com/graninkacartagena/docs/menu_gran_inka_espan_ol_julio_22_compressed/1?ff",
+        marca: clubColombia,
+        marca_logo: clubColombia_logo
     },
     {
         _id: "4",
         name: "Casa Cruxada",
         image: casa_cruxada,
-        description: "",
+        description: "Descubre una experiencia culinaria inolvidable",
         category: "Restaurante",
         url_reserva: "https://restaurante.covermanager.com/reservas-casa-cruxada/",
-        carta: "https://casacruxada.com/wp-content/uploads/2023/11/Carta_CC_QR-w-J.pdf"
+        carta: "https://casacruxada.com/wp-content/uploads/2023/11/Carta_CC_QR-w-J.pdf",
+        marca: stella,
+        marca_logo: stella_logo
     },
     {
         _id: "5",
         name: "Mistura",
         image: mistura,
-        description: "",
+        description: "Un lugar especial que se queda entre los mejores recuerdos",
         category: "Restaurante",
         url_reserva: "https://mistura-1.cluvi.co/mistura-cartagena-2/reservar",
-        carta: "https://mistura-1.cluvi.co/mistura-cartagena-2/menu-digital/home"
+        carta: "https://mistura-1.cluvi.co/mistura-cartagena-2/menu-digital/home",
+        marca: stella,
+        marca_logo: stella_logo
     },
     {
         _id: "6",
@@ -157,34 +147,42 @@ export const location_list = [
         description: "",
         category: "Restaurante",
         url_reserva: "https://www.covermanager.com/reservation/module_restaurant/uma-cartagena/spanish?source=Instagram",
-        carta: "https://www.umacantinaperuana.com/"
+        carta: "https://www.umacantinaperuanactg.com/bebemos/",
+        marca: stella,
+        marca_logo: stella_logo
     },
     {
         _id: "7",
         name: "La Unica",
         image: la_unica,
-        description: "",
+        description: "Donde la buena música y gastronomía se encuentran",
         category: "Restaurante",
         url_reserva: "https://launica.precompro.com/select?source=instagram&fbclid=PAZXh0bgNhZW0CMTEAAaYtXepo07zGPSAaT4TO57gTP73osrqBya55YiJIPPp4aPVqBg2wHkQIR5M_aem_Moa84kU1m4F4I5_bdnMzSw",
-        carta: "https://la-unica.cluvi.co/la-unica/menu-digital/home?fbclid=PAZXh0bgNhZW0CMTEAAaY2dD9_oE4jzQ5sPOXLHkY3Kv-kKbfviaeqkPsN4mxcqwF_igwsi0HBa6c_aem_3Jlz8_BX7frT-1igF7elBQ"
+        carta: "https://la-unica.cluvi.co/la-unica/menu-digital/home?fbclid=PAZXh0bgNhZW0CMTEAAaY2dD9_oE4jzQ5sPOXLHkY3Kv-kKbfviaeqkPsN4mxcqwF_igwsi0HBa6c_aem_3Jlz8_BX7frT-1igF7elBQ",
+        marca: stella,
+        marca_logo: stella_logo
     },
     {
         _id: "8",
         name: "Hotel Movich",
         image: hotel_movich,
-        description: "",
-        category: "Hotel",
+        description: "Entendemos las necesidades de su visita y creamos servicios a la medida",
+        category: "Rooftop",
         url_reserva: "",
-        carta: ""
+        carta: "",
+        marca: corona,
+        marca_logo: corona_logo
     },
     {
         _id: "9",
         name: "Sophia Rooftop",
         image: sophia_rooftop,
-        description: "",
+        description: "Un espacio que enamora. Una atractiva terraza con piscina, tumbonas, sillones y servicio de bar con una impresionante vista panorámica de la ciudad",
         category: "Rooftop",
         url_reserva: "",
-        carta: ""
+        carta: "",
+        marca: corona,
+        marca_logo: corona_logo
     },
     {
         _id: "10",
@@ -193,6 +191,8 @@ export const location_list = [
         description: "",
         category: "Marinas",
         url_reserva: "",
-        carta: ""
+        carta: "",
+        marca: corona,
+        marca_logo: corona_logo
     }
 ]

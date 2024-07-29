@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './locationItem.css';
 import LocationPopup from '../LocationPopup/locationPopup';
 
-const locationItem = ({ id, name, description, image, url_reserva, carta }) => {
+const locationItem = ({ id, name, description, image, url_reserva, carta, marca, marca_logo }) => {
     const [isPopupOpen, setIsPopupOpen] = useState(false);
 
     const handleItemClick = () => {
@@ -31,7 +31,7 @@ const locationItem = ({ id, name, description, image, url_reserva, carta }) => {
             <LocationPopup
                 isOpen={isPopupOpen}
                 onRequestClose={handleClosePopup}
-                location={{ id, name, description, image, url_reserva, carta }}
+                location={{ id, name, description, image, url_reserva, carta, marca, marca_logo }}
             />
         </div>
     );

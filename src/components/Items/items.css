@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .items-menu h1 {
-    font-size: max(2vw, 24px);
+    font-size: max(2vw, 22px);
     font-weight: 600;
 }
 
@@ -21,7 +21,7 @@
     overflow-x: scroll;
     cursor: pointer;
     gap: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #000;
     color: #fff;
 }
@@ -53,6 +53,6 @@
 
 .items-menu hr {
     height: 3px;
-    background-color: var(--primary-grey);
+    background-color: var(--primary-gold);
     border: none;
 }
