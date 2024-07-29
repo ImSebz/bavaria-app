@@ -104,7 +104,8 @@
     .sidebar-menu .hamburger {
         position: relative;
         margin-left: auto;
-        padding-right: 40px;
+        padding-right: 21px;
+        top: -5px;
         margin-bottom: -40px;
     }
 

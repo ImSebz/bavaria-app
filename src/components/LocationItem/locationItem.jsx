@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
+import PropTypes from 'prop-types';
 import './locationItem.css';
 import LocationPopup from '../LocationPopup/locationPopup';
 
-const locationItem = ({ id, name, description, image, url_reserva, carta, marca, marca_logo }) => {
+const LocationItem = ({ id, name, description, image, url_reserva, carta, marca, marca_logo }) => {
     const [isPopupOpen, setIsPopupOpen] = useState(false);
 
     const handleItemClick = () => {
@@ -37,4 +38,15 @@ const locationItem = ({ id, name, description, image, url_reserva, carta, marca,
     );
 };
 
-export default locationItem;
+LocationItem.propTypes = {
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    url_reserva: PropTypes.string,
+    carta: PropTypes.string,
+    marca: PropTypes.string,
+    marca_logo: PropTypes.string,
+};
+
+export default memo(LocationItem);
