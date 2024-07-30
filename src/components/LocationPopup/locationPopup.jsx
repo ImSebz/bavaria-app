@@ -44,9 +44,8 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
     };
 
     const handleMapaClick = () => {
-        const currentLat = 10.4043125; // Reemplaza esto con la latitud actual si la tienes disponible
-        const currentLng = -75.5519962; // Reemplaza esto con la longitud actual si la tienes disponible
-        navigate(`/mapa?currentLat=${currentLat}&currentLng=${currentLng}&selectedLat=${location.lat}&selectedLng=${location.lng}`);
+        navigate(`/mapa`);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     return (
