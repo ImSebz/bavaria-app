@@ -17,7 +17,7 @@ const locations = [
     { name: 'UMA', address: 'Cll del Curato # 38-99', lat: 10.4280822085015, lng: -75.5484067238443, img: assets.uma },
     { name: 'La Unica', address: 'Cra. 8 #38-47', lat: 10.4275191032595, lng: -75.5479865877157, img: assets.la_unica },
     { name: 'Hotel Movich', address: 'Calle de Vélez Danies No. 4-39', lat: 10.4231751472625, lng: -75.5506840917423, img: assets.hotel_movich },
-    { name: 'Sophía Rooftop', address: 'Calle 32 #4-45', lat: 10.4226779223445, lng: -75.5504704052338, img: assets.urania_rooftop },
+    { name: 'Urania Rooftop', address: 'Calle 32 #4-45', lat: 10.4226779223445, lng: -75.5504704052338, img: assets.urania_rooftop },
     { name: 'Marina Todomar', address: 'Carrera 2 #15-364', lat: 10.4178692, lng: -75.5515702, img: assets.marina_todomar }
 ];
 
@@ -30,8 +30,24 @@ function MyComponent() {
     });
 
     const [map, setMap] = useState(null);
-    const [currentPosition, setCurrentPosition] = useState({ lat: 10.4043125, lng: -75.5519962 });
+    const [currentPosition, setCurrentPosition] = useState(null);
     const [selectedMarker, setSelectedMarker] = useState(null);
+
+    useEffect(() => {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    setCurrentPosition({
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    });
+                },
+                () => {
+                    console.error("Error getting the current position");
+                }
+            );
+        }
+    }, []);
 
     const onUnmount = useCallback(function callback(map) {
         setMap(null);
