@@ -5,7 +5,7 @@ import { assets } from '../../assets/assets';
 
 const containerStyle = {
     width: '100%',
-    height: '800px'
+    height: '750px'
 };
 
 const locations = [
