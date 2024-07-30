@@ -19,6 +19,8 @@
 
 .modal-location-desc-right {
     width: 60%;
+    display: flex;
+    align-items: center;
 }
 
 .modal-location-desc-left {

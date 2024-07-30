@@ -17,7 +17,7 @@ const locations = [
     { name: 'UMA', address: 'Cll del Curato # 38-99', lat: 10.4280822085015, lng: -75.5484067238443, img: assets.uma },
     { name: 'La Unica', address: 'Cra. 8 #38-47', lat: 10.4275191032595, lng: -75.5479865877157, img: assets.la_unica },
     { name: 'Hotel Movich', address: 'Calle de Vélez Danies No. 4-39', lat: 10.4231751472625, lng: -75.5506840917423, img: assets.hotel_movich },
-    { name: 'Sophía Rooftop', address: 'Calle 32 #4-45', lat: 10.4226779223445, lng: -75.5504704052338, img: assets.sophia_rooftop },
+    { name: 'Sophía Rooftop', address: 'Calle 32 #4-45', lat: 10.4226779223445, lng: -75.5504704052338, img: assets.urania_rooftop },
     { name: 'Marina Todomar', address: 'Carrera 2 #15-364', lat: 10.4178692, lng: -75.5515702, img: assets.marina_todomar }
 ];
 
@@ -30,26 +30,17 @@ function MyComponent() {
     });
 
     const [map, setMap] = useState(null);
-    const [currentPosition, setCurrentPosition] = useState(null);
-    const [selectedMarker, setSelectedMarker] = useState(null)
-
-    useEffect(() => {
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(
-                (position) => {
-                    const { latitude, longitude } = position.coords;
-                    setCurrentPosition({ lat: latitude, lng: longitude });
-                },
-                (error) => {
-                    console.error("Error getting location: ", error);
-                }
-            );
-        }
-    }, []);
+    const [currentPosition, setCurrentPosition] = useState({ lat: 10.4043125, lng: -75.5519962 });
+    const [selectedMarker, setSelectedMarker] = useState(null);
 
     const onUnmount = useCallback(function callback(map) {
         setMap(null);
     }, []);
+
+    const handleNavigate = (lat, lng) => {
+        const url = `https://www.google.com/maps/dir/?api=1&origin=${currentPosition.lat},${currentPosition.lng}&destination=${lat},${lng}&travelmode=walking`;
+        window.open(url, '_blank');
+    };
 
     return isLoaded && currentPosition ? (
         <GoogleMap
@@ -74,22 +65,16 @@ function MyComponent() {
                     position={{ lat: selectedMarker.lat, lng: selectedMarker.lng }}
                     onCloseClick={() => setSelectedMarker(null)}
                 >
-                    <>
-
-                        <div className='marker-popup'>
-                            <h2>
-                                {selectedMarker.name}
-                            </h2>
-                            <img src={selectedMarker.img} alt={selectedMarker.name} />
-                            <p>
-                                {selectedMarker.address}
-                            </p>
-                        </div>
-                    </>
+                    <div className='marker-popup'>
+                        <h2>{selectedMarker.name}</h2>
+                        <img src={selectedMarker.img} alt={selectedMarker.name} />
+                        <p>{selectedMarker.address}</p>
+                        <button onClick={() => handleNavigate(selectedMarker.lat, selectedMarker.lng)}>Ir ahora</button>
+                    </div>
                 </InfoWindow>
             )}
         </GoogleMap>
-    ) : <></>
+    ) : <></>;
 }
 
 export default React.memo(MyComponent);

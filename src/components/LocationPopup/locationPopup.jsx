@@ -3,6 +3,7 @@ import Modal from 'react-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 import './locationPopup.css';
+import { useNavigate } from 'react-router-dom';
 import { assets } from '../../assets/assets';
 
 const customStyles = {
@@ -25,6 +26,7 @@ const customStyles = {
 };
 
 const LocationPopup = ({ isOpen, onRequestClose, location }) => {
+    const navigate = useNavigate();
 
     const handleReservaClick = () => {
         if (location.url_reserva === "") return alert('No hay reservas disponibles, intente de nuevo más tarde');
@@ -36,7 +38,16 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
         window.open(location.carta, '_blank');
     };
 
+    const handlePromoClick = () => {
+        if (location.promo === "") return alert('No hay promos activas actualmente, intente de nuevo más tarde');
+        window.open(location.promo, '_blank');
+    };
 
+    const handleMapaClick = () => {
+        const currentLat = 10.4043125; // Reemplaza esto con la latitud actual si la tienes disponible
+        const currentLng = -75.5519962; // Reemplaza esto con la longitud actual si la tienes disponible
+        navigate(`/mapa?currentLat=${currentLat}&currentLng=${currentLng}&selectedLat=${location.lat}&selectedLng=${location.lng}`);
+    };
 
     return (
         <Modal
@@ -52,12 +63,11 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
             <img src={location.image} alt={location.name} className='modal-location-img' />
             <div className='modal-location-desc'>
                 <div className='modal-location-desc-right'>
-                    <p>{location.description}</p>
+                    <p>{location.subtitle}</p>
                 </div>
                 <div className="modal-location-desc-left">
                     <img src={location.marca_logo} alt="Imagen logo" />
                 </div>
-
             </div>
             <hr className='hr-modal' />
             <div className='modal-location-btn-container'>
@@ -65,7 +75,7 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
                     <img src={assets.cartaIcon} alt="Carta Icon" />
                     <p>Carta</p>
                 </button>
-                <button className='modal-location-btn'>
+                <button className='modal-location-btn' onClick={handlePromoClick}>
                     <img src={assets.promoActivas} alt="Promo Activa Icon" />
                     <p>Promos</p>
                 </button>
@@ -73,13 +83,11 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
                     <img src={assets.reservaIcon} alt="Reserva Icon" />
                     <p>Reserva</p>
                 </button>
-                <button className='modal-location-btn'>
+                <button className='modal-location-btn' onClick={handleMapaClick}>
                     <img src={assets.mapaIcon} alt="Mapa Icon" />
                     <p>Mapa</p>
                 </button>
             </div>
-
-
         </Modal>
     );
 };
