@@ -84,8 +84,14 @@ function MyComponent() {
                     <div className='marker-popup'>
                         <h2>{selectedMarker.name}</h2>
                         <img src={selectedMarker.img} alt={selectedMarker.name} />
-                        <p>{selectedMarker.address}</p>
-                        <button onClick={() => handleNavigate(selectedMarker.lat, selectedMarker.lng)}>Ir ahora</button>
+                        <div className='marker-popup-adress-btn'>
+                            <div className='marker-popup-adress'>{selectedMarker.address}</div>
+                            <div className='marker-popup-btn'>
+                                <button onClick={() => handleNavigate(selectedMarker.lat, selectedMarker.lng)}>Ir ahora</button>
+                            </div>
+
+                        </div>
+
                     </div>
                 </InfoWindow>
             )}

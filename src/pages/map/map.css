@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .marker-popup h2 {
@@ -12,7 +13,7 @@
 }
 
 .marker-popup img{
-    width: 250px;
+    width: 300px;
 }
 
 .marker-popup p {
@@ -20,8 +21,45 @@
     margin-top: 10px;
 }
 
-@media (max-width: 750px) { 
+.marker-popup-adress-btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    gap: 20px;
+}
 
+.marker-popup-adress {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.marker-popup-btn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.marker-popup-btn button {
+    padding: 10px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.90rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.marker-popup-adress, .marker-popup-btn {
+    display: flex;
+    width: 50%;
+}
+
+@media (max-width: 750px) { 
 
     .marker-popup h2 {
         font-size: 1.1rem;
