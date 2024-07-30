@@ -9,16 +9,16 @@ const containerStyle = {
 };
 
 const locations = [
-    { name: 'Don Juan', address: 'Av Carlos Escallón Cra 8 # 34-01', lat: 10.4242861308465, lng: -75.5489356306894, img: assets.don_juan },
-    { name: 'The Clock pub', address: 'Calle 34 #7-33 Plaza de los coches', lat: 10.4236940224763, lng: -75.5491482304822, img: assets.clock_pub },
-    { name: 'Inkanto', address: 'Carrera 5 #33-55 Portal de Los Dulces', lat: 10.4233377408453, lng: -75.5497013661753, img: assets.inkanto },
-    { name: 'Casa Cruxada', address: 'Cl. 35 #3-30', lat: 10.4242818986334, lng: -75.5518245146989, img: assets.casa_cruxada },
-    { name: 'Mistura', address: 'Carrera 8 #36-151', lat: 10.426823278194, lng: -75.5484583052338, img: assets.mistura },
-    { name: 'UMA', address: 'Cll del Curato # 38-99', lat: 10.4280822085015, lng: -75.5484067238443, img: assets.uma },
-    { name: 'La Unica', address: 'Cra. 8 #38-47', lat: 10.4275191032595, lng: -75.5479865877157, img: assets.la_unica },
-    { name: 'Hotel Movich', address: 'Calle de Vélez Danies No. 4-39', lat: 10.4231751472625, lng: -75.5506840917423, img: assets.hotel_movich },
-    { name: 'Urania Rooftop', address: 'Calle 32 #4-45', lat: 10.4226779223445, lng: -75.5504704052338, img: assets.urania_rooftop },
-    { name: 'Marina Todomar', address: 'Carrera 2 #15-364', lat: 10.4178692, lng: -75.5515702, img: assets.marina_todomar }
+    { name: 'Don Juan', address: 'Av Carlos Escallón Cra 8 # 34-01', lat: 10.423491, lng: -75.548849, img: assets.don_juan },
+    { name: 'The Clock pub', address: 'Calle 34 #7-33 Plaza de los coches', lat: 10.423475, lng: -75.549108, img: assets.clock_pub },
+    { name: 'Inkanto', address: 'Carrera 5 #33-55 Portal de Los Dulces', lat: 10.423245, lng: -75.550352, img: assets.inkanto },
+    { name: 'Casa Cruxada', address: 'Cl. 35 #3-30', lat: 10.424096, lng: -75.551877, img: assets.casa_cruxada },
+    { name: 'Mistura', address: 'Carrera 8 #36-151', lat: 10.426658, lng: -75.548421, img: assets.mistura },
+    { name: 'UMA', address: 'San Diego Calle del Curato. 38-99, Cartagena de Indias, Bolívar', lat: 10.427866, lng: -75.548328, img: assets.uma },
+    { name: 'La Unica', address: 'Cra. 8 #38-47', lat: 10.427318, lng: -75.547911, img: assets.la_unica },
+    { name: 'Hotel Movich', address: 'Calle de Vélez Danies No. 4-39', lat: 10.422797, lng: -75.550645, img: assets.hotel_movich },
+    { name: 'Urania Rooftop', address: 'Calle 32 #4-45', lat: 10.422377, lng: -75.550434, img: assets.urania_rooftop },
+    { name: 'Marina Todomar', address: 'Carrera 2 #15-364', lat: 10.417905, lng: -75.551496, img: assets.marina_todomar }
 ];
 
 function MyComponent() {
