@@ -93,8 +93,8 @@ export const location_list = [
         description: "Frescos pescados y mariscos locales, carnes y la inigualable oferta de vegetales y frutas de nuestro país le hacen el trabajo mas fácil al chef que propone una carta casual logrando combinaciones sencillas, platos ideales para maridar con una Stella Artois.",
         category: "Restaurante",
         url_reserva: "https://donjuan.precompro.com/select/",
-        promo: "https://www.perfectservestella.com/",
-        carta: "https://qr.precompro.com/?source=donjuan.precompro.com",
+        promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
+        carta: "",
         marca: stella,
         marca_logo: stella_logo
     },
@@ -132,7 +132,7 @@ export const location_list = [
         description: "Espacio con tres ambientes en donde la alta gastronomía, la música los espacios para tomar algo se unen para ofrecer una experencia única a acompañar con una refrescante Stella Artois.",
         category: "Restaurante",
         url_reserva: "https://restaurante.covermanager.com/reservas-casa-cruxada/",
-        promo: "https://www.perfectservestella.com/",
+        promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
         carta: "https://casacruxada.com/wp-content/uploads/2023/11/Carta_CC_QR-w-J.pdf",
         marca: stella,
         marca_logo: stella_logo
@@ -145,7 +145,7 @@ export const location_list = [
         description: "Sabores del mundo se unen para compartir alrededor de la mesa en compañía de una buena Stella Artois, platos de talla mundial entre los que se encuentran la cocina asiática y los cortes de carne fina.",
         category: "Restaurante",
         url_reserva: "https://mistura-1.cluvi.co/mistura-cartagena-2/reservar",
-        promo: "https://www.perfectservestella.com/",
+        promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
         carta: "https://mistura-1.cluvi.co/mistura-cartagena-2/menu-digital/home",
         marca: stella,
         marca_logo: stella_logo
@@ -158,7 +158,7 @@ export const location_list = [
         description: "Restaurante que reúne los mejores sabores de la cocina peruana utilizando producto local Colombiano en un solo lugar, sabores ideales para acompañar con una Stella Artois recien servida.",
         category: "Restaurante",
         url_reserva: "https://www.covermanager.com/reservation/module_restaurant/uma-cartagena/spanish?source=Instagram",
-        promo: "https://www.perfectservestella.com/",
+        promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
         carta: "https://www.umacantinaperuanactg.com/bebemos/",
         marca: stella,
         marca_logo: stella_logo
@@ -171,7 +171,7 @@ export const location_list = [
         description: "Concepto innovador de cantina, con un ámplio menú de mar y tierra inspirado en las cocinas regionales de la costa del pacífico y del norte de México, en La Única se encuentran sabores ideales para acomapañar de una buena Stella Artois.",
         category: "Restaurante",
         url_reserva: "https://launica.precompro.com/select?source=instagram&fbclid=PAZXh0bgNhZW0CMTEAAaYtXepo07zGPSAaT4TO57gTP73osrqBya55YiJIPPp4aPVqBg2wHkQIR5M_aem_Moa84kU1m4F4I5_bdnMzSw",
-        promo: "https://www.perfectservestella.com/",
+        promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
         carta: "https://la-unica.cluvi.co/la-unica/menu-digital/home?fbclid=PAZXh0bgNhZW0CMTEAAaY2dD9_oE4jzQ5sPOXLHkY3Kv-kKbfviaeqkPsN4mxcqwF_igwsi0HBa6c_aem_3Jlz8_BX7frT-1igF7elBQ",
         marca: stella,
         marca_logo: stella_logo
@@ -198,7 +198,7 @@ export const location_list = [
         category: "Rooftop",
         url_reserva: "",
         promo: "https://paraisoscorona.com/",
-        carta: "",
+        carta: "https://fliphtml5.com/bookcase/hdkgs/",
         marca: corona,
         marca_logo: corona_logo
     },
