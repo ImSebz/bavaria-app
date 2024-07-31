@@ -128,7 +128,7 @@ export const location_list = [
         category: "Bar",
         url_reserva: "https://api.whatsapp.com/send/?phone=573054446051&text&type=phone_number&app_absent=0",
         promo: "",
-        carta: "https://drive.google.com/file/d/1XfNuhZ4ruCEvGBONUJ8PdQ4Fr1lAizCu/view",
+        carta: "https://drive.google.com/file/d/1spmbO1UsthO_uBNeiSM2_I_PYgaDQlmw/view",
         marca: clubColombia,
         marca_logo: clubColombia_logo,
     },
