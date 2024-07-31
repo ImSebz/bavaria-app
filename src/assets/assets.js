@@ -33,6 +33,17 @@ import clubColombia_logo from './club_colombia_logo.svg'
 import stella from './stella.svg'
 import stella_logo from './stella_logo.svg'
 
+import casa_cruxada_marker from './casa_cruxada_marker.svg'
+import clock_pub_marker from './clock_pub_marker.svg'
+import don_juan_marker from './don_juan_marker.svg'
+import hotel_movich_marker from './hotel_movich_marker.svg'
+import inkanto_marker from './Inkanto_marker.svg'
+import la_unica_marker from './la_unica_marker.svg'
+import marina_todomar_marker from './marina_todomar_marker.svg'
+import mistura_marker from './mistura_marker.svg'
+import uma_marker from './uma_marker.svg'
+import urania_rooftop_marker from './urania_rooftop_marker.svg'
+
 export const assets = {
     logoHighEnd,
     facebook_icon,
@@ -61,7 +72,17 @@ export const assets = {
     clubColombia,
     clubColombia_logo,
     stella,
-    stella_logo
+    stella_logo,
+    casa_cruxada_marker,
+    clock_pub_marker,
+    don_juan_marker,
+    hotel_movich_marker,
+    inkanto_marker,
+    la_unica_marker,
+    marina_todomar_marker,
+    mistura_marker,
+    uma_marker,
+    urania_rooftop_marker
 }
 
 export const sites_list = [
@@ -96,7 +117,7 @@ export const location_list = [
         promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
         carta: "",
         marca: stella,
-        marca_logo: stella_logo
+        marca_logo: stella_logo,
     },
     {
         _id: "2",
@@ -109,7 +130,7 @@ export const location_list = [
         promo: "",
         carta: "https://drive.google.com/file/d/1XfNuhZ4ruCEvGBONUJ8PdQ4Fr1lAizCu/view",
         marca: clubColombia,
-        marca_logo: clubColombia_logo
+        marca_logo: clubColombia_logo,
     },
     {
         _id: "3",
@@ -122,7 +143,7 @@ export const location_list = [
         promo: "",
         carta: "https://issuu.com/graninkacartagena/docs/menu_gran_inka_espan_ol_julio_22_compressed/1?ff",
         marca: clubColombia,
-        marca_logo: clubColombia_logo
+        marca_logo: clubColombia_logo,
     },
     {
         _id: "4",
@@ -135,7 +156,7 @@ export const location_list = [
         promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
         carta: "https://casacruxada.com/wp-content/uploads/2023/11/Carta_CC_QR-w-J.pdf",
         marca: stella,
-        marca_logo: stella_logo
+        marca_logo: stella_logo,
     },
     {
         _id: "5",
@@ -148,7 +169,7 @@ export const location_list = [
         promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
         carta: "https://mistura-1.cluvi.co/mistura-cartagena-2/menu-digital/home",
         marca: stella,
-        marca_logo: stella_logo
+        marca_logo: stella_logo,
     },
     {
         _id: "6",
@@ -161,7 +182,7 @@ export const location_list = [
         promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
         carta: "https://www.umacantinaperuanactg.com/bebemos/",
         marca: stella,
-        marca_logo: stella_logo
+        marca_logo: stella_logo,
     },
     {
         _id: "7",
@@ -174,7 +195,7 @@ export const location_list = [
         promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
         carta: "https://la-unica.cluvi.co/la-unica/menu-digital/home?fbclid=PAZXh0bgNhZW0CMTEAAaY2dD9_oE4jzQ5sPOXLHkY3Kv-kKbfviaeqkPsN4mxcqwF_igwsi0HBa6c_aem_3Jlz8_BX7frT-1igF7elBQ",
         marca: stella,
-        marca_logo: stella_logo
+        marca_logo: stella_logo,
     },
     {
         _id: "8",
@@ -187,7 +208,7 @@ export const location_list = [
         promo : "https://paraisoscorona.com/",
         carta: "",
         marca: corona,
-        marca_logo: corona_logo
+        marca_logo: corona_logo,
     },
     {
         _id: "9",
@@ -200,7 +221,7 @@ export const location_list = [
         promo: "https://paraisoscorona.com/",
         carta: "https://fliphtml5.com/bookcase/hdkgs/",
         marca: corona,
-        marca_logo: corona_logo
+        marca_logo: corona_logo,
     },
     {
         _id: "10",
@@ -213,6 +234,6 @@ export const location_list = [
         promo: "https://paraisoscorona.com/",
         carta: "",
         marca: corona,
-        marca_logo: corona_logo
+        marca_logo: corona_logo,
     }
 ]
