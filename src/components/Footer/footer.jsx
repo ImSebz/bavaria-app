@@ -17,11 +17,11 @@ function Footer() {
                     <div className='footer-logo-cont'>
                         <img className='footer-logo-img' src={assets.logoHighEnd} alt="Logo Bavaria" />
                     </div>
-                    <div className="footer-social-icons">
+                    {/* <div className="footer-social-icons">
                         <img src={assets.facebook_icon} alt="" />
                         <img src={assets.x_icon} alt="" />
                         <img src={assets.instagram_icon} alt="" />
-                    </div>
+                    </div> */}
                 </div>
                 <div className='footer-content-center'>
                     <h2>Avisos</h2>
