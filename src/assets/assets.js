@@ -65,7 +65,6 @@ import uma from './uma.jpg'
 import uma1 from './uma1.jpg'
 import uma2 from './uma2.jpg'
 import uma3 from './uma3.jpg'
-import uma4 from './uma4.jpg'
 import urania_rooftop from './urania_rooftop.jpg'
 import urania_rooftop1 from './urania_rooftop1.jpg'
 import urania_rooftop2 from './urania_rooftop2.jpg'
@@ -181,7 +180,6 @@ export const assets = {
     uma1,
     uma2,
     uma3,
-    uma4,
     urania_rooftop_marker,
     urania_rooftop,
     urania_rooftop1,
@@ -290,7 +288,7 @@ export const location_list = [
         _id: "6",
         name: "Uma",
         image: uma,
-        image_carousel: [uma1, uma2, uma3, uma4],
+        image_carousel: [uma1, uma2, uma3],
         subtitle: "Cantina Peruana",
         description: "Restaurante que reúne los mejores sabores de la cocina peruana utilizando producto local Colombiano en un solo lugar, sabores ideales para acompañar con una Stella Artois recien servida.",
         category: "Restaurante",
