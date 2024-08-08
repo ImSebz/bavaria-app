@@ -87,3 +87,18 @@
     background-color: var(--primary-gold);
     border: none;
 }
+
+.img-carousel {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.carousel-status {
+    display: none;
+}
+
+
+.carousel .control-dots .dot.selected {
+    background: #000 /* Color del punto seleccionado */
+}
+

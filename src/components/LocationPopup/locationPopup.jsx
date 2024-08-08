@@ -5,6 +5,8 @@ import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 import './locationPopup.css';
 import { useNavigate } from 'react-router-dom';
 import { assets } from '../../assets/assets';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const customStyles = {
     overlay: {
@@ -59,7 +61,12 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
                 <FontAwesomeIcon icon={faCircleXmark} />
             </button>
             <h2 className='modal-location-name'>{location.name}</h2>
-            <img src={location.image} alt={location.name} className='modal-location-img' />
+            <Carousel>
+                <img src={location.image} alt={location.name} className='modal-location-img' />
+                {location.image_carousel.map((image, index) => (
+                    <img className='img-carousel' key={index} src={image} alt={`${location.name} ${index + 1}`} />
+                ))}
+            </Carousel>
             <div className='modal-location-desc'>
                 <div className='modal-location-desc-right'>
                     <p>{location.subtitle}</p>
