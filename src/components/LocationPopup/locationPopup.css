@@ -1,7 +1,7 @@
 .modal-location-name {
-    font-size: 23px;
+    font-size: 22px;
     margin-bottom: 10px;
-    font-weight: 400;
+    font-weight: 700;
     text-align: left;
 }
 
@@ -18,9 +18,15 @@
 }
 
 .modal-location-desc-right {
-    width: 60%;
+    width: 55%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.modal-location-desc-right span {
+    font-weight: 600;
 }
 
 .modal-location-desc-left {

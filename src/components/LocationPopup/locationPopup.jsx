@@ -30,10 +30,6 @@ const customStyles = {
 const LocationPopup = ({ isOpen, onRequestClose, location }) => {
     const navigate = useNavigate();
 
-    const handleReservaClick = () => {
-        if (location.url_reserva === "") return alert('No hay reservas disponibles, intente de nuevo más tarde');
-        window.open(location.url_reserva, '_blank');
-    };
 
     const handleCartaClick = () => {
         if (location.carta === "") return alert('No hay carta disponible, intente de nuevo más tarde');
@@ -69,7 +65,8 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
             </Carousel>
             <div className='modal-location-desc'>
                 <div className='modal-location-desc-right'>
-                    <p>{location.subtitle}</p>
+                    <p><span>Dress code:</span> {location.dress_code}</p>
+                    <p><span>Horario:</span> {location.schedule}</p>
                 </div>
                 <div className="modal-location-desc-left">
                     <img src={location.marca_logo} alt="Imagen logo" />
@@ -84,10 +81,6 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
                 <button className='modal-location-btn' onClick={handlePromoClick}>
                     <img src={assets.promoActivas} alt="Promo Activa Icon" />
                     <p>Promos</p>
-                </button>
-                <button className='modal-location-btn' onClick={handleReservaClick}>
-                    <img src={assets.reservaIcon} alt="Reserva Icon" />
-                    <p>Reserva</p>
                 </button>
                 <button className='modal-location-btn' onClick={handleMapaClick}>
                     <img src={assets.mapaIcon} alt="Mapa Icon" />
