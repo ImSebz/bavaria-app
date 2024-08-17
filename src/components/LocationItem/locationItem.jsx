@@ -14,8 +14,6 @@ const LocationItem = ({ id, name, description, image, image_carousel, subtitle, 
         setIsPopupOpen(false);
     };
 
-    console.log('LocationItem props:', {image_carousel});
-
     return (
         <div>
             <div className='location-item' onClick={handleItemClick}>
