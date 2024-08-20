@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './locationItem.css';
 import LocationPopup from '../LocationPopup/locationPopup';
 
-const LocationItem = ({ id, name, description, image, image_carousel, subtitle, url_reserva, promo, carta, marca, marca_logo, dress_code, schedule }) => {
+const LocationItem = ({ id, name, description, image, image_carousel, subtitle, url_reserva, promo, carta, marca, marca_logo, marker, dress_code, schedule }) => {
     const [isPopupOpen, setIsPopupOpen] = useState(false);
 
     const handleItemClick = () => {
@@ -32,7 +32,7 @@ const LocationItem = ({ id, name, description, image, image_carousel, subtitle, 
             <LocationPopup
                 isOpen={isPopupOpen}
                 onRequestClose={handleClosePopup}
-                location={{ id, name, description, image, image_carousel, subtitle, url_reserva, promo, carta, marca, marca_logo, dress_code, schedule }}
+                location={{ id, name, description, image, image_carousel, subtitle, url_reserva, promo, carta, marca, marca_logo, marker, dress_code, schedule }}
             />
         </div>
     );

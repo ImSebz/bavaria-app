@@ -5,6 +5,7 @@ import Home from './pages/home/home';
 import Map from './pages/map/map';
 import Footer from './components/Footer/footer';
 import WidgetLoader from './components/WidgetLoader/widgetLoader';
+import CouponView from './components/CouponView/couponView';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/mapa' element={<Map />} />
+          <Route path='/cupon' element={<CouponView />} />
         </Routes>
       </div>
       <Footer />

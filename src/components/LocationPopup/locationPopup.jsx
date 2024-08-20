@@ -37,8 +37,12 @@ const LocationPopup = ({ isOpen, onRequestClose, location }) => {
     };
 
     const handlePromoClick = () => {
-        if (location.promo === "") return alert('No hay promos activas actualmente, intente de nuevo más tarde');
-        window.open(location.promo, '_blank');
+        if (location.promo === "cupon") {
+            navigate('/cupon', { state: { marca_logo: location.marca_logo, name: location.name, marker: location.marker } });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            window.open(location.promo, '_blank');
+        }
     };
 
     const handleMapaClick = () => {
