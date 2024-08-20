@@ -17,8 +17,8 @@ import casa_cruxada4 from './casa_cruxada4.jpg'
 import casa_movida from './casa_movida.jpg'
 import casa_movida_marker from './casa_movida_marker.png'
 import casona_vida from './casona_vida.jpg'
-import casona_vida1 from './casona_vida1.jpg'
 import casona_vida_marker from './casona_vida_marker.png'
+import casona_vida1 from './casona_vida1.jpg'
 import clock_pub from './clock_pub.jpg'
 import clock_pub_marker from './clock_pub_marker.svg'
 import clock_pub1 from './clock_pub1.jpeg'
@@ -44,9 +44,9 @@ import don_juan6 from './don_juan6.png'
 import don_juan7 from './don_juan7.png'
 import don_juan8 from './don_juan8.png'
 import facebook_icon from './facebook_icon.svg'
-import home_burgers_centro from './home_burgers_centro.jpg'
 import home_burgers_bocagrande from './home_burgers_bocagrande.jpg'
 import home_burgers_bocagrande_marker from './home_burgers_bocagrande_marker.svg'
+import home_burgers_centro from './home_burgers_centro.jpg'
 import home_burgers_centro_marker from './home_burgers_centro_marker.svg'
 import hotel_movich from './hotel_movich.jpg'
 import hotel_movich_marker from './hotel_movich_marker.svg'
@@ -95,6 +95,7 @@ import porthos from './porthos.jpg'
 import porthos_marker from './porthos_marker.png'
 import promoActivas from './promo_activas.svg'
 import rabo_de_pez from './rabo_de_pez.jpg'
+import rabo_de_pez_marker from './rabo_de_pez_marker.png'
 import reservaIcon from './reserva.svg'
 import restaurante from './restaurante.jpg'
 import rooftop from './rooftop.jpg'
@@ -104,15 +105,15 @@ import santa_catalina from './santa_catalina.jpg'
 import santa_catalina_marker from './santa_catalina_marker.png'
 import santa_catalina1 from './santa_catalina1.jpg'
 import santa_catalina2 from './santa_catalina2.jpg'
-import selina_marker from './selina_marker.png'
 import selina from './selina.jpg'
+import selina_marker from './selina_marker.png'
 import selina1 from './selina1.jpg'
 import selina2 from './selina2.jpg'
 import selina3 from './selina3.jpg'
 import siete_cielos from './siete_cielos.jpg'
+import siete_cielos_marker from './siete_cielos_marker.png'
 import siete_cielos1 from './siete_cielos1.jpg'
 import siete_cielos2 from './siete_cielos2.jpg'
-import siete_cielos_marker from './siete_cielos_marker.png'
 import stella from './stella.svg'
 import stella_logo from './stella_logo.svg'
 import uma from './uma.jpg'
@@ -131,8 +132,8 @@ import urania_rooftop6 from './urania_rooftop6.jpg'
 import urania_rooftop7 from './urania_rooftop7.jpg'
 import urania_rooftop8 from './urania_rooftop8.jpg'
 import verona from './verona.jpg'
-import verona1 from './verona1.jpg'
 import verona_marker from './verona_marker.png'
+import verona1 from './verona1.jpg'
 import x_icon from './x_icon.svg'
 
 export const assets = {
@@ -232,6 +233,7 @@ export const assets = {
     porthos_marker,
     porthos,
     promoActivas,
+    rabo_de_pez_marker,
     rabo_de_pez,
     reservaIcon,
     restaurante,
@@ -725,6 +727,7 @@ export const location_list = [
         lng: -75.5501127359232,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
+        marker: rabo_de_pez_marker,
         name: "Rabo de Pez",
         promo: "cupon",
         schedule: "12pm - 10:30pm",
