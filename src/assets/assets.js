@@ -14,6 +14,7 @@ import casa_cruxada2 from './casa_cruxada2.jpg'
 import casa_cruxada3 from './casa_cruxada3.jpg'
 import casa_cruxada4 from './casa_cruxada4.jpg'
 import casa_movida from './casa_movida.jpg'
+import casa_movida_marker from './casa_movida_marker.png'
 import casona_vida from './casona_vida.jpg'
 import casona_vida1 from './casona_vida1.jpg'
 import casona_vida_marker from './casona_vida_marker.png'
@@ -69,6 +70,7 @@ import inkanto8 from './inkanto8.jpg'
 import inkanto9 from './inkanto9.jpg'
 import instagram_icon   from './instagram_icon.svg'
 import la_movida from './la_movida.jpg'
+import la_movida_marker from './la_movida_marker.png'
 import la_unica from './la_unica.jpg'
 import la_unica_marker from './la_unica_marker.svg'
 import la_unica1 from './la_unica1.jpg'
@@ -101,6 +103,7 @@ import santa_catalina from './santa_catalina.jpg'
 import santa_catalina_marker from './santa_catalina_marker.png'
 import santa_catalina1 from './santa_catalina1.jpg'
 import santa_catalina2 from './santa_catalina2.jpg'
+import selina_marker from './selina_marker.png'
 import selina from './selina.jpg'
 import selina1 from './selina1.jpg'
 import selina2 from './selina2.jpg'
@@ -108,6 +111,7 @@ import selina3 from './selina3.jpg'
 import siete_cielos from './siete_cielos.jpg'
 import siete_cielos1 from './siete_cielos1.jpg'
 import siete_cielos2 from './siete_cielos2.jpg'
+import siete_cielos_marker from './siete_cielos_marker.png'
 import stella from './stella.svg'
 import stella_logo from './stella_logo.svg'
 import uma from './uma.jpg'
@@ -132,8 +136,8 @@ import x_icon from './x_icon.svg'
 
 export const assets = {
     aduana_1,
-    aduana,
     aduana_marker,
+    aduana,
     apogeo_marker,
     apogeo,
     apogeo1,
@@ -147,9 +151,10 @@ export const assets = {
     casa_cruxada3,
     casa_cruxada4,
     casa_movida,
+    casa_movida_marker,
+    casona_vida_marker,
     casona_vida,
     casona_vida1,
-    casona_vida_marker,
     clock_pub_marker,
     clock_pub,
     clock_pub1,
@@ -175,10 +180,10 @@ export const assets = {
     don_juan7,
     don_juan8,
     facebook_icon,
-    home_burgers_bocagrande,
     home_burgers_bocagrande_marker,
-    home_burgers_centro,
+    home_burgers_bocagrande,
     home_burgers_centro_marker,
+    home_burgers_centro,
     hotel_movich_marker,
     hotel_movich,
     hotel_movich1,
@@ -201,6 +206,8 @@ export const assets = {
     inkanto8,
     inkanto9,
     instagram_icon,
+    la_movida_marker,
+    la_movida,
     la_unica_marker,
     la_unica,
     la_unica1,
@@ -220,23 +227,25 @@ export const assets = {
     mistura3,
     mistura4,
     mistura5,
-    porthos,
     porthos_marker,
+    porthos,
     promoActivas,
+    rabo_de_pez,
     reservaIcon,
     restaurante,
-    rabo_de_pez,
     rooftop,
-    rosa_mezcal,
     rosa_mezcal_marker,
+    rosa_mezcal,
     santa_catalina_marker,
     santa_catalina,
     santa_catalina1,
     santa_catalina2,
+    selina_marker,
     selina,
     selina1,
     selina2,
     selina3,
+    siete_cielos_marker,
     stella_logo,
     stella,
     uma_marker,
@@ -254,9 +263,9 @@ export const assets = {
     urania_rooftop6,
     urania_rooftop7,
     urania_rooftop8,
+    verona_marker,
     verona,
     verona1,
-    verona_marker,
     x_icon,
 }
 
@@ -534,6 +543,7 @@ export const location_list = [
         lng: -75.5473324600989,
         marca_logo: corona_logo,
         marca: corona,
+        marker: selina_marker,
         name: "Selina",
         promo: "https://paraisoscorona.com/",
         schedule: "12pm - 10:30pm",
@@ -573,6 +583,7 @@ export const location_list = [
         lng: -75.5511755070873,
         marca_logo: corona_logo,
         marca: corona,
+        marker: siete_cielos_marker,
         name: "7 Cielos",
         promo: "https://paraisoscorona.com/",
         schedule: "12pm - 1:30am",
@@ -672,6 +683,7 @@ export const location_list = [
         lng: -75.5487597967052,
         marca_logo: stella_logo,
         marca: stella,
+        marker: casa_movida_marker,
         name: "Casa Movida",
         promo: "cupon",
         schedule: "10pm - 3am",
@@ -730,6 +742,7 @@ export const location_list = [
         lng: -75.5523488494147,
         marca_logo: stella_logo,
         marca: stella,
+        marker: la_movida_marker,
         name: "La movida",
         promo: "cupon",
         schedule: "10pm - 3am",
