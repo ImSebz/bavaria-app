@@ -6,6 +6,7 @@ import apogeo_marker from './apogeo_marker.png'
 import apogeo1 from './apogeo1.jpg'
 import bar from './bar.jpg'
 import cafe_del_mar from './cafe_del_mar.jpg'
+import cafe_del_mar_marker from './cafe_del_mar_marker.png'
 import cartaIcon from './carta.svg'
 import casa_cruxada from './casa_cruxada.jpg'
 import casa_cruxada_marker from './casa_cruxada_marker.svg'
@@ -143,6 +144,7 @@ export const assets = {
     apogeo1,
     bar,
     cafe_del_mar,
+    cafe_del_mar_marker,
     cartaIcon,
     casa_cruxada_marker,
     casa_cruxada,
@@ -762,6 +764,7 @@ export const location_list = [
         lng: -75.5541205494147,
         marca_logo: corona_logo,
         marca: corona,
+        marker: cafe_del_mar_marker,
         name: "Café del mar",
         promo: "cupon",
         schedule: "3pm - 10:30pm",
