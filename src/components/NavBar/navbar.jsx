@@ -15,6 +15,8 @@ const Navbar = () => {
             setMenu("home");
         } else if (location.pathname === '/mapa') {
             setMenu("map");
+        } else if (location.pathname === '/ciudades') {
+            setMenu("ciudades");
         }
     }, [location]);
 
@@ -37,6 +39,9 @@ const Navbar = () => {
                 <Link to="/mapa" onClick={() => { setMenu("map"); setIsSidebarOpen(false); }}>
                     <li className={menu === "map" ? "active" : ""}>Mapa</li>
                 </Link>
+                <Link to="/ciudades" onClick={() => { setMenu("ciudades"); setIsSidebarOpen(false); }}>
+                    <li className={menu === "ciudades" ? "active" : ""}>Ciudades</li>
+                </Link>
             </ul>
             <center><p className='navbar-ruta-p'>LA RUTA DE LA <span>CERVEZA</span></p></center>
             <ul className="navbar-menu">
@@ -45,6 +50,9 @@ const Navbar = () => {
                 </Link>
                 <Link to="/mapa" onClick={() => { setMenu("map") }}>
                     <li className={menu === "map" ? "active" : ""} id='mapa-li'>Mapa</li>
+                </Link>
+                <Link to="/ciudades" onClick={() => { setMenu("ciudades") }}>
+                    <li className={menu === "ciudades" ? "active" : ""} id='ciudades-li'>Ciudades</li>
                 </Link>
                 <li onClick={handleMenuClick} className='hamburger'>
                     <FontAwesomeIcon icon={isSidebarOpen ? faXmark : faBars} className='menu-icon' />
