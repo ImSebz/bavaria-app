@@ -3,8 +3,10 @@ import Navbar from './components/NavBar/navbar';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/home/home';
 import Map from './pages/map/map';
+import Citys from './pages/citys/citys';
+import Cali from './pages/cali/cali';
 import Footer from './components/Footer/footer';
-import WidgetLoader from './components/WidgetLoader/widgetLoader';
+// import WidgetLoader from './components/WidgetLoader/widgetLoader';
 import CouponView from './components/CouponView/couponView';
 
 const App = () => {
@@ -15,11 +17,12 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/mapa' element={<Map />} />
+          <Route path='/ciudades' element={<Citys />} />
+          <Route path='/cali' element={<Cali />} />
           <Route path='/cupon' element={<CouponView />} />
         </Routes>
       </div>
       <Footer />
-      <WidgetLoader />
     </>
 
   )

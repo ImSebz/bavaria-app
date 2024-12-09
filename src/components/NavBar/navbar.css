@@ -1,9 +1,9 @@
 @import url(../../index.css);
 
 .navbar {
-    padding: 20px 0px;
+    padding: 20px 0px 0 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -79,7 +79,8 @@
 }
 
 #home-li,
-#mapa-li {
+#mapa-li,
+#ciudades-li {
     display: inline;
 }
 
@@ -97,7 +98,8 @@
     }
 
     #home-li,
-    #mapa-li {
+    #mapa-li,
+    #ciudades-li {
         display: none;
     }
 

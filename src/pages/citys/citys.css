@@ -1,0 +1,46 @@
+.main-city-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    flex-direction: column;
+}
+
+.main-city-container h1 {
+    font-size: 1.5rem;
+}
+
+.city-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 80%;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.city-button-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-city{
+    width: 60%;
+    border: none;
+    padding: 20px;
+    font-size: 1.25rem;
+    border: solid #000 1px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.btn-city:hover {
+    background-color: #000;
+    color: #fff;
+}
