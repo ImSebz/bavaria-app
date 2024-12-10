@@ -2,7 +2,7 @@ import React from 'react';
 import Modal from 'react-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
-import './locationPopup.css';
+import './locationPopupCali.css';
 import { useNavigate } from 'react-router-dom';
 import { assets } from '../../assets/assets';
 import { Carousel } from 'react-responsive-carousel';

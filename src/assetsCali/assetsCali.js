@@ -25,6 +25,10 @@ import stella_logo from './stella_logo.svg';
 import tres_fronteras from './tres_fronteras.jpg';
 import tres_fronteras1 from './tres_fronteras1.jpg';
 import x_icon from './x_icon.svg';
+import zur from './zur.jpg';
+import zur1 from './zur1.jpg';
+import zur2 from './zur2.jpg';
+import zur3 from './zur3.jpg';
 
 export const assets = {
     bar,
@@ -54,6 +58,10 @@ export const assets = {
     tres_fronteras,
     tres_fronteras1,
     x_icon,
+    zur,
+    zur1,
+    zur2,
+    zur3
 };
 
 export const sites_list_cali = [
@@ -146,7 +154,7 @@ export const location_list_cali = [
         carta: "https://app.menupp.co/restaurant/boitara?fbclid=PAAaa_-G6sA-M-5o29OyrS9YHkyLOTJZyS7JwbLcA9X5SfHPQFDaNhv8PiYV0_aem_Aaer9WIV8pBrJcn89PnqLSinsJO-kUkVH_vCRp1WcqKMrJoukD4ffskagYwi34o517Y",
         category: "Restaurante",
         description: "",
-        dress_code: "Camisa negra o blanca, delantal vinotinto o bage",
+        dress_code: "Camisa negra o blanca, delantal vinotinto o beige",
         image_carousel: [tres_fronteras1],
         image: tres_fronteras,
         lat: 3.4538091554,
@@ -159,7 +167,26 @@ export const location_list_cali = [
         schedule: "12:00m - 11:00pm",
         subtitle: "Restaurante",
         url_reserva: "https://app.menupp.co/restaurant/boitara?fbclid=PAAaa_-G6sA-M-5o29OyrS9YHkyLOTJZyS7JwbLcA9X5SfHPQFDaNhv8PiYV0_aem_Aaer9WIV8pBrJcn89PnqLSinsJO-kUkVH_vCRp1WcqKMrJoukD4ffskagYwi34o517Y",
-
+    },
+    {
+        _id: "4",
+        address: "CL 16 A 123 00 CASA 9",
+        carta: "https://menupp.co/zur/venue/A7vkGEWJIdOPz1lRgGOO/menu/0291d58d-8c8e-4f8a-bf30-7faa191c014a",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Camisa gris con letras café, delantal café oscuro",
+        image_carousel: [zur1, zur2, zur3],
+        image: zur,
+        lat: 3.3394083,
+        lng: -76.53536871,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: null,
+        name: "Zur",
+        promo: "",
+        schedule: "12:00m - 10:00pm",
+        subtitle: "Restaurante",
+        url_reserva: "https://menupp.co/zur/venue/A7vkGEWJIdOPz1lRgGOO/menu/0291d58d-8c8e-4f8a-bf30-7faa191c014a",
     }
 
 ]

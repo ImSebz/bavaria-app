@@ -95,12 +95,23 @@
 }
 
 .img-carousel {
-    width: 100%;
+    width: 20px;
     border-radius: 20px;
 }
 
 .carousel-status {
     display: none;
+}
+
+.carousel .slider-wrapper {
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+
+.carousel .slide img {
+    object-fit: cover;
 }
 
 
