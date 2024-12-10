@@ -36,15 +36,6 @@ const LocationPopupCali = ({ isOpen, onRequestClose, location }) => {
         window.open(location.carta, '_blank');
     };
 
-    const handlePromoClick = () => {
-        if (location.promo === "cupon") {
-            navigate('/cupon', { state: { marca_logo: location.marca_logo, name: location.name, marker: location.marker } });
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        } else {
-            window.open(location.promo, '_blank');
-        }
-    };
-
     const handleMapaClick = () => {
         navigate(`/mapa`);
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -81,10 +72,6 @@ const LocationPopupCali = ({ isOpen, onRequestClose, location }) => {
                 <button className='modal-location-btn' onClick={handleCartaClick}>
                     <img src={assets.cartaIcon} alt="Carta Icon" />
                     <p>Carta</p>
-                </button>
-                <button className='modal-location-btn' onClick={handlePromoClick}>
-                    <img src={assets.promoActivas} alt="Promo Activa Icon" />
-                    <p>Promos</p>
                 </button>
                 <button className='modal-location-btn' onClick={handleMapaClick}>
                     <img src={assets.mapaIcon} alt="Mapa Icon" />
