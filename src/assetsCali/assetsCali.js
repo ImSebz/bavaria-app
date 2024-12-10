@@ -29,6 +29,14 @@ import tres_fronteras from './tres_fronteras.jpg';
 import tres_fronteras1 from './tres_fronteras1.jpg';
 import x_icon from './x_icon.svg';
 import zur from './zur.jpg';
+import plazoleta_municipal from './plazoleta_municipal.jpg';
+import plazoleta_municipal1 from './plazoleta_municipal1.jpg';
+import plazoleta_municipal2 from './plazoleta_municipal2.jpg';
+import plazoleta_municipal3 from './plazoleta_municipal3.jpg';
+import plazoleta_municipal4 from './plazoleta_municipal4.jpg';
+import plazoleta_municipal5 from './plazoleta_municipal5.jpg';
+import plazoleta_municipal6 from './plazoleta_municipal6.jpg';
+import plazoleta_municipal7 from './plazoleta_municipal7.jpg';
 import zur1 from './zur1.jpg';
 import zur2 from './zur2.jpg';
 import zur3 from './zur3.jpg';
@@ -57,6 +65,14 @@ export const assets = {
     restaurante,
     rooftop,
     stella_logo,
+    plazoleta_municipal,
+    plazoleta_municipal1,
+    plazoleta_municipal2,
+    plazoleta_municipal3,
+    plazoleta_municipal4,
+    plazoleta_municipal5,
+    plazoleta_municipal6,
+    plazoleta_municipal7,
     stella,
     tizones,
     tizones1,
@@ -221,14 +237,14 @@ export const location_list_cali = [
         category: "Restaurante",
         description: "",
         dress_code: "Camisa manga larga blanca o negra, delantal negro con nuestros logos",
-        image_carousel: [],
-        image: restaurante,
+        image_carousel: [plazoleta_municipal1, plazoleta_municipal2, plazoleta_municipal3, plazoleta_municipal4, plazoleta_municipal5, plazoleta_municipal6, plazoleta_municipal7],
+        image: plazoleta_municipal,
         lat: 3.456143239,
         lng: -76.5352251,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
         marker: null,
-        name: "Plazuela Municipal Jairo Varela",
+        name: "Plazoleta Municipal Jairo Varela",
         promo: "",
         schedule: "12:00m - 12:00m",
         subtitle: "Restaurante",
