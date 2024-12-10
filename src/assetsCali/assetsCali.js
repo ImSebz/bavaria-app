@@ -22,6 +22,9 @@ import restaurante from './restaurante.jpg';
 import rooftop from './rooftop.jpg';
 import stella from './stella.svg';
 import stella_logo from './stella_logo.svg';
+import tizones from './tizones.jpg';
+import tizones1 from './tizones1.jpg';
+import tizones2 from './tizones2.jpg';
 import tres_fronteras from './tres_fronteras.jpg';
 import tres_fronteras1 from './tres_fronteras1.jpg';
 import x_icon from './x_icon.svg';
@@ -55,6 +58,9 @@ export const assets = {
     rooftop,
     stella_logo,
     stella,
+    tizones,
+    tizones1,
+    tizones2,
     tres_fronteras,
     tres_fronteras1,
     x_icon,
@@ -120,7 +126,7 @@ export const location_list_cali = [
         marca_logo: clubColombia_logo,
         marca: clubColombia,
         marker: null,
-        name: "Restaurante La Flor De La Canela",
+        name: "La Flor De La Canela",
         promo: "",
         schedule: "12:00m - 10:00pm",
         subtitle: "Restaurante",
@@ -141,7 +147,7 @@ export const location_list_cali = [
         marca_logo: clubColombia_logo,
         marca: clubColombia,
         marker: null,
-        name: "Restaurante La Casona",
+        name: "La Casona",
         promo: "",
         schedule: "12:00m - 2:00am",
         subtitle: "Restaurante",
@@ -187,6 +193,47 @@ export const location_list_cali = [
         schedule: "12:00m - 10:00pm",
         subtitle: "Restaurante",
         url_reserva: "https://menupp.co/zur/venue/A7vkGEWJIdOPz1lRgGOO/menu/0291d58d-8c8e-4f8a-bf30-7faa191c014a",
+    },
+    {
+        _id: "5",
+        address: "AV 6 B N 28 -57",
+        carta: "https://menupp.co/tizones/group/UlgETARGe1yyQknxJWvb",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Camisa manga larga, delantal cuero, pantalon tela",
+        image_carousel: [tizones1, tizones2],
+        image: tizones,
+        lat: 3.47099083,
+        lng: -76.53028323,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: null,
+        name: "Tizones Ltda",
+        promo: "",
+        schedule: "12:00m - 2:00am",
+        subtitle: "Restaurante",
+        url_reserva: "https://menupp.co/tizones/group/UlgETARGe1yyQknxJWvb",
+    },
+    {
+        _id: "6",
+        address: "AV 4 10N 82",
+        carta: "https://linktr.ee/plazuelamunicipalco?fbclid=PAZXh0bgNhZW0CMTEAAaZrQbcOY734oSAOTx4JojElGC94bBOcG0-_quYamRM25FaC6CQ8RdhtVAc_aem_tBalrhWr-AUDX1i3AFI3nA",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Camisa manga larga blanca o negra, delantal negro con nuestros logos",
+        image_carousel: [],
+        image: restaurante,
+        lat: 3.456143239,
+        lng: -76.5352251,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: null,
+        name: "Plazuela Municipal Jairo Varela",
+        promo: "",
+        schedule: "12:00m - 12:00m",
+        subtitle: "Restaurante",
+        url_reserva: "https://linktr.ee/plazuelamunicipalco?fbclid=PAZXh0bgNhZW0CMTEAAaZrQbcOY734oSAOTx4JojElGC94bBOcG0-_quYamRM25FaC6CQ8RdhtVAc_aem_tBalrhWr-AUDX1i3AFI3nA"
+    
     }
 
 ]
