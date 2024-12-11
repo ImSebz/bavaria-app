@@ -331,6 +331,27 @@ export const location_list_cali = [
         subtitle: "Restaurante",
         url_reserva: "https://idmenu.club/lacomitiva/?fbclid=PAZXh0bgNhZW0CMTEAAaa_ThxZBZUcc9Tohg2gZF5CEYO7ZgoZM0E6eQl4ecl8V5Fe_xmlYaS4q8I_aem_K0uA6GQT4053vvPPrrdjSA"
     },
+
+    {
+        _id: "9",
+        address: "Monchis",
+        carta: "https://menupp.co/monchisbycoky/venue/74lCsqp6Al4ZYOLea4gW/menu/6097b966-dbad-4501-a2ec-f26287b8a1f6?fbclid=PAZXh0bgNhZW0CMTEAAabGRpMUeiRxuzuBuXgCz-HhIK1ReygEiKnMzcSHjR9GSKp8UnpMZp-tRvs_aem_tGasRm0ycOZkMshDrRAc-g",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Buzo Blanco o negro",
+        image_carousel: [],
+        image: restaurante,
+        lat: 3.46183,
+        lng: -76.5345581,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: null,
+        name: "Monchis",
+        promo: "",
+        schedule: "12:00m - 1:00am",
+        subtitle: "Restaurante",
+        url_reserva: "https://menupp.co/monchisbycoky/venue/74lCsqp6Al4ZYOLea4gW/menu/6097b966-dbad-4501-a2ec-f26287b8a1f6?fbclid=PAZXh0bgNhZW0CMTEAAabGRpMUeiRxuzuBuXgCz-HhIK1ReygEiKnMzcSHjR9GSKp8UnpMZp-tRvs_aem_tGasRm0ycOZkMshDrRAc-g",
+    }
     
 
 
