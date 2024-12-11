@@ -331,11 +331,7 @@ export const location_list_cali = [
         subtitle: "Restaurante",
         url_reserva: "https://idmenu.club/lacomitiva/?fbclid=PAZXh0bgNhZW0CMTEAAaa_ThxZBZUcc9Tohg2gZF5CEYO7ZgoZM0E6eQl4ecl8V5Fe_xmlYaS4q8I_aem_K0uA6GQT4053vvPPrrdjSA"
     },
-    {
-        _id: "9",
-        address: "AV 9N 17A-36",
-        
-    }
+    
 
 
 ]
