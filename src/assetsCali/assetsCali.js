@@ -23,6 +23,15 @@ import citadino6 from './citadino6.jpg';
 import citadino7 from './citadino7.jpg';
 import citadino8 from './citadino8.jpg';
 import citadino9 from './citadino9.jpg';
+import club_farallones from './club_farallones.jpg';
+import club_farallones1 from './club_farallones1.jpg';
+import club_farallones2 from './club_farallones2.jpg';
+import club_farallones3 from './club_farallones3.jpg';
+import club_farallones4 from './club_farallones4.jpg';
+import club_campestre from './club_campestre.jpg';
+import club_campestre1 from './club_campestre1.jpg';
+import club_campestre2 from './club_campestre2.jpg';
+import club_campestre3 from './club_campestre3.jpg';
 import clubColombia from './club_colombia.svg';
 import clubColombia_logo from './club_colombia_logo.svg';
 import corona from './corona.svg';
@@ -48,6 +57,10 @@ import la_comitiva2 from './la_comitiva2.jpg';
 import la_comitiva3 from './la_comitiva3.jpg';
 import la_comitiva4 from './la_comitiva4.jpg';
 import la_comitiva5 from './la_comitiva5.jpg';
+import la_pergola from './pergola.jpg';
+import la_pergola1 from './pergola1.jpg';
+import la_pergola2 from './pergola2.jpg';
+import la_pergola3 from './pergola3.jpg';
 import logoHighEnd from './logo_high_end.svg';
 import mapaIcon from './mapa.svg';
 import marinas from './marinas.jpg';
@@ -120,6 +133,15 @@ export const assets = {
     citadino7,
     citadino8,
     citadino9,
+    club_campestre,
+    club_campestre1,
+    club_campestre2,
+    club_campestre3,
+    club_farallones,
+    club_farallones1,
+    club_farallones2,
+    club_farallones3,
+    club_farallones4,
     clubColombia_logo,
     clubColombia,
     corona_logo,
@@ -550,8 +572,8 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Camisa blanca, chaleco negro con logo",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [la_pergola1, la_pergola2, la_pergola3],
+        image: la_pergola,
         lat: 3.4708667,
         lng: -76.5187902,
         marca_logo: corona_logo,
@@ -570,14 +592,14 @@ export const location_list_cali = [
         category: "Clubes",
         description: "",
         dress_code: "Camisa balnca manga larga, delantal caqui",
-        image_carousel: [],
-        image: restaurante,
+        image_carousel: [club_farallones1, club_farallones2, club_farallones3, club_farallones4],
+        image: club_farallones,
         lat: 3.3385,
         lng: -76.5317,
         marca_logo: stella_logo,
         marca: stella,
         marker: null,
-        name: "Corporacion Club Campestre Faral",
+        name: "Club Campestre Farallones",
         promo: "",
         schedule: "6:00am - 9:00pm",
         subtitle: "Clubes",
@@ -590,14 +612,14 @@ export const location_list_cali = [
         category: "Clubes",
         description: "",
         dress_code: "Camisa blanca, pantalon casual negro",
-        image_carousel: [],
-        image: restaurante,
+        image_carousel: [club_campestre1, club_campestre2, club_campestre3],
+        image: club_campestre,
         lat: 3.36969,
         lng: -76.5419,
         marca_logo: stella_logo,
         marca: stella,
         marker: null,
-        name: "Corporacion Club Campestre Cali",
+        name: "Club Campestre Cali",
         promo: "",
         schedule: "6:00am - 9:00pm",
         subtitle: "Clubes",
