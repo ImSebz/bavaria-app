@@ -1,5 +1,20 @@
 import bar from './bar.jpg';
+import bourbon from './bourbon.jpg';
+import bourbon1 from './bourbon1.jpg';
+import bourbon2 from './bourbon2.jpg';
+import bourbon3 from './bourbon3.jpg';
+import bourbon4 from './bourbon4.jpg';
+import bourbon5 from './bourbon5.jpg';
 import budweiser from './budweiser_logo.svg';
+import icepub from './icepub.jpg';
+import icepub1 from './icepub1.jpg';
+import icepub2 from './icepub2.jpg';
+import icepub3 from './icepub3.jpg';
+import sagsa from './sagsa.jpg';
+import sagsa1 from './sagsa1.jpg';
+import sagsa2 from './sagsa2.jpg';
+import sagsa3 from './sagsa3.jpg';
+import clubes from './clubes.jpg';
 import callao from './callao.jpg';
 import callao1 from './callao1.jpg';
 import callao2 from './callao2.jpg';
@@ -92,6 +107,11 @@ import nuevo_leon3 from './nuevo_leon3.jpg';
 import nuevo_leon4 from './nuevo_leon4.jpg';
 import nuevo_leon5 from './nuevo_leon5.jpg';
 import nuevo_leon6 from './nuevo_leon6.jpg';
+import the_lobby from './the_lobby.jpg';
+import the_lobby1 from './the_lobby1.jpg';
+import the_lobby2 from './the_lobby2.jpg';
+import the_lobby3 from './the_lobby3.jpg';
+import the_lobby4 from './the_lobby4.jpg';
 import plazoleta_municipal from './plazoleta_municipal.jpg';
 import plazoleta_municipal1 from './plazoleta_municipal1.jpg';
 import plazoleta_municipal2 from './plazoleta_municipal2.jpg';
@@ -121,6 +141,11 @@ import topa_tolondra5 from './topa_tolondra5.jpg';
 import tres_fronteras from './tres_fronteras.jpg';
 import tres_fronteras1 from './tres_fronteras1.jpg';
 import x_icon from './x_icon.svg';
+import kkahuate from './kkahuate.jpg';
+import kkahuate1 from './kkahuate1.jpg';
+import kkahuate2 from './kkahuate2.jpg';
+import kkahuate3 from './kkahuate3.jpg';
+import kkahuate4 from './kkahuate4.jpg';
 import zonag from './zonag.jpg';
 import zonag1 from './zonag1.jpg';
 import zorro_azul from './zorro_azul.jpg';
@@ -131,11 +156,43 @@ import zur from './zur.jpg';
 import zur1 from './zur1.jpg';
 import zur2 from './zur2.jpg';
 import zur3 from './zur3.jpg';
-
+import route66 from './route66.jpg';
+import route661 from './route661.jpg';
+import route662 from './route662.jpg';
+import route663 from './route663.jpg';
+import la_calle from './la_calle.jpg';
+import licores_rr from './licores_rr.jpg';
+import licores_rr1 from './licores_rr1.jpg';
+import espacio_10_60 from './espacio_10_60.jpg';
+import espacio_10_60_1 from './espacio_10_60_1.jpg';
+import espacio_10_60_2 from './espacio_10_60_2.jpg';
 
 export const assets = {
     bar,
+    bourbon,
+    bourbon1,
+    bourbon2,
+    bourbon3,
+    bourbon4,
+    bourbon5,
     budweiser,
+    espacio_10_60,
+    espacio_10_60_1,
+    espacio_10_60_2,
+    the_lobby,
+    the_lobby1,
+    the_lobby2,
+    the_lobby3,
+    the_lobby4,
+    icepub,
+    icepub1,
+    icepub2,
+    icepub3,
+    sagsa,
+    sagsa1,
+    sagsa2,
+    sagsa3,
+    clubes,
     callao,
     callao1,
     callao2,
@@ -253,6 +310,11 @@ export const assets = {
     tres_fronteras,
     tres_fronteras1,
     x_icon,
+    kkahuate,
+    kkahuate1,
+    kkahuate2,
+    kkahuate3,
+    kkahuate4,
     zonag,
     zonag1,
     zorro_azul,
@@ -263,6 +325,13 @@ export const assets = {
     zur1,
     zur2,
     zur3,
+    route66,
+    route661,
+    route662,
+    route663,
+    la_calle,
+    licores_rr,
+    licores_rr1,
 };
 
 export const sites_list_cali = [
@@ -276,7 +345,7 @@ export const sites_list_cali = [
     },
     {
         site_name: "Clubes",
-        site_image: restaurante
+        site_image: clubes
     },
 
     {
@@ -783,8 +852,8 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Busos tipo oberside",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [kkahuate1, kkahuate2, kkahuate3, kkahuate4],
+        image: kkahuate,
         lat: 3.465655,
         lng: -76.465655,
         marca_logo: clubColombia_logo,
@@ -803,8 +872,8 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Camiseta negra, pantalon o jean negro",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [route661, route662, route663],
+        image: route66,
         lat: 3.398,
         lng: -76.5399,
         marca_logo: clubColombia_logo,
@@ -824,7 +893,7 @@ export const location_list_cali = [
         description: "",
         dress_code: "N/A",
         image_carousel: [],
-        image: bar,
+        image: la_calle,
         lat: 3.404193165,
         lng: -76.5397978,
         marca_logo: clubColombia_logo,
@@ -843,8 +912,8 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "N/A",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [licores_rr1],
+        image: licores_rr,
         lat: 3.398703985,
         lng: -76.5393322,
         marca_logo: clubColombia_logo,
@@ -863,8 +932,8 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Camiseta negra con nuestros logos",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [bourbon1, bourbon2, bourbon3, bourbon4, bourbon5],
+        image: bourbon,
         lat: 3.4599,
         lng: -76.5337,
         marca_logo: clubColombia_logo,
@@ -883,8 +952,8 @@ export const location_list_cali = [
         category: "Discoteca",
         description: "",
         dress_code: "Delantal negro, camiseta negra",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [espacio_10_60_1, espacio_10_60_2],
+        image: espacio_10_60,
         lat: 3.4506262,
         lng: -76.5321389,
         marca_logo: budweiser,
@@ -903,8 +972,8 @@ export const location_list_cali = [
         category: "Discoteca",
         description: "",
         dress_code: "Camisa blanca, pantalon casual",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [the_lobby1, the_lobby2, the_lobby3, the_lobby4],
+        image: the_lobby,
         lat: 3.45007932,
         lng: -76.54101966,
         marca_logo: budweiser,
@@ -923,8 +992,8 @@ export const location_list_cali = [
         category: "Discoteca",
         description: "",
         dress_code: "Camisa negra",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [sagsa1, sagsa2, sagsa3],
+        image: sagsa,
         lat: 3.45074,
         lng: -76.54215,
         marca_logo: budweiser,
@@ -943,8 +1012,8 @@ export const location_list_cali = [
         category: "Discoteca",
         description: "",
         dress_code: "Gorra, camiseta negra, delantal",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [icepub1, icepub2, icepub3],
+        image: icepub,
         lat: 3.3753808,
         lng: -76.5351392,
         marca_logo: budweiser,
