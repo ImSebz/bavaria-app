@@ -23,19 +23,26 @@ import citadino6 from './citadino6.jpg';
 import citadino7 from './citadino7.jpg';
 import citadino8 from './citadino8.jpg';
 import citadino9 from './citadino9.jpg';
+import club_campestre from './club_campestre.jpg';
+import club_campestre1 from './club_campestre1.jpg';
+import club_campestre2 from './club_campestre2.jpg';
+import club_campestre3 from './club_campestre3.jpg';
 import club_farallones from './club_farallones.jpg';
 import club_farallones1 from './club_farallones1.jpg';
 import club_farallones2 from './club_farallones2.jpg';
 import club_farallones3 from './club_farallones3.jpg';
 import club_farallones4 from './club_farallones4.jpg';
-import club_campestre from './club_campestre.jpg';
-import club_campestre1 from './club_campestre1.jpg';
-import club_campestre2 from './club_campestre2.jpg';
-import club_campestre3 from './club_campestre3.jpg';
 import clubColombia from './club_colombia.svg';
 import clubColombia_logo from './club_colombia_logo.svg';
 import corona from './corona.svg';
 import corona_logo from './corona_logo.svg';
+import epoca from './epoca.jpg';
+import epoca1 from './epoca1.jpg';
+import epoca2 from './epoca2.jpg';
+import epoca3 from './epoca3.jpg';
+import epoca4 from './epoca4.jpg';
+import epoca5 from './epoca5.jpg';
+import epoca6 from './epoca6.jpg';
 import facebook_icon from './facebook_icon.svg';
 import florDeLaCanela from './flor_de_la_canela.jpg';
 import florDeLaCanela1 from './flor_de_la_canela1.jpg';
@@ -68,6 +75,16 @@ import monchis from './monchis.jpg';
 import monchis1 from './monchis1.jpg';
 import monchis2 from './monchis2.jpg';
 import monchis3 from './monchis3.jpg';
+import mulato from './mulato.jpg';
+import mulato1 from './mulato1.jpg';
+import mulato2 from './mulato2.jpg';
+import mulato3 from './mulato3.jpg';
+import mulato4 from './mulato4.jpg';
+import nueve_avenue from './nueve_avenue.jpg';
+import nueve_avenue1 from './nueve_avenue1.jpg';
+import nueve_avenue2 from './nueve_avenue2.jpg';
+import nueve_avenue3 from './nueve_avenue3.jpg';
+import nueve_avenue4 from './nueve_avenue4.jpg';
 import nuevo_leon from './nuevo_leon.jpg';
 import nuevo_leon1 from './nuevo_leon1.jpg';
 import nuevo_leon2 from './nuevo_leon2.jpg';
@@ -95,9 +112,17 @@ import stella_logo from './stella_logo.svg';
 import tizones from './tizones.jpg';
 import tizones1 from './tizones1.jpg';
 import tizones2 from './tizones2.jpg';
+import topa_tolondra from './topa_tolondra.jpg';
+import topa_tolondra1 from './topa_tolondra1.jpg';
+import topa_tolondra2 from './topa_tolondra2.jpg';
+import topa_tolondra3 from './topa_tolondra3.jpg';
+import topa_tolondra4 from './topa_tolondra4.jpg';
+import topa_tolondra5 from './topa_tolondra5.jpg';
 import tres_fronteras from './tres_fronteras.jpg';
 import tres_fronteras1 from './tres_fronteras1.jpg';
 import x_icon from './x_icon.svg';
+import zonag from './zonag.jpg';
+import zonag1 from './zonag1.jpg';
 import zorro_azul from './zorro_azul.jpg';
 import zorro_azul1 from './zorro_azul1.jpg';
 import zorro_azul2 from './zorro_azul2.jpg';
@@ -106,6 +131,7 @@ import zur from './zur.jpg';
 import zur1 from './zur1.jpg';
 import zur2 from './zur2.jpg';
 import zur3 from './zur3.jpg';
+
 
 export const assets = {
     bar,
@@ -146,6 +172,13 @@ export const assets = {
     clubColombia,
     corona_logo,
     corona,
+    epoca,
+    epoca1,
+    epoca2,
+    epoca3,
+    epoca4,
+    epoca5,
+    epoca6,
     facebook_icon,
     florDeLaCanela,
     florDeLaCanela1,
@@ -174,6 +207,16 @@ export const assets = {
     monchis1,
     monchis2,
     monchis3,
+    mulato,
+    mulato1,
+    mulato2,
+    mulato3,
+    mulato4,
+    nueve_avenue,
+    nueve_avenue1,
+    nueve_avenue2,
+    nueve_avenue3,
+    nueve_avenue4,
     nuevo_leon,
     nuevo_leon1,
     nuevo_leon2,
@@ -201,9 +244,17 @@ export const assets = {
     tizones,
     tizones1,
     tizones2,
+    topa_tolondra,
+    topa_tolondra1,
+    topa_tolondra2,
+    topa_tolondra3,
+    topa_tolondra4,
+    topa_tolondra5,
     tres_fronteras,
     tres_fronteras1,
     x_icon,
+    zonag,
+    zonag1,
     zorro_azul,
     zorro_azul1,
     zorro_azul2,
@@ -632,8 +683,8 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Camisa negra",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [zonag1],
+        image: zonag,
         lat: 3.399100268,
         lng: -76.5390836,
         marca_logo: clubColombia_logo,
@@ -652,8 +703,8 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Camisa negra manga corta, corbata negra",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [nueve_avenue1, nueve_avenue2, nueve_avenue3, nueve_avenue4],
+        image: nueve_avenue,
         lat: 3.40238,
         lng: -76.544,
         marca_logo: clubColombia_logo,
@@ -672,14 +723,14 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Traje de gala rojo",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [mulato1, mulato2, mulato3, mulato4],
+        image: mulato,
         lat: 3.4286984,
         lng: -76.537968,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
         marker: null,
-        name: "Compañia Artistica El Mulato Y S",
+        name: "El Mulato Carabet",
         promo: "",
         schedule: "6:00pm - 3:00am",
         subtitle: "Bar",
@@ -692,8 +743,8 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Camisa negra, pantalon dril",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [topa_tolondra1, topa_tolondra2, topa_tolondra3, topa_tolondra4, topa_tolondra5],
+        image: topa_tolondra,
         lat: 3.4443147,
         lng: -76.5365303,
         marca_logo: clubColombia_logo,
@@ -712,8 +763,8 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Camisa manga larga con nuestros logos , tirantes y corbatin",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [epoca1, epoca2, epoca3, epoca4, epoca5, epoca6],
+        image: epoca,
         lat: 3.45604919,
         lng: -76.53694525,
         marca_logo: clubColombia_logo,
