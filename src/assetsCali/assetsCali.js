@@ -6,15 +6,6 @@ import bourbon3 from './bourbon3.jpg';
 import bourbon4 from './bourbon4.jpg';
 import bourbon5 from './bourbon5.jpg';
 import budweiser from './budweiser_logo.svg';
-import icepub from './icepub.jpg';
-import icepub1 from './icepub1.jpg';
-import icepub2 from './icepub2.jpg';
-import icepub3 from './icepub3.jpg';
-import sagsa from './sagsa.jpg';
-import sagsa1 from './sagsa1.jpg';
-import sagsa2 from './sagsa2.jpg';
-import sagsa3 from './sagsa3.jpg';
-import clubes from './clubes.jpg';
 import callao from './callao.jpg';
 import callao1 from './callao1.jpg';
 import callao2 from './callao2.jpg';
@@ -49,8 +40,12 @@ import club_farallones3 from './club_farallones3.jpg';
 import club_farallones4 from './club_farallones4.jpg';
 import clubColombia from './club_colombia.svg';
 import clubColombia_logo from './club_colombia_logo.svg';
+import clubes from './clubes.jpg';
 import corona from './corona.svg';
 import corona_logo from './corona_logo.svg';
+import donde_fabio from './donde_fabio.jpg';
+import donde_fabio1 from './donde_fabio1.jpg';
+import donde_fabio2 from './donde_fabio2.jpg';
 import epoca from './epoca.jpg';
 import epoca1 from './epoca1.jpg';
 import epoca2 from './epoca2.jpg';
@@ -58,6 +53,9 @@ import epoca3 from './epoca3.jpg';
 import epoca4 from './epoca4.jpg';
 import epoca5 from './epoca5.jpg';
 import epoca6 from './epoca6.jpg';
+import espacio_10_60 from './espacio_10_60.jpg';
+import espacio_10_60_1 from './espacio_10_60_1.jpg';
+import espacio_10_60_2 from './espacio_10_60_2.jpg';
 import facebook_icon from './facebook_icon.svg';
 import florDeLaCanela from './flor_de_la_canela.jpg';
 import florDeLaCanela1 from './flor_de_la_canela1.jpg';
@@ -67,7 +65,17 @@ import hotel_movich1 from './hotel_movich1.jpg';
 import hotel_movich2 from './hotel_movich2.jpg';
 import hotel_movich3 from './hotel_movich3.jpg';
 import hotel_movich4 from './hotel_movich4.jpg';
+import icepub from './icepub.jpg';
+import icepub1 from './icepub1.jpg';
+import icepub2 from './icepub2.jpg';
+import icepub3 from './icepub3.jpg';
 import instagram_icon from './instagram_icon.svg';
+import kkahuate from './kkahuate.jpg';
+import kkahuate1 from './kkahuate1.jpg';
+import kkahuate2 from './kkahuate2.jpg';
+import kkahuate3 from './kkahuate3.jpg';
+import kkahuate4 from './kkahuate4.jpg';
+import la_calle from './la_calle.jpg';
 import la_casona from './la_casona.jpeg';
 import la_casona1 from './la_casona1.jpeg';
 import la_casona2 from './la_casona2.jpeg';
@@ -79,10 +87,16 @@ import la_comitiva2 from './la_comitiva2.jpg';
 import la_comitiva3 from './la_comitiva3.jpg';
 import la_comitiva4 from './la_comitiva4.jpg';
 import la_comitiva5 from './la_comitiva5.jpg';
+import la_over from './la_over.jpg';
+import la_over1 from './la_over1.jpg';
+import la_over2 from './la_over2.jpg';
+import la_over3 from './la_over3.jpg';
 import la_pergola from './pergola.jpg';
 import la_pergola1 from './pergola1.jpg';
 import la_pergola2 from './pergola2.jpg';
 import la_pergola3 from './pergola3.jpg';
+import licores_rr from './licores_rr.jpg';
+import licores_rr1 from './licores_rr1.jpg';
 import logoHighEnd from './logo_high_end.svg';
 import mapaIcon from './mapa.svg';
 import marinas from './marinas.jpg';
@@ -107,11 +121,6 @@ import nuevo_leon3 from './nuevo_leon3.jpg';
 import nuevo_leon4 from './nuevo_leon4.jpg';
 import nuevo_leon5 from './nuevo_leon5.jpg';
 import nuevo_leon6 from './nuevo_leon6.jpg';
-import the_lobby from './the_lobby.jpg';
-import the_lobby1 from './the_lobby1.jpg';
-import the_lobby2 from './the_lobby2.jpg';
-import the_lobby3 from './the_lobby3.jpg';
-import the_lobby4 from './the_lobby4.jpg';
 import plazoleta_municipal from './plazoleta_municipal.jpg';
 import plazoleta_municipal1 from './plazoleta_municipal1.jpg';
 import plazoleta_municipal2 from './plazoleta_municipal2.jpg';
@@ -123,12 +132,25 @@ import plazoleta_municipal7 from './plazoleta_municipal7.jpg';
 import reservaIcon from './reserva.svg';
 import restaurante from './restaurante.jpg';
 import rooftop from './rooftop.jpg';
+import route66 from './route66.jpg';
+import route661 from './route661.jpg';
+import route662 from './route662.jpg';
+import route663 from './route663.jpg';
 import sabor_molido from './sabor_molido.jpg';
 import sabor_molido1 from './sabor_molido1.jpg';
 import sabor_molido2 from './sabor_molido2.jpg';
 import sabor_molido3 from './sabor_molido3.jpg';
+import sagsa from './sagsa.jpg';
+import sagsa1 from './sagsa1.jpg';
+import sagsa2 from './sagsa2.jpg';
+import sagsa3 from './sagsa3.jpg';
 import stella from './stella.svg';
 import stella_logo from './stella_logo.svg';
+import the_lobby from './the_lobby.jpg';
+import the_lobby1 from './the_lobby1.jpg';
+import the_lobby2 from './the_lobby2.jpg';
+import the_lobby3 from './the_lobby3.jpg';
+import the_lobby4 from './the_lobby4.jpg';
 import tizones from './tizones.jpg';
 import tizones1 from './tizones1.jpg';
 import tizones2 from './tizones2.jpg';
@@ -141,11 +163,6 @@ import topa_tolondra5 from './topa_tolondra5.jpg';
 import tres_fronteras from './tres_fronteras.jpg';
 import tres_fronteras1 from './tres_fronteras1.jpg';
 import x_icon from './x_icon.svg';
-import kkahuate from './kkahuate.jpg';
-import kkahuate1 from './kkahuate1.jpg';
-import kkahuate2 from './kkahuate2.jpg';
-import kkahuate3 from './kkahuate3.jpg';
-import kkahuate4 from './kkahuate4.jpg';
 import zonag from './zonag.jpg';
 import zonag1 from './zonag1.jpg';
 import zorro_azul from './zorro_azul.jpg';
@@ -156,16 +173,6 @@ import zur from './zur.jpg';
 import zur1 from './zur1.jpg';
 import zur2 from './zur2.jpg';
 import zur3 from './zur3.jpg';
-import route66 from './route66.jpg';
-import route661 from './route661.jpg';
-import route662 from './route662.jpg';
-import route663 from './route663.jpg';
-import la_calle from './la_calle.jpg';
-import licores_rr from './licores_rr.jpg';
-import licores_rr1 from './licores_rr1.jpg';
-import espacio_10_60 from './espacio_10_60.jpg';
-import espacio_10_60_1 from './espacio_10_60_1.jpg';
-import espacio_10_60_2 from './espacio_10_60_2.jpg';
 
 export const assets = {
     bar,
@@ -176,23 +183,6 @@ export const assets = {
     bourbon4,
     bourbon5,
     budweiser,
-    espacio_10_60,
-    espacio_10_60_1,
-    espacio_10_60_2,
-    the_lobby,
-    the_lobby1,
-    the_lobby2,
-    the_lobby3,
-    the_lobby4,
-    icepub,
-    icepub1,
-    icepub2,
-    icepub3,
-    sagsa,
-    sagsa1,
-    sagsa2,
-    sagsa3,
-    clubes,
     callao,
     callao1,
     callao2,
@@ -227,8 +217,12 @@ export const assets = {
     club_farallones4,
     clubColombia_logo,
     clubColombia,
+    clubes,
     corona_logo,
     corona,
+    donde_fabio,
+    donde_fabio1,
+    donde_fabio2,
     epoca,
     epoca1,
     epoca2,
@@ -236,6 +230,9 @@ export const assets = {
     epoca4,
     epoca5,
     epoca6,
+    espacio_10_60_1,
+    espacio_10_60_2,
+    espacio_10_60,
     facebook_icon,
     florDeLaCanela,
     florDeLaCanela1,
@@ -245,7 +242,17 @@ export const assets = {
     hotel_movich2,
     hotel_movich3,
     hotel_movich4,
+    icepub,
+    icepub1,
+    icepub2,
+    icepub3,
     instagram_icon,
+    kkahuate,
+    kkahuate1,
+    kkahuate2,
+    kkahuate3,
+    kkahuate4,
+    la_calle,
     la_casona,
     la_casona1,
     la_casona2,
@@ -257,6 +264,12 @@ export const assets = {
     la_comitiva3,
     la_comitiva4,
     la_comitiva5,
+    la_over,
+    la_over1,
+    la_over2,
+    la_over3,
+    licores_rr,
+    licores_rr1,
     logoHighEnd,
     mapaIcon,
     marinas,
@@ -292,12 +305,25 @@ export const assets = {
     reservaIcon,
     restaurante,
     rooftop,
+    route66,
+    route661,
+    route662,
+    route663,
     sabor_molido,
     sabor_molido1,
     sabor_molido2,
     sabor_molido3,
+    sagsa,
+    sagsa1,
+    sagsa2,
+    sagsa3,
     stella_logo,
     stella,
+    the_lobby,
+    the_lobby1,
+    the_lobby2,
+    the_lobby3,
+    the_lobby4,
     tizones,
     tizones1,
     tizones2,
@@ -310,11 +336,6 @@ export const assets = {
     tres_fronteras,
     tres_fronteras1,
     x_icon,
-    kkahuate,
-    kkahuate1,
-    kkahuate2,
-    kkahuate3,
-    kkahuate4,
     zonag,
     zonag1,
     zorro_azul,
@@ -325,13 +346,6 @@ export const assets = {
     zur1,
     zur2,
     zur3,
-    route66,
-    route661,
-    route662,
-    route663,
-    la_calle,
-    licores_rr,
-    licores_rr1,
 };
 
 export const sites_list_cali = [
@@ -359,27 +373,6 @@ export const sites_list_cali = [
 ]
 
 export const location_list_cali = [
-    // {
-    //     _id: "1",
-    //     address: "Av Carlos Escallón Cra 8 # 34-01",
-    //     carta: "",
-    //     category: "Restaurante",
-    //     description: "",
-    //     dress_code: "No shorts",
-    //     image_carousel: [don_juan1, don_juan2, don_juan3, don_juan4, don_juan5, don_juan6, don_juan7, don_juan8],
-    //     image: don_juan,
-    //     lat: 10.423491, 
-    //     lng: -75.548849, 
-    //     marca_logo: stella_logo,
-    //     marca: stella,
-    //     marker: don_juan_marker,
-    //     name: "Don Juan",
-    //     promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
-    //     schedule: "7pm - 11pm",
-    //     subtitle: "Cocina Caribe",
-    //     url_reserva: "https://donjuan.precompro.com/select/",
-    // },
-
     {
         _id: "1",
         address: "AV 6 BIS NTE 27-50",
@@ -1032,8 +1025,8 @@ export const location_list_cali = [
         category: "Discoteca",
         description: "",
         dress_code: "Camisa negra",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [la_over1, la_over2, la_over3],
+        image: la_over,
         lat: 3.4555464,
         lng: -76.5240923,
         marca_logo: budweiser,
@@ -1052,8 +1045,8 @@ export const location_list_cali = [
         category: "Discoteca",
         description: "",
         dress_code: "Buzo negro polo",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [donde_fabio1, donde_fabio2],
+        image: donde_fabio,
         lat: 3.4562687,
         lng: -76.52591691,
         marca_logo: budweiser,
