@@ -1,6 +1,16 @@
 import bar from './bar.jpg';
 import budweiser from './budweiser_logo.svg';
+import callao from './callao.jpg';
+import callao1 from './callao1.jpg';
+import callao2 from './callao2.jpg';
+import callao3 from './callao3.jpg';
+import callao4 from './callao4.jpg';
 import cartaIcon from './carta.svg';
+import caruzo from './caruzo.jpg';
+import caruzo1 from './caruzo1.jpg';
+import caruzo2 from './caruzo2.jpg';
+import caruzo3 from './caruzo3.jpg';
+import caruzo4 from './caruzo4.jpg';
 import citadino from './citadino.jpg';
 import citadino1 from './citadino1.jpg';
 import citadino10 from './citadino10.jpg';
@@ -21,6 +31,11 @@ import facebook_icon from './facebook_icon.svg';
 import florDeLaCanela from './flor_de_la_canela.jpg';
 import florDeLaCanela1 from './flor_de_la_canela1.jpg';
 import florDeLaCanela2 from './flor_de_la_canela2.jpg';
+import hotel_movich from './hotel_movich.jpg';
+import hotel_movich1 from './hotel_movich1.jpg';
+import hotel_movich2 from './hotel_movich2.jpg';
+import hotel_movich3 from './hotel_movich3.jpg';
+import hotel_movich4 from './hotel_movich4.jpg';
 import instagram_icon from './instagram_icon.svg';
 import la_casona from './la_casona.jpeg';
 import la_casona1 from './la_casona1.jpeg';
@@ -36,6 +51,17 @@ import la_comitiva5 from './la_comitiva5.jpg';
 import logoHighEnd from './logo_high_end.svg';
 import mapaIcon from './mapa.svg';
 import marinas from './marinas.jpg';
+import monchis from './monchis.jpg';
+import monchis1 from './monchis1.jpg';
+import monchis2 from './monchis2.jpg';
+import monchis3 from './monchis3.jpg';
+import nuevo_leon from './nuevo_leon.jpg';
+import nuevo_leon1 from './nuevo_leon1.jpg';
+import nuevo_leon2 from './nuevo_leon2.jpg';
+import nuevo_leon3 from './nuevo_leon3.jpg';
+import nuevo_leon4 from './nuevo_leon4.jpg';
+import nuevo_leon5 from './nuevo_leon5.jpg';
+import nuevo_leon6 from './nuevo_leon6.jpg';
 import plazoleta_municipal from './plazoleta_municipal.jpg';
 import plazoleta_municipal1 from './plazoleta_municipal1.jpg';
 import plazoleta_municipal2 from './plazoleta_municipal2.jpg';
@@ -47,6 +73,10 @@ import plazoleta_municipal7 from './plazoleta_municipal7.jpg';
 import reservaIcon from './reserva.svg';
 import restaurante from './restaurante.jpg';
 import rooftop from './rooftop.jpg';
+import sabor_molido from './sabor_molido.jpg';
+import sabor_molido1 from './sabor_molido1.jpg';
+import sabor_molido2 from './sabor_molido2.jpg';
+import sabor_molido3 from './sabor_molido3.jpg';
 import stella from './stella.svg';
 import stella_logo from './stella_logo.svg';
 import tizones from './tizones.jpg';
@@ -55,6 +85,10 @@ import tizones2 from './tizones2.jpg';
 import tres_fronteras from './tres_fronteras.jpg';
 import tres_fronteras1 from './tres_fronteras1.jpg';
 import x_icon from './x_icon.svg';
+import zorro_azul from './zorro_azul.jpg';
+import zorro_azul1 from './zorro_azul1.jpg';
+import zorro_azul2 from './zorro_azul2.jpg';
+import zorro_azul3 from './zorro_azul3.jpg';
 import zur from './zur.jpg';
 import zur1 from './zur1.jpg';
 import zur2 from './zur2.jpg';
@@ -63,7 +97,17 @@ import zur3 from './zur3.jpg';
 export const assets = {
     bar,
     budweiser,
+    callao,
+    callao1,
+    callao2,
+    callao3,
+    callao4,
     cartaIcon,
+    caruzo,
+    caruzo1,
+    caruzo2,
+    caruzo3,
+    caruzo4,
     citadino,
     citadino1,
     citadino10,
@@ -84,6 +128,11 @@ export const assets = {
     florDeLaCanela,
     florDeLaCanela1,
     florDeLaCanela2,
+    hotel_movich,
+    hotel_movich1,
+    hotel_movich2,
+    hotel_movich3,
+    hotel_movich4,
     instagram_icon,
     la_casona,
     la_casona1,
@@ -99,6 +148,17 @@ export const assets = {
     logoHighEnd,
     mapaIcon,
     marinas,
+    monchis,
+    monchis1,
+    monchis2,
+    monchis3,
+    nuevo_leon,
+    nuevo_leon1,
+    nuevo_leon2,
+    nuevo_leon3,
+    nuevo_leon4,
+    nuevo_leon5,
+    nuevo_leon6,
     plazoleta_municipal,
     plazoleta_municipal1,
     plazoleta_municipal2,
@@ -110,6 +170,10 @@ export const assets = {
     reservaIcon,
     restaurante,
     rooftop,
+    sabor_molido,
+    sabor_molido1,
+    sabor_molido2,
+    sabor_molido3,
     stella_logo,
     stella,
     tizones,
@@ -118,10 +182,14 @@ export const assets = {
     tres_fronteras,
     tres_fronteras1,
     x_icon,
+    zorro_azul,
+    zorro_azul1,
+    zorro_azul2,
+    zorro_azul3,
     zur,
     zur1,
     zur2,
-    zur3
+    zur3,
 };
 
 export const sites_list_cali = [
@@ -341,8 +409,8 @@ export const location_list_cali = [
         category: "Restaurante",
         description: "",
         dress_code: "Buzo Blanco o negro",
-        image_carousel: [],
-        image: restaurante,
+        image_carousel: [monchis1, monchis2, monchis3],
+        image: monchis,
         lat: 3.46183,
         lng: -76.5345581,
         marca_logo: clubColombia_logo,
@@ -361,8 +429,8 @@ export const location_list_cali = [
         category: "Restaurante",
         description: "",
         dress_code: "Saco, camisa blanca, corbata",
-        image_carousel: [],
-        image: restaurante,
+        image_carousel: [hotel_movich1, hotel_movich2, hotel_movich3, hotel_movich4],
+        image: hotel_movich,
         lat: 3.45585864,
         lng: -76.537,
         marca_logo: clubColombia_logo,
@@ -382,8 +450,8 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Camisa blanca, chaleco negro con logo",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [zorro_azul1, zorro_azul2, zorro_azul3],
+        image: zorro_azul,
         lat: 3.4529229,
         lng: -76.5323938,
         marca_logo: corona_logo,
@@ -402,8 +470,8 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Camiseta negra con nuestros logos",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [callao1, callao2, callao3, callao4],
+        image: callao,
         lat: 3.44819641,
         lng: -76.53170499, 
         marca_logo: corona_logo,
@@ -422,8 +490,8 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Camisa de botones blanca o negra",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [nuevo_leon1, nuevo_leon2, nuevo_leon3, nuevo_leon4, nuevo_leon5, nuevo_leon6],
+        image: nuevo_leon,
         lat: 3.3783037208,
         lng: -76.51601894,
         marca_logo: corona_logo,
@@ -442,8 +510,8 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [caruzo1, caruzo2, caruzo3, caruzo4],
+        image: caruzo,
         lat: 3.33211481,
         lng: -76.53284147,
         marca_logo: corona_logo,
@@ -462,8 +530,8 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Camisa negra, pantalon negro",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [sabor_molido1, sabor_molido2, sabor_molido3],
+        image: sabor_molido,
         lat: 3.3650671207,
         lng: -76.53492016,
         marca_logo: corona_logo,
