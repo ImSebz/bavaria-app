@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './cali.css';
-import Items from '../../components/Items/items';
-import LocationDiplay from '../../components/LocationDisplay/locationDisplay';
+import ItemsCali from '../../components/ItemsCali/itemsCali';
+import LocationDiplayCali from '../../components/LocationDisplayCali/locationDisplayCali';
 
 const cali = () => {
 
@@ -9,8 +9,8 @@ const cali = () => {
 
     return (
         <div className=''>
-            <Items category={category} setCategory={setCategory} />
-            <LocationDiplay category={category} />
+            <ItemsCali category={category} setCategory={setCategory} />
+            <LocationDiplayCali category={category} />
         </div>
     )
 }
