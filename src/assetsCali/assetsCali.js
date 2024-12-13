@@ -43,6 +43,7 @@ import clubColombia_logo from './club_colombia_logo.svg';
 import clubes from './clubes.jpg';
 import corona from './corona.svg';
 import corona_logo from './corona_logo.svg';
+import discoteca from './discoteca.jpg';
 import donde_fabio from './donde_fabio.jpg';
 import donde_fabio1 from './donde_fabio1.jpg';
 import donde_fabio2 from './donde_fabio2.jpg';
@@ -99,7 +100,6 @@ import licores_rr from './licores_rr.jpg';
 import licores_rr1 from './licores_rr1.jpg';
 import logoHighEnd from './logo_high_end.svg';
 import mapaIcon from './mapa.svg';
-import marinas from './marinas.jpg';
 import monchis from './monchis.jpg';
 import monchis1 from './monchis1.jpg';
 import monchis2 from './monchis2.jpg';
@@ -220,6 +220,7 @@ export const assets = {
     clubes,
     corona_logo,
     corona,
+    discoteca,
     donde_fabio,
     donde_fabio1,
     donde_fabio2,
@@ -272,7 +273,6 @@ export const assets = {
     licores_rr1,
     logoHighEnd,
     mapaIcon,
-    marinas,
     monchis,
     monchis1,
     monchis2,
@@ -368,7 +368,7 @@ export const sites_list_cali = [
     },
     {
         site_name: "Discoteca",
-        site_image: marinas
+        site_image: discoteca
     },
 ]
 
