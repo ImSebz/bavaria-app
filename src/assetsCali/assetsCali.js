@@ -8,12 +8,14 @@ import bourbon5 from './bourbon5.jpg';
 import bourbonMarker from './bourbonMarker.png';
 import budweiser from './budweiser_logo.svg';
 import callao from './callao.jpg';
+import callao_marker from './callao_marker.png';
 import callao1 from './callao1.jpg';
 import callao2 from './callao2.jpg';
 import callao3 from './callao3.jpg';
 import callao4 from './callao4.jpg';
 import cartaIcon from './carta.svg';
 import caruzo from './caruzo.jpg';
+import caruzo_marker from './caruzo_marker.png';
 import caruzo1 from './caruzo1.jpg';
 import caruzo2 from './caruzo2.jpg';
 import caruzo3 from './caruzo3.jpg';
@@ -35,6 +37,7 @@ import club_campestre from './club_campestre.jpg';
 import club_campestre1 from './club_campestre1.jpg';
 import club_campestre2 from './club_campestre2.jpg';
 import club_campestre3 from './club_campestre3.jpg';
+import club_farallones_marker from './club_farallones_marker.png';
 import club_farallones from './club_farallones.jpg';
 import club_farallones1 from './club_farallones1.jpg';
 import club_farallones2 from './club_farallones2.jpg';
@@ -99,6 +102,7 @@ import la_over1 from './la_over1.jpg';
 import la_over2 from './la_over2.jpg';
 import la_over3 from './la_over3.jpg';
 import la_pergola from './pergola.jpg';
+import la_pergola_marker from './la_pergola_marker.png';
 import la_pergola1 from './pergola1.jpg';
 import la_pergola2 from './pergola2.jpg';
 import la_pergola3 from './pergola3.jpg';
@@ -123,6 +127,7 @@ import nueve_avenue2 from './nueve_avenue2.jpg';
 import nueve_avenue3 from './nueve_avenue3.jpg';
 import nueve_avenue4 from './nueve_avenue4.jpg';
 import nuevo_leon from './nuevo_leon.jpg';
+import nuevo_leon_marker from './nuevo_leon_marker.png';
 import nuevo_leon1 from './nuevo_leon1.jpg';
 import nuevo_leon2 from './nuevo_leon2.jpg';
 import nuevo_leon3 from './nuevo_leon3.jpg';
@@ -146,6 +151,7 @@ import route661 from './route661.jpg';
 import route662 from './route662.jpg';
 import route663 from './route663.jpg';
 import sabor_molido from './sabor_molido.jpg';
+import sabor_molido_marker from './sabor_molido_marker.png';
 import sabor_molido1 from './sabor_molido1.jpg';
 import sabor_molido2 from './sabor_molido2.jpg';
 import sabor_molido3 from './sabor_molido3.jpg';
@@ -197,12 +203,14 @@ export const assetsCali = {
     bourbon5,
     bourbonMarker,
     budweiser,
+    callao_marker,
     callao,
     callao1,
     callao2,
     callao3,
     callao4,
     cartaIcon,
+    caruzo_marker,
     caruzo,
     caruzo1,
     caruzo2,
@@ -225,6 +233,7 @@ export const assetsCali = {
     club_campestre1,
     club_campestre2,
     club_campestre3,
+    club_farallones_marker,
     club_farallones,
     club_farallones1,
     club_farallones2,
@@ -288,6 +297,11 @@ export const assetsCali = {
     la_over1,
     la_over2,
     la_over3,
+    la_pergola_marker,
+    la_pergola,
+    la_pergola1,
+    la_pergola2,
+    la_pergola3,
     licores_rr,
     licores_rr1,
     logoHighEnd,
@@ -308,6 +322,7 @@ export const assetsCali = {
     nueve_avenue2,
     nueve_avenue3,
     nueve_avenue4,
+    nuevo_leon_marker,
     nuevo_leon,
     nuevo_leon1,
     nuevo_leon2,
@@ -331,6 +346,7 @@ export const assetsCali = {
     route661,
     route662,
     route663,
+    sabor_molido_marker,
     sabor_molido,
     sabor_molido1,
     sabor_molido2,
@@ -562,7 +578,6 @@ export const location_list_cali = [
         subtitle: "Restaurante",
         url_reserva: "https://idmenu.club/lacomitiva/?fbclid=PAZXh0bgNhZW0CMTEAAaa_ThxZBZUcc9Tohg2gZF5CEYO7ZgoZM0E6eQl4ecl8V5Fe_xmlYaS4q8I_aem_K0uA6GQT4053vvPPrrdjSA"
     },
-    //TODO: Cambiar imagenes | 
     {
         _id: "9",
         address: "AV 9N 17A-36",
@@ -637,7 +652,7 @@ export const location_list_cali = [
         lng: -76.53170499, 
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: callao_marker,
         name: "Callao",
         promo: "",
         schedule: "6:00pm - 4:00am",
@@ -657,7 +672,7 @@ export const location_list_cali = [
         lng: -76.51601894,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: nuevo_leon_marker,
         name: "Nuevo Leon",
         promo: "",
         schedule: "5:00pm - 12:00am",
@@ -677,7 +692,7 @@ export const location_list_cali = [
         lng: -76.53284147,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: caruzo_marker,
         name: "Caruzo Rooftop",
         promo: "",
         schedule: "",
@@ -697,7 +712,7 @@ export const location_list_cali = [
         lng: -76.53492016,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: sabor_molido_marker,
         name: "Sabor Molido",
         promo: "",
         schedule: "11:00am - 2:00am",
@@ -717,7 +732,7 @@ export const location_list_cali = [
         lng: -76.5187902,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: la_pergola_marker,
         name: "La Pergola",
         promo: "",
         schedule: "6:00pm - 4:00am",
@@ -737,7 +752,7 @@ export const location_list_cali = [
         lng: -76.5317,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: club_farallones_marker,
         name: "Club Campestre Farallones",
         promo: "",
         schedule: "6:00am - 9:00pm",
