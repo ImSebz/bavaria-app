@@ -19,6 +19,7 @@ import caruzo2 from './caruzo2.jpg';
 import caruzo3 from './caruzo3.jpg';
 import caruzo4 from './caruzo4.jpg';
 import citadino from './citadino.jpg';
+import citadino_marker from './citadino_marker.png';
 import citadino1 from './citadino1.jpg';
 import citadino10 from './citadino10.jpg';
 import citadino11 from './citadino11.jpg';
@@ -30,7 +31,6 @@ import citadino6 from './citadino6.jpg';
 import citadino7 from './citadino7.jpg';
 import citadino8 from './citadino8.jpg';
 import citadino9 from './citadino9.jpg';
-import citadino_marker from './citadino_marker.png';
 import club_campestre from './club_campestre.jpg';
 import club_campestre1 from './club_campestre1.jpg';
 import club_campestre2 from './club_campestre2.jpg';
@@ -65,11 +65,11 @@ import florDeLaCanela1 from './flor_de_la_canela1.jpg';
 import florDeLaCanela2 from './flor_de_la_canela2.jpg';
 import florDeLaCanelaMarker from './flor_de_la_canela_marker.png';
 import hotel_movich from './hotel_movich.jpg';
+import hotel_movich_marker from './hotel_movich_marker.png';
 import hotel_movich1 from './hotel_movich1.jpg';
 import hotel_movich2 from './hotel_movich2.jpg';
 import hotel_movich3 from './hotel_movich3.jpg';
 import hotel_movich4 from './hotel_movich4.jpg';
-import hotel_movich_marker from './hotel_movich_marker.png';
 import icepub from './icepub.jpg';
 import icepub1 from './icepub1.jpg';
 import icepub2 from './icepub2.jpg';
@@ -82,18 +82,18 @@ import kkahuate3 from './kkahuate3.jpg';
 import kkahuate4 from './kkahuate4.jpg';
 import la_calle from './la_calle.jpg';
 import la_casona from './la_casona.jpeg';
+import la_casona_marker from './la_casona_marker.png';
 import la_casona1 from './la_casona1.jpeg';
 import la_casona2 from './la_casona2.jpeg';
 import la_casona3 from './la_casona3.jpeg';
 import la_casona4 from './la_casona4.jpg';
-import la_casona_marker from './la_casona_marker.png';
 import la_comitiva from './la_comitiva.jpg';
+import la_comitiva_marker from './la_comitiva_marker.png';
 import la_comitiva1 from './la_comitiva1.jpg';
 import la_comitiva2 from './la_comitiva2.jpg';
 import la_comitiva3 from './la_comitiva3.jpg';
 import la_comitiva4 from './la_comitiva4.jpg';
 import la_comitiva5 from './la_comitiva5.jpg';
-import la_comitiva_marker from './la_comitiva_marker.png';
 import la_over from './la_over.jpg';
 import la_over1 from './la_over1.jpg';
 import la_over2 from './la_over2.jpg';
@@ -108,10 +108,10 @@ import logoHighEnd from './logo_high_end.svg';
 import logoHighEndCali from './logo_high_end_cali.png';
 import mapaIcon from './mapa.svg';
 import monchis from './monchis.jpg';
+import monchis_marker from './monchis_marker.png';
 import monchis1 from './monchis1.jpg';
 import monchis2 from './monchis2.jpg';
 import monchis3 from './monchis3.jpg';
-import monchis_marker from './monchis_marker.png';
 import mulato from './mulato.jpg';
 import mulato1 from './mulato1.jpg';
 import mulato2 from './mulato2.jpg';
@@ -130,6 +130,7 @@ import nuevo_leon4 from './nuevo_leon4.jpg';
 import nuevo_leon5 from './nuevo_leon5.jpg';
 import nuevo_leon6 from './nuevo_leon6.jpg';
 import plazoleta_municipal from './plazoleta_municipal.jpg';
+import plazoleta_municipal_marker from './plazoleta_municipal_marker.png';
 import plazoleta_municipal1 from './plazoleta_municipal1.jpg';
 import plazoleta_municipal2 from './plazoleta_municipal2.jpg';
 import plazoleta_municipal3 from './plazoleta_municipal3.jpg';
@@ -137,7 +138,6 @@ import plazoleta_municipal4 from './plazoleta_municipal4.jpg';
 import plazoleta_municipal5 from './plazoleta_municipal5.jpg';
 import plazoleta_municipal6 from './plazoleta_municipal6.jpg';
 import plazoleta_municipal7 from './plazoleta_municipal7.jpg';
-import plazoleta_municipal_marker from './plazoleta_municipal_marker.png';
 import reservaIcon from './reserva.svg';
 import restaurante from './restaurante.jpg';
 import rooftop from './rooftop.jpg';
@@ -161,9 +161,9 @@ import the_lobby2 from './the_lobby2.jpg';
 import the_lobby3 from './the_lobby3.jpg';
 import the_lobby4 from './the_lobby4.jpg';
 import tizones from './tizones.jpg';
+import tizones_marker from './tizones_marker.png';
 import tizones1 from './tizones1.jpg';
 import tizones2 from './tizones2.jpg';
-import tizones_marker from './tizones_marker.png';
 import topa_tolondra from './topa_tolondra.jpg';
 import topa_tolondra1 from './topa_tolondra1.jpg';
 import topa_tolondra2 from './topa_tolondra2.jpg';
@@ -171,20 +171,21 @@ import topa_tolondra3 from './topa_tolondra3.jpg';
 import topa_tolondra4 from './topa_tolondra4.jpg';
 import topa_tolondra5 from './topa_tolondra5.jpg';
 import tres_fronteras from './tres_fronteras.jpg';
-import tres_fronteras1 from './tres_fronteras1.jpg';
 import tres_fronteras_marker from './tres_fronteras_marker.png';
+import tres_fronteras1 from './tres_fronteras1.jpg';
 import x_icon from './x_icon.svg';
 import zonag from './zonag.jpg';
 import zonag1 from './zonag1.jpg';
 import zorro_azul from './zorro_azul.jpg';
+import zorro_azul_marker from './zorro_azul_marker.png';
 import zorro_azul1 from './zorro_azul1.jpg';
 import zorro_azul2 from './zorro_azul2.jpg';
 import zorro_azul3 from './zorro_azul3.jpg';
 import zur from './zur.jpg';
+import zur_marker from './zur_marker.png';
 import zur1 from './zur1.jpg';
 import zur2 from './zur2.jpg';
 import zur3 from './zur3.jpg';
-import zur_marker from './zur_marker.png';
 
 export const assetsCali = {
     bar,
@@ -207,6 +208,7 @@ export const assetsCali = {
     caruzo2,
     caruzo3,
     caruzo4,
+    citadino_marker,
     citadino,
     citadino1,
     citadino10,
@@ -219,7 +221,6 @@ export const assetsCali = {
     citadino7,
     citadino8,
     citadino9,
-    citadino_marker,
     club_campestre,
     club_campestre1,
     club_campestre2,
@@ -253,12 +254,12 @@ export const assetsCali = {
     florDeLaCanela1,
     florDeLaCanela2,
     florDeLaCanelaMarker,
+    hotel_movich_marker,
     hotel_movich,
     hotel_movich1,
     hotel_movich2,
     hotel_movich3,
     hotel_movich4,
-    hotel_movich_marker,
     icepub,
     icepub1,
     icepub2,
@@ -270,19 +271,19 @@ export const assetsCali = {
     kkahuate3,
     kkahuate4,
     la_calle,
+    la_casona_marker,
     la_casona,
     la_casona1,
     la_casona2,
     la_casona3,
     la_casona4,
-    la_casona_marker,
+    la_comitiva_marker,
     la_comitiva,
     la_comitiva1,
     la_comitiva2,
     la_comitiva3,
     la_comitiva4,
     la_comitiva5,
-    la_comitiva_marker,
     la_over,
     la_over1,
     la_over2,
@@ -292,11 +293,11 @@ export const assetsCali = {
     logoHighEnd,
     logoHighEndCali,
     mapaIcon,
+    monchis_marker,
     monchis,
     monchis1,
     monchis2,
     monchis3,
-    monchis_marker,
     mulato,
     mulato1,
     mulato2,
@@ -314,6 +315,7 @@ export const assetsCali = {
     nuevo_leon4,
     nuevo_leon5,
     nuevo_leon6,
+    plazoleta_municipal_marker,
     plazoleta_municipal,
     plazoleta_municipal1,
     plazoleta_municipal2,
@@ -322,7 +324,6 @@ export const assetsCali = {
     plazoleta_municipal5,
     plazoleta_municipal6,
     plazoleta_municipal7,
-    plazoleta_municipal_marker,
     reservaIcon,
     restaurante,
     rooftop,
@@ -345,31 +346,32 @@ export const assetsCali = {
     the_lobby2,
     the_lobby3,
     the_lobby4,
+    tizones_marker,
     tizones,
     tizones1,
     tizones2,
-    tizones_marker,
     topa_tolondra,
     topa_tolondra1,
     topa_tolondra2,
     topa_tolondra3,
     topa_tolondra4,
     topa_tolondra5,
+    tres_fronteras_marker,
     tres_fronteras,
     tres_fronteras1,
-    tres_fronteras_marker,
     x_icon,
     zonag,
     zonag1,
+    zorro_azul_marker,
     zorro_azul,
     zorro_azul1,
     zorro_azul2,
     zorro_azul3,
+    zur_marker,
     zur,
     zur1,
     zur2,
     zur3,
-    zur_marker,
 };
 
 export const sites_list_cali = [
@@ -615,7 +617,7 @@ export const location_list_cali = [
         lng: -76.5323938,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: zorro_azul_marker,
         name: "Zorro Azul",
         promo: "",
         schedule: "4:00pm - 3:00am",
