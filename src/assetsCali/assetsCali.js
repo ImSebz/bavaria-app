@@ -99,6 +99,7 @@ import la_pergola3 from './pergola3.jpg';
 import licores_rr from './licores_rr.jpg';
 import licores_rr1 from './licores_rr1.jpg';
 import logoHighEnd from './logo_high_end.svg';
+import logoHighEndCali from './logo_high_end_cali.png';
 import mapaIcon from './mapa.svg';
 import monchis from './monchis.jpg';
 import monchis1 from './monchis1.jpg';
@@ -174,7 +175,7 @@ import zur1 from './zur1.jpg';
 import zur2 from './zur2.jpg';
 import zur3 from './zur3.jpg';
 
-export const assets = {
+export const assetsCali = {
     bar,
     bourbon,
     bourbon1,
@@ -272,6 +273,7 @@ export const assets = {
     licores_rr,
     licores_rr1,
     logoHighEnd,
+    logoHighEndCali,
     mapaIcon,
     monchis,
     monchis1,

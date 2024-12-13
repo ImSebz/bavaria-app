@@ -3,10 +3,23 @@
 .navbar {
     padding: 20px 0px 0 0;
     display: flex;
-    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
 }
 
+.navbar-cali {
+    background-image: url(/src/assetsCali/navbar-cali.png);
+    background-size: 100%;
+    padding: 5px;
+    background-position: center;
+}
+
+.navbar-cali .logo {
+    width: 100px !important;
+}
+ 
 .navbar li {
     cursor: pointer;
 }

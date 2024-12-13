@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import './navbar.css';
 import { assets } from '../../assets/assets';
+import { assetsCali } from '../../assetsCali/assetsCali';
 
 const Navbar = () => {
     const [menu, setMenu] = useState("home");
@@ -27,9 +28,9 @@ const Navbar = () => {
     };
 
     return (
-        <div className='navbar'>
+        <div className={`navbar ${isCaliRoute || isMapaCaliRoute ? 'navbar-cali' : ''}`}>
             <Link to="/" onClick={() => { setMenu("home") }}>
-                <img src={assets.logoHighEnd} className='logo' alt="Logo" />
+            <img src={isCaliRoute || isMapaCaliRoute ? assetsCali.logoHighEndCali : assets.logoHighEnd} className='logo' alt="Logo" />
             </Link>
             <ul className={`sidebar-menu ${isSidebarOpen ? 'open' : ''}`}>
                 <li onClick={handleMenuClick} className='hamburger'>
@@ -45,7 +46,7 @@ const Navbar = () => {
                     <li className={menu === "ciudades" ? "active" : ""}>Ciudades</li>
                 </Link>
             </ul>
-            <center><p className='navbar-ruta-p'>LA RUTA DE LA <span>CERVEZA</span></p></center>
+        
             <ul className="navbar-menu">
                 <Link to={isCaliRoute || isMapaCaliRoute ? "/cali" : "/"} onClick={() => { setMenu("home") }}>
                     <li className={menu === "home" ? "active" : ""} id='home-li'>Inicio</li>
