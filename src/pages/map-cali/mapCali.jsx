@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { GoogleMap, useJsApiLoader, Marker, InfoWindow } from '@react-google-maps/api';
-import './map.css';
+import './mapCali.css';
 import { location_list } from '../../assets/assets';
 
 const containerStyle = {
