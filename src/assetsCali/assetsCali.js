@@ -5,6 +5,7 @@ import bourbon2 from './bourbon2.jpg';
 import bourbon3 from './bourbon3.jpg';
 import bourbon4 from './bourbon4.jpg';
 import bourbon5 from './bourbon5.jpg';
+import bourbonMarker from './bourbonMarker.png';
 import budweiser from './budweiser_logo.svg';
 import callao from './callao.jpg';
 import callao1 from './callao1.jpg';
@@ -29,6 +30,7 @@ import citadino6 from './citadino6.jpg';
 import citadino7 from './citadino7.jpg';
 import citadino8 from './citadino8.jpg';
 import citadino9 from './citadino9.jpg';
+import citadino_marker from './citadino_marker.png';
 import club_campestre from './club_campestre.jpg';
 import club_campestre1 from './club_campestre1.jpg';
 import club_campestre2 from './club_campestre2.jpg';
@@ -61,11 +63,13 @@ import facebook_icon from './facebook_icon.svg';
 import florDeLaCanela from './flor_de_la_canela.jpg';
 import florDeLaCanela1 from './flor_de_la_canela1.jpg';
 import florDeLaCanela2 from './flor_de_la_canela2.jpg';
+import florDeLaCanelaMarker from './flor_de_la_canela_marker.png';
 import hotel_movich from './hotel_movich.jpg';
 import hotel_movich1 from './hotel_movich1.jpg';
 import hotel_movich2 from './hotel_movich2.jpg';
 import hotel_movich3 from './hotel_movich3.jpg';
 import hotel_movich4 from './hotel_movich4.jpg';
+import hotel_movich_marker from './hotel_movich_marker.png';
 import icepub from './icepub.jpg';
 import icepub1 from './icepub1.jpg';
 import icepub2 from './icepub2.jpg';
@@ -82,12 +86,14 @@ import la_casona1 from './la_casona1.jpeg';
 import la_casona2 from './la_casona2.jpeg';
 import la_casona3 from './la_casona3.jpeg';
 import la_casona4 from './la_casona4.jpg';
+import la_casona_marker from './la_casona_marker.png';
 import la_comitiva from './la_comitiva.jpg';
 import la_comitiva1 from './la_comitiva1.jpg';
 import la_comitiva2 from './la_comitiva2.jpg';
 import la_comitiva3 from './la_comitiva3.jpg';
 import la_comitiva4 from './la_comitiva4.jpg';
 import la_comitiva5 from './la_comitiva5.jpg';
+import la_comitiva_marker from './la_comitiva_marker.png';
 import la_over from './la_over.jpg';
 import la_over1 from './la_over1.jpg';
 import la_over2 from './la_over2.jpg';
@@ -105,6 +111,7 @@ import monchis from './monchis.jpg';
 import monchis1 from './monchis1.jpg';
 import monchis2 from './monchis2.jpg';
 import monchis3 from './monchis3.jpg';
+import monchis_marker from './monchis_marker.png';
 import mulato from './mulato.jpg';
 import mulato1 from './mulato1.jpg';
 import mulato2 from './mulato2.jpg';
@@ -130,6 +137,7 @@ import plazoleta_municipal4 from './plazoleta_municipal4.jpg';
 import plazoleta_municipal5 from './plazoleta_municipal5.jpg';
 import plazoleta_municipal6 from './plazoleta_municipal6.jpg';
 import plazoleta_municipal7 from './plazoleta_municipal7.jpg';
+import plazoleta_municipal_marker from './plazoleta_municipal_marker.png';
 import reservaIcon from './reserva.svg';
 import restaurante from './restaurante.jpg';
 import rooftop from './rooftop.jpg';
@@ -155,6 +163,7 @@ import the_lobby4 from './the_lobby4.jpg';
 import tizones from './tizones.jpg';
 import tizones1 from './tizones1.jpg';
 import tizones2 from './tizones2.jpg';
+import tizones_marker from './tizones_marker.png';
 import topa_tolondra from './topa_tolondra.jpg';
 import topa_tolondra1 from './topa_tolondra1.jpg';
 import topa_tolondra2 from './topa_tolondra2.jpg';
@@ -163,6 +172,7 @@ import topa_tolondra4 from './topa_tolondra4.jpg';
 import topa_tolondra5 from './topa_tolondra5.jpg';
 import tres_fronteras from './tres_fronteras.jpg';
 import tres_fronteras1 from './tres_fronteras1.jpg';
+import tres_fronteras_marker from './tres_fronteras_marker.png';
 import x_icon from './x_icon.svg';
 import zonag from './zonag.jpg';
 import zonag1 from './zonag1.jpg';
@@ -174,6 +184,7 @@ import zur from './zur.jpg';
 import zur1 from './zur1.jpg';
 import zur2 from './zur2.jpg';
 import zur3 from './zur3.jpg';
+import zur_marker from './zur_marker.png';
 
 export const assetsCali = {
     bar,
@@ -183,6 +194,7 @@ export const assetsCali = {
     bourbon3,
     bourbon4,
     bourbon5,
+    bourbonMarker,
     budweiser,
     callao,
     callao1,
@@ -207,6 +219,7 @@ export const assetsCali = {
     citadino7,
     citadino8,
     citadino9,
+    citadino_marker,
     club_campestre,
     club_campestre1,
     club_campestre2,
@@ -239,11 +252,13 @@ export const assetsCali = {
     florDeLaCanela,
     florDeLaCanela1,
     florDeLaCanela2,
+    florDeLaCanelaMarker,
     hotel_movich,
     hotel_movich1,
     hotel_movich2,
     hotel_movich3,
     hotel_movich4,
+    hotel_movich_marker,
     icepub,
     icepub1,
     icepub2,
@@ -260,12 +275,14 @@ export const assetsCali = {
     la_casona2,
     la_casona3,
     la_casona4,
+    la_casona_marker,
     la_comitiva,
     la_comitiva1,
     la_comitiva2,
     la_comitiva3,
     la_comitiva4,
     la_comitiva5,
+    la_comitiva_marker,
     la_over,
     la_over1,
     la_over2,
@@ -279,6 +296,7 @@ export const assetsCali = {
     monchis1,
     monchis2,
     monchis3,
+    monchis_marker,
     mulato,
     mulato1,
     mulato2,
@@ -304,6 +322,7 @@ export const assetsCali = {
     plazoleta_municipal5,
     plazoleta_municipal6,
     plazoleta_municipal7,
+    plazoleta_municipal_marker,
     reservaIcon,
     restaurante,
     rooftop,
@@ -329,6 +348,7 @@ export const assetsCali = {
     tizones,
     tizones1,
     tizones2,
+    tizones_marker,
     topa_tolondra,
     topa_tolondra1,
     topa_tolondra2,
@@ -337,6 +357,7 @@ export const assetsCali = {
     topa_tolondra5,
     tres_fronteras,
     tres_fronteras1,
+    tres_fronteras_marker,
     x_icon,
     zonag,
     zonag1,
@@ -348,6 +369,7 @@ export const assetsCali = {
     zur1,
     zur2,
     zur3,
+    zur_marker,
 };
 
 export const sites_list_cali = [
@@ -388,7 +410,7 @@ export const location_list_cali = [
         lng: -76.529,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: florDeLaCanelaMarker,
         name: "La Flor De La Canela",
         promo: "",
         schedule: "12:00m - 10:00pm",
@@ -409,7 +431,7 @@ export const location_list_cali = [
         lng: -76.5467,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: la_casona_marker,
         name: "La Casona",
         promo: "",
         schedule: "12:00m - 2:00am",
@@ -430,7 +452,7 @@ export const location_list_cali = [
         lng: -76.53721256,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: tres_fronteras_marker,
         name: "3 Fronteras",
         promo: "",
         schedule: "12:00m - 11:00pm",
@@ -450,7 +472,7 @@ export const location_list_cali = [
         lng: -76.53536871,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: zur_marker,
         name: "Zur",
         promo: "",
         schedule: "12:00m - 10:00pm",
@@ -470,7 +492,7 @@ export const location_list_cali = [
         lng: -76.53028323,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: tizones_marker,
         name: "Tizones Ltda",
         promo: "",
         schedule: "12:00m - 2:00am",
@@ -490,7 +512,7 @@ export const location_list_cali = [
         lng: -76.5352251,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: plazoleta_municipal_marker,
         name: "Plazoleta Municipal Jairo Varela",
         promo: "",
         schedule: "12:00m - 12:00m",
@@ -511,7 +533,7 @@ export const location_list_cali = [
         lng: -76.5432875,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: citadino_marker,
         name: "Citadino Gastro Bar",
         promo: "",
         schedule: "12:00m - 1:00am",
@@ -531,7 +553,7 @@ export const location_list_cali = [
         lng: -76.5452552,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: la_comitiva_marker,
         name: "La Comitiva",
         promo: "",
         schedule: "12:00m - 1:00am",
@@ -552,7 +574,7 @@ export const location_list_cali = [
         lng: -76.5345581,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: monchis_marker,
         name: "Monchis",
         promo: "",
         schedule: "12:00m - 1:00am",
@@ -572,7 +594,7 @@ export const location_list_cali = [
         lng: -76.537,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: hotel_movich_marker,
         name: "Hotel Movich Casa Del Alferez",
         promo: "",
         schedule: "3:00pm - 11:00pm",
@@ -933,7 +955,7 @@ export const location_list_cali = [
         lng: -76.5337,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: bourbonMarker,
         name: "Bourbon St. Granada",
         promo: "",
         schedule: "5:00pm-2:00am",
