@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { GoogleMap, useJsApiLoader, Marker, InfoWindow } from '@react-google-maps/api';
 import './mapCali.css';
-import { location_list } from '../../assets/assets';
+import { location_list_cali } from '../../assetsCali/assetsCali';
 
 const containerStyle = {
     width: '100%',
@@ -52,7 +52,7 @@ function MyComponent() {
             zoom={15}
             onUnmount={onUnmount}
         >
-            {location_list.map((location, index) => (
+            {location_list_cali.map((location, index) => (
                 <Marker
                     key={index}
                     position={{ lat: location.lat, lng: location.lng }}
