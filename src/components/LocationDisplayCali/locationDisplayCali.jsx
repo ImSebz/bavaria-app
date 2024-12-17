@@ -10,7 +10,7 @@ const locationDisplayCali = ({ category }) => {
 
     return (
         <div className='location-display' id='location-display'>
-            <h2> Nuestros lugares </h2>
+            <h2> Nuestros lugares en Cali </h2>
             <div className='location-display-list'>
                 {location_list_cali.map((item, index) => {
                     if (category === "All" || category === item.category) {

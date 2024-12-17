@@ -37,7 +37,7 @@ const LocationPopupCali = ({ isOpen, onRequestClose, location }) => {
     };
 
     const handleMapaClick = () => {
-        navigate(`/mapa`);
+        navigate(`/mapa-cali`);
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 

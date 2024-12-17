@@ -4,11 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import './navbar.css';
 import { assets } from '../../assets/assets';
+import { assetsCali } from '../../assetsCali/assetsCali';
 
 const Navbar = () => {
     const [menu, setMenu] = useState("home");
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const location = useLocation();
+    const isCaliRoute = location.pathname === '/cali';
+    const isMapaCaliRoute = location.pathname === '/mapa-cali';
 
     useEffect(() => {
         if (location.pathname === '/') {
@@ -25,30 +28,30 @@ const Navbar = () => {
     };
 
     return (
-        <div className='navbar'>
+        <div className={`navbar ${isCaliRoute || isMapaCaliRoute ? 'navbar-cali' : ''}`}>
             <Link to="/" onClick={() => { setMenu("home") }}>
-                <img src={assets.logoHighEnd} className='logo' alt="Logo" />
+            <img src={isCaliRoute || isMapaCaliRoute ? assetsCali.logoHighEndCali : assets.logoHighEnd} className='logo' alt="Logo" />
             </Link>
             <ul className={`sidebar-menu ${isSidebarOpen ? 'open' : ''}`}>
                 <li onClick={handleMenuClick} className='hamburger'>
                     <FontAwesomeIcon icon={isSidebarOpen ? faXmark : faBars} className='menu-icon' />
                 </li>
-                <Link to="/" onClick={() => { setMenu("home"); setIsSidebarOpen(false); }}>
+                <Link to={isCaliRoute || isMapaCaliRoute ? "/cali" : "/"} onClick={() => { setMenu("home"); setIsSidebarOpen(false); }}>
                     <li className={menu === "home" ? "active" : ""}>Inicio</li>
                 </Link>
-                <Link to="/mapa" onClick={() => { setMenu("map"); setIsSidebarOpen(false); }}>
+                <Link to={isCaliRoute || isMapaCaliRoute ? "/mapa-cali" : "/mapa"} onClick={() => { setMenu("map"); setIsSidebarOpen(false); }}>
                     <li className={menu === "map" ? "active" : ""}>Mapa</li>
                 </Link>
                 <Link to="/ciudades" onClick={() => { setMenu("ciudades"); setIsSidebarOpen(false); }}>
                     <li className={menu === "ciudades" ? "active" : ""}>Ciudades</li>
                 </Link>
             </ul>
-            <center><p className='navbar-ruta-p'>LA RUTA DE LA <span>CERVEZA</span></p></center>
+        
             <ul className="navbar-menu">
-                <Link to="/" onClick={() => { setMenu("home") }}>
+                <Link to={isCaliRoute || isMapaCaliRoute ? "/cali" : "/"} onClick={() => { setMenu("home") }}>
                     <li className={menu === "home" ? "active" : ""} id='home-li'>Inicio</li>
                 </Link>
-                <Link to="/mapa" onClick={() => { setMenu("map") }}>
+                <Link to={isCaliRoute || isMapaCaliRoute ? "/mapa-cali" : "/mapa"} onClick={() => { setMenu("map") }}>
                     <li className={menu === "map" ? "active" : ""} id='mapa-li'>Mapa</li>
                 </Link>
                 <Link to="/ciudades" onClick={() => { setMenu("ciudades") }}>

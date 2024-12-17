@@ -1,6 +1,27 @@
 import bar from './bar.jpg';
+import bourbon from './bourbon.jpg';
+import bourbon1 from './bourbon1.jpg';
+import bourbon2 from './bourbon2.jpg';
+import bourbon3 from './bourbon3.jpg';
+import bourbon4 from './bourbon4.jpg';
+import bourbon5 from './bourbon5.jpg';
+import bourbonMarker from './bourbonMarker.png';
+import budweiser from './budweiser_logo.svg';
+import callao from './callao.jpg';
+import callao_marker from './callao_marker.png';
+import callao1 from './callao1.jpg';
+import callao2 from './callao2.jpg';
+import callao3 from './callao3.jpg';
+import callao4 from './callao4.jpg';
 import cartaIcon from './carta.svg';
+import caruzo from './caruzo.jpg';
+import caruzo_marker from './caruzo_marker.png';
+import caruzo1 from './caruzo1.jpg';
+import caruzo2 from './caruzo2.jpg';
+import caruzo3 from './caruzo3.jpg';
+import caruzo4 from './caruzo4.jpg';
 import citadino from './citadino.jpg';
+import citadino_marker from './citadino_marker.png';
 import citadino1 from './citadino1.jpg';
 import citadino10 from './citadino10.jpg';
 import citadino11 from './citadino11.jpg';
@@ -12,30 +33,120 @@ import citadino6 from './citadino6.jpg';
 import citadino7 from './citadino7.jpg';
 import citadino8 from './citadino8.jpg';
 import citadino9 from './citadino9.jpg';
+import club_campestre_marker from './club_campestre_marker.png';
+import club_campestre from './club_campestre.jpg';
+import club_campestre1 from './club_campestre1.jpg';
+import club_campestre2 from './club_campestre2.jpg';
+import club_campestre3 from './club_campestre3.jpg';
+import club_farallones_marker from './club_farallones_marker.png';
+import club_farallones from './club_farallones.jpg';
+import club_farallones1 from './club_farallones1.jpg';
+import club_farallones2 from './club_farallones2.jpg';
+import club_farallones3 from './club_farallones3.jpg';
+import club_farallones4 from './club_farallones4.jpg';
 import clubColombia from './club_colombia.svg';
 import clubColombia_logo from './club_colombia_logo.svg';
+import clubes from './clubes.jpg';
 import corona from './corona.svg';
 import corona_logo from './corona_logo.svg';
+import discoteca from './discoteca.jpg';
+import donde_fabio_marker from './donde_fabio_marker.png';
+import donde_fabio from './donde_fabio.jpg';
+import donde_fabio1 from './donde_fabio1.jpg';
+import donde_fabio2 from './donde_fabio2.jpg';
+import epoca_marker from './epoca_marker.png';
+import epoca from './epoca.jpg';
+import epoca1 from './epoca1.jpg';
+import epoca2 from './epoca2.jpg';
+import epoca3 from './epoca3.jpg';
+import epoca4 from './epoca4.jpg';
+import epoca5 from './epoca5.jpg';
+import epoca6 from './epoca6.jpg';
+import espacio_10_60_marker from './espacio_10_60_marker.png';
+import espacio_10_60 from './espacio_10_60.jpg';
+import espacio_10_60_1 from './espacio_10_60_1.jpg';
+import espacio_10_60_2 from './espacio_10_60_2.jpg';
 import facebook_icon from './facebook_icon.svg';
 import florDeLaCanela from './flor_de_la_canela.jpg';
 import florDeLaCanela1 from './flor_de_la_canela1.jpg';
 import florDeLaCanela2 from './flor_de_la_canela2.jpg';
+import florDeLaCanelaMarker from './flor_de_la_canela_marker.png';
+import hotel_movich from './hotel_movich.jpg';
+import hotel_movich_marker from './hotel_movich_marker.png';
+import hotel_movich1 from './hotel_movich1.jpg';
+import hotel_movich2 from './hotel_movich2.jpg';
+import hotel_movich3 from './hotel_movich3.jpg';
+import hotel_movich4 from './hotel_movich4.jpg';
+import icepub_marker from './icepub_marker.png';
+import icepub from './icepub.jpg';
+import icepub1 from './icepub1.jpg';
+import icepub2 from './icepub2.jpg';
+import icepub3 from './icepub3.jpg';
 import instagram_icon from './instagram_icon.svg';
+import kkahuate_marker from './kkahuate_marker.png';
+import kkahuate from './kkahuate.jpg';
+import kkahuate1 from './kkahuate1.jpg';
+import kkahuate2 from './kkahuate2.jpg';
+import kkahuate3 from './kkahuate3.jpg';
+import kkahuate4 from './kkahuate4.jpg';
+import la_calle_marker from './la_calle_marker.png';
+import la_calle from './la_calle.jpg';
 import la_casona from './la_casona.jpeg';
+import la_casona_marker from './la_casona_marker.png';
 import la_casona1 from './la_casona1.jpeg';
 import la_casona2 from './la_casona2.jpeg';
 import la_casona3 from './la_casona3.jpeg';
 import la_casona4 from './la_casona4.jpg';
 import la_comitiva from './la_comitiva.jpg';
+import la_comitiva_marker from './la_comitiva_marker.png';
 import la_comitiva1 from './la_comitiva1.jpg';
 import la_comitiva2 from './la_comitiva2.jpg';
 import la_comitiva3 from './la_comitiva3.jpg';
 import la_comitiva4 from './la_comitiva4.jpg';
 import la_comitiva5 from './la_comitiva5.jpg';
+import la_over_marker from './la_over_marker.png';
+import la_over from './la_over.jpg';
+import la_over1 from './la_over1.jpg';
+import la_over2 from './la_over2.jpg';
+import la_over3 from './la_over3.jpg';
+import la_pergola from './pergola.jpg';
+import la_pergola_marker from './la_pergola_marker.png';
+import la_pergola1 from './pergola1.jpg';
+import la_pergola2 from './pergola2.jpg';
+import la_pergola3 from './pergola3.jpg';
+import licores_rr_marker from './licores_rr_marker.png';
+import licores_rr from './licores_rr.jpg';
+import licores_rr1 from './licores_rr1.jpg';
 import logoHighEnd from './logo_high_end.svg';
+import logoHighEndCali from './logo_high_end_cali.png';
 import mapaIcon from './mapa.svg';
-import marinas from './marinas.jpg';
+import monchis from './monchis.jpg';
+import monchis_marker from './monchis_marker.png';
+import monchis1 from './monchis1.jpg';
+import monchis2 from './monchis2.jpg';
+import monchis3 from './monchis3.jpg';
+import mulato_marker from './mulato_marker.png';
+import mulato from './mulato.jpg';
+import mulato1 from './mulato1.jpg';
+import mulato2 from './mulato2.jpg';
+import mulato3 from './mulato3.jpg';
+import mulato4 from './mulato4.jpg';
+import nueve_avenue_marker from './nueve_avenue_marker.png';
+import nueve_avenue from './nueve_avenue.jpg';
+import nueve_avenue1 from './nueve_avenue1.jpg';
+import nueve_avenue2 from './nueve_avenue2.jpg';
+import nueve_avenue3 from './nueve_avenue3.jpg';
+import nueve_avenue4 from './nueve_avenue4.jpg';
+import nuevo_leon from './nuevo_leon.jpg';
+import nuevo_leon_marker from './nuevo_leon_marker.png';
+import nuevo_leon1 from './nuevo_leon1.jpg';
+import nuevo_leon2 from './nuevo_leon2.jpg';
+import nuevo_leon3 from './nuevo_leon3.jpg';
+import nuevo_leon4 from './nuevo_leon4.jpg';
+import nuevo_leon5 from './nuevo_leon5.jpg';
+import nuevo_leon6 from './nuevo_leon6.jpg';
 import plazoleta_municipal from './plazoleta_municipal.jpg';
+import plazoleta_municipal_marker from './plazoleta_municipal_marker.png';
 import plazoleta_municipal1 from './plazoleta_municipal1.jpg';
 import plazoleta_municipal2 from './plazoleta_municipal2.jpg';
 import plazoleta_municipal3 from './plazoleta_municipal3.jpg';
@@ -46,80 +157,79 @@ import plazoleta_municipal7 from './plazoleta_municipal7.jpg';
 import reservaIcon from './reserva.svg';
 import restaurante from './restaurante.jpg';
 import rooftop from './rooftop.jpg';
+import route66_marker from './route66_marker.png';
+import route66 from './route66.jpg';
+import route661 from './route661.jpg';
+import route662 from './route662.jpg';
+import route663 from './route663.jpg';
+import sabor_molido from './sabor_molido.jpg';
+import sabor_molido_marker from './sabor_molido_marker.png';
+import sabor_molido1 from './sabor_molido1.jpg';
+import sabor_molido2 from './sabor_molido2.jpg';
+import sabor_molido3 from './sabor_molido3.jpg';
+import sagsa_marker from './sagsa_marker.png';
+import sagsa from './sagsa.jpg';
+import sagsa1 from './sagsa1.jpg';
+import sagsa2 from './sagsa2.jpg';
+import sagsa3 from './sagsa3.jpg';
 import stella from './stella.svg';
 import stella_logo from './stella_logo.svg';
+import the_lobby_marker from './the_lobby_marker.png';
+import the_lobby from './the_lobby.jpg';
+import the_lobby1 from './the_lobby1.jpg';
+import the_lobby2 from './the_lobby2.jpg';
+import the_lobby3 from './the_lobby3.jpg';
+import the_lobby4 from './the_lobby4.jpg';
 import tizones from './tizones.jpg';
+import tizones_marker from './tizones_marker.png';
 import tizones1 from './tizones1.jpg';
 import tizones2 from './tizones2.jpg';
+import topa_tolondra_marker from './topa_tolondra_marker.png';
+import topa_tolondra from './topa_tolondra.jpg';
+import topa_tolondra1 from './topa_tolondra1.jpg';
+import topa_tolondra2 from './topa_tolondra2.jpg';
+import topa_tolondra3 from './topa_tolondra3.jpg';
+import topa_tolondra4 from './topa_tolondra4.jpg';
+import topa_tolondra5 from './topa_tolondra5.jpg';
 import tres_fronteras from './tres_fronteras.jpg';
+import tres_fronteras_marker from './tres_fronteras_marker.png';
 import tres_fronteras1 from './tres_fronteras1.jpg';
 import x_icon from './x_icon.svg';
+import zonag_marker from './zonag_marker.png';
+import zonag from './zonag.jpg';
+import zonag1 from './zonag1.jpg';
+import zorro_azul from './zorro_azul.jpg';
+import zorro_azul_marker from './zorro_azul_marker.png';
+import zorro_azul1 from './zorro_azul1.jpg';
+import zorro_azul2 from './zorro_azul2.jpg';
+import zorro_azul3 from './zorro_azul3.jpg';
 import zur from './zur.jpg';
+import zur_marker from './zur_marker.png';
 import zur1 from './zur1.jpg';
 import zur2 from './zur2.jpg';
 import zur3 from './zur3.jpg';
 
-export const assets = {
+export const assetsCali = {
     bar,
+    budweiser,
     cartaIcon,
-    citadino,
-    citadino1,
-    citadino10,
-    citadino11,
-    citadino2,
-    citadino3,
-    citadino4,
-    citadino5,
-    citadino6,
-    citadino7,
-    citadino8,
-    citadino9,
     clubColombia_logo,
     clubColombia,
+    clubes,
     corona_logo,
     corona,
+    discoteca,
     facebook_icon,
-    florDeLaCanela,
-    florDeLaCanela1,
-    florDeLaCanela2,
     instagram_icon,
-    la_casona,
-    la_casona1,
-    la_casona2,
-    la_casona3,
-    la_casona4,
-    la_comitiva,
-    la_comitiva1,
-    la_comitiva2,
-    la_comitiva3,
-    la_comitiva4,
-    la_comitiva5,
     logoHighEnd,
+    logoHighEndCali,
     mapaIcon,
-    marinas,
-    plazoleta_municipal,
-    plazoleta_municipal1,
-    plazoleta_municipal2,
-    plazoleta_municipal3,
-    plazoleta_municipal4,
-    plazoleta_municipal5,
-    plazoleta_municipal6,
-    plazoleta_municipal7,
     reservaIcon,
     restaurante,
     rooftop,
     stella_logo,
     stella,
-    tizones,
-    tizones1,
-    tizones2,
-    tres_fronteras,
-    tres_fronteras1,
     x_icon,
-    zur,
-    zur1,
-    zur2,
-    zur3
 };
 
 export const sites_list_cali = [
@@ -133,7 +243,7 @@ export const sites_list_cali = [
     },
     {
         site_name: "Clubes",
-        site_image: restaurante
+        site_image: clubes
     },
 
     {
@@ -142,32 +252,11 @@ export const sites_list_cali = [
     },
     {
         site_name: "Discoteca",
-        site_image: marinas
+        site_image: discoteca
     },
 ]
 
 export const location_list_cali = [
-    // {
-    //     _id: "1",
-    //     address: "Av Carlos Escallón Cra 8 # 34-01",
-    //     carta: "",
-    //     category: "Restaurante",
-    //     description: "",
-    //     dress_code: "No shorts",
-    //     image_carousel: [don_juan1, don_juan2, don_juan3, don_juan4, don_juan5, don_juan6, don_juan7, don_juan8],
-    //     image: don_juan,
-    //     lat: 10.423491, 
-    //     lng: -75.548849, 
-    //     marca_logo: stella_logo,
-    //     marca: stella,
-    //     marker: don_juan_marker,
-    //     name: "Don Juan",
-    //     promo: "https://scann.stellaartois.co/?utm_source=qr&utm_medium=HE&utm_campaign=Stella-Perfect-Serve&utm_term=restaurantes-landing-desktop",
-    //     schedule: "7pm - 11pm",
-    //     subtitle: "Cocina Caribe",
-    //     url_reserva: "https://donjuan.precompro.com/select/",
-    // },
-
     {
         _id: "1",
         address: "AV 6 BIS NTE 27-50",
@@ -181,7 +270,7 @@ export const location_list_cali = [
         lng: -76.529,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: florDeLaCanelaMarker,
         name: "La Flor De La Canela",
         promo: "",
         schedule: "12:00m - 10:00pm",
@@ -202,7 +291,7 @@ export const location_list_cali = [
         lng: -76.5467,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: la_casona_marker,
         name: "La Casona",
         promo: "",
         schedule: "12:00m - 2:00am",
@@ -223,7 +312,7 @@ export const location_list_cali = [
         lng: -76.53721256,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: tres_fronteras_marker,
         name: "3 Fronteras",
         promo: "",
         schedule: "12:00m - 11:00pm",
@@ -243,7 +332,7 @@ export const location_list_cali = [
         lng: -76.53536871,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: zur_marker,
         name: "Zur",
         promo: "",
         schedule: "12:00m - 10:00pm",
@@ -263,7 +352,7 @@ export const location_list_cali = [
         lng: -76.53028323,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: tizones_marker,
         name: "Tizones Ltda",
         promo: "",
         schedule: "12:00m - 2:00am",
@@ -283,7 +372,7 @@ export const location_list_cali = [
         lng: -76.5352251,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: plazoleta_municipal_marker,
         name: "Plazoleta Municipal Jairo Varela",
         promo: "",
         schedule: "12:00m - 12:00m",
@@ -304,7 +393,7 @@ export const location_list_cali = [
         lng: -76.5432875,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: citadino_marker,
         name: "Citadino Gastro Bar",
         promo: "",
         schedule: "12:00m - 1:00am",
@@ -324,14 +413,13 @@ export const location_list_cali = [
         lng: -76.5452552,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: la_comitiva_marker,
         name: "La Comitiva",
         promo: "",
         schedule: "12:00m - 1:00am",
         subtitle: "Restaurante",
         url_reserva: "https://idmenu.club/lacomitiva/?fbclid=PAZXh0bgNhZW0CMTEAAaa_ThxZBZUcc9Tohg2gZF5CEYO7ZgoZM0E6eQl4ecl8V5Fe_xmlYaS4q8I_aem_K0uA6GQT4053vvPPrrdjSA"
     },
-    //TODO: Cambiar imagenes | 
     {
         _id: "9",
         address: "AV 9N 17A-36",
@@ -339,13 +427,13 @@ export const location_list_cali = [
         category: "Restaurante",
         description: "",
         dress_code: "Buzo Blanco o negro",
-        image_carousel: [],
-        image: restaurante,
+        image_carousel: [monchis1, monchis2, monchis3],
+        image: monchis,
         lat: 3.46183,
         lng: -76.5345581,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: monchis_marker,
         name: "Monchis",
         promo: "",
         schedule: "12:00m - 1:00am",
@@ -359,13 +447,13 @@ export const location_list_cali = [
         category: "Restaurante",
         description: "",
         dress_code: "Saco, camisa blanca, corbata",
-        image_carousel: [],
-        image: restaurante,
+        image_carousel: [hotel_movich1, hotel_movich2, hotel_movich3, hotel_movich4],
+        image: hotel_movich,
         lat: 3.45585864,
         lng: -76.537,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: hotel_movich_marker,
         name: "Hotel Movich Casa Del Alferez",
         promo: "",
         schedule: "3:00pm - 11:00pm",
@@ -380,13 +468,13 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Camisa blanca, chaleco negro con logo",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [zorro_azul1, zorro_azul2, zorro_azul3],
+        image: zorro_azul,
         lat: 3.4529229,
         lng: -76.5323938,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: zorro_azul_marker,
         name: "Zorro Azul",
         promo: "",
         schedule: "4:00pm - 3:00am",
@@ -400,13 +488,13 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Camiseta negra con nuestros logos",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [callao1, callao2, callao3, callao4],
+        image: callao,
         lat: 3.44819641,
         lng: -76.53170499, 
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: callao_marker,
         name: "Callao",
         promo: "",
         schedule: "6:00pm - 4:00am",
@@ -420,13 +508,13 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Camisa de botones blanca o negra",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [nuevo_leon1, nuevo_leon2, nuevo_leon3, nuevo_leon4, nuevo_leon5, nuevo_leon6],
+        image: nuevo_leon,
         lat: 3.3783037208,
         lng: -76.51601894,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: nuevo_leon_marker,
         name: "Nuevo Leon",
         promo: "",
         schedule: "5:00pm - 12:00am",
@@ -440,13 +528,13 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [caruzo1, caruzo2, caruzo3, caruzo4],
+        image: caruzo,
         lat: 3.33211481,
         lng: -76.53284147,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: caruzo_marker,
         name: "Caruzo Rooftop",
         promo: "",
         schedule: "",
@@ -460,13 +548,13 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Camisa negra, pantalon negro",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [sabor_molido1, sabor_molido2, sabor_molido3],
+        image: sabor_molido,
         lat: 3.3650671207,
         lng: -76.53492016,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: sabor_molido_marker,
         name: "Sabor Molido",
         promo: "",
         schedule: "11:00am - 2:00am",
@@ -480,13 +568,13 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Camisa blanca, chaleco negro con logo",
-        image_carousel: [],
-        image: rooftop,
+        image_carousel: [la_pergola1, la_pergola2, la_pergola3],
+        image: la_pergola,
         lat: 3.4708667,
         lng: -76.5187902,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: la_pergola_marker,
         name: "La Pergola",
         promo: "",
         schedule: "6:00pm - 4:00am",
@@ -500,14 +588,14 @@ export const location_list_cali = [
         category: "Clubes",
         description: "",
         dress_code: "Camisa balnca manga larga, delantal caqui",
-        image_carousel: [],
-        image: restaurante,
+        image_carousel: [club_farallones1, club_farallones2, club_farallones3, club_farallones4],
+        image: club_farallones,
         lat: 3.3385,
         lng: -76.5317,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
-        name: "Corporacion Club Campestre Faral",
+        marker: club_farallones_marker,
+        name: "Club Campestre Farallones",
         promo: "",
         schedule: "6:00am - 9:00pm",
         subtitle: "Clubes",
@@ -520,14 +608,14 @@ export const location_list_cali = [
         category: "Clubes",
         description: "",
         dress_code: "Camisa blanca, pantalon casual negro",
-        image_carousel: [],
-        image: restaurante,
+        image_carousel: [club_campestre1, club_campestre2, club_campestre3],
+        image: club_campestre,
         lat: 3.36969,
         lng: -76.5419,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
-        name: "Corporacion Club Campestre Cali",
+        marker: club_campestre_marker,
+        name: "Club Campestre Cali",
         promo: "",
         schedule: "6:00am - 9:00pm",
         subtitle: "Clubes",
@@ -540,13 +628,13 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Camisa negra",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [zonag1],
+        image: zonag,
         lat: 3.399100268,
         lng: -76.5390836,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: zonag_marker,
         name: "Zona G Liquor Store",
         promo: "",
         schedule: "4:00pm - 2:00am",
@@ -560,13 +648,13 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Camisa negra manga corta, corbata negra",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [nueve_avenue1, nueve_avenue2, nueve_avenue3, nueve_avenue4],
+        image: nueve_avenue,
         lat: 3.40238,
         lng: -76.544,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: nueve_avenue_marker,
         name: "El Nueve The Avenue Bear Food",
         promo: "",
         schedule: "4:00pm - 2:00am",
@@ -580,14 +668,14 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Traje de gala rojo",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [mulato1, mulato2, mulato3, mulato4],
+        image: mulato,
         lat: 3.4286984,
         lng: -76.537968,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
-        name: "Compañia Artistica El Mulato Y S",
+        marker: mulato_marker,
+        name: "El Mulato Carabet",
         promo: "",
         schedule: "6:00pm - 3:00am",
         subtitle: "Bar",
@@ -600,13 +688,13 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Camisa negra, pantalon dril",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [topa_tolondra1, topa_tolondra2, topa_tolondra3, topa_tolondra4, topa_tolondra5],
+        image: topa_tolondra,
         lat: 3.4443147,
         lng: -76.5365303,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: topa_tolondra_marker,
         name: "La Topa Tolondra Salsa Bar",
         promo: "",
         schedule: "7:00pm - 3:00am",
@@ -620,13 +708,13 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Camisa manga larga con nuestros logos , tirantes y corbatin",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [epoca1, epoca2, epoca3, epoca4, epoca5, epoca6],
+        image: epoca,
         lat: 3.45604919,
         lng: -76.53694525,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: epoca_marker,
         name: "Epoca Restaurante Video Bar",
         promo: "",
         schedule: "5:00pm - 1:00am",
@@ -640,19 +728,220 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Busos tipo oberside",
-        image_carousel: [],
-        image: bar,
+        image_carousel: [kkahuate1, kkahuate2, kkahuate3, kkahuate4],
+        image: kkahuate,
         lat: 3.465655,
         lng: -76.465655,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: kkahuate_marker,
         name: "Kkahuate",
         promo: "",
         schedule: "4:00pm - 3:00am",
         subtitle: "Bar",
         url_reserva: "https://app.menupp.co/restaurant/kkahuate?fbclid=PAZXh0bgNhZW0CMTEAAabazOlXKhVfz_ldhHb9-HQ1rl4A8-gRcrGOefMkXwSxsZHvK-0zZtWYDT0_aem_GL8287ffARV3LkaIkilejw"
     },
+    {
+        _id: "25",
+        address: "KR 66 11 60",
+        carta: "https://route66barcali.com/menu/",
+        category: "Bar",
+        description: "",
+        dress_code: "Camiseta negra, pantalon o jean negro",
+        image_carousel: [route661, route662, route663],
+        image: route66,
+        lat: 3.398,
+        lng: -76.5399,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: route66_marker,
+        name: "Route 66 Limonar",
+        promo: "",
+        schedule: "4:00pm - 2:00am",
+        subtitle: "Bar",
+        url_reserva: "https://route66barcali.com/menu/"
+    },
+    {
+        _id: "26",
+        address: "KR 66 10A 08",
+        carta: "",
+        category: "Bar",
+        description: "",
+        dress_code: "N/A",
+        image_carousel: [],
+        image: la_calle,
+        lat: 3.404193165,
+        lng: -76.5397978,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: la_calle_marker,
+        name: "Licores La Calle",
+        promo: "",
+        schedule: "3:00pm - 3:00am",
+        subtitle: "Bar",
+        url_reserva: ""
+    },
+    {
+        _id: "27",
+        address: "CL 11 A 65 A 145",
+        carta: "",
+        category: "Bar",
+        description: "",
+        dress_code: "N/A",
+        image_carousel: [licores_rr1],
+        image: licores_rr,
+        lat: 3.398703985,
+        lng: -76.5393322,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: licores_rr_marker,
+        name: "Licores Rr Limonar",
+        promo: "",
+        schedule: "3:00pm - 3:00am",
+        subtitle: "Bar",
+        url_reserva: ""
+    },
+    {
+        _id: "28",
+        address: "AV 9N 15A 27",
+        carta: "https://app.menupp.co/restaurant/bourbonst",
+        category: "Bar",
+        description: "",
+        dress_code: "Camiseta negra con nuestros logos",
+        image_carousel: [bourbon1, bourbon2, bourbon3, bourbon4, bourbon5],
+        image: bourbon,
+        lat: 3.4599,
+        lng: -76.5337,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: bourbonMarker,
+        name: "Bourbon St. Granada",
+        promo: "",
+        schedule: "5:00pm-2:00am",
+        subtitle: "Bar",
+        url_reserva: "https://app.menupp.co/restaurant/bourbonst"
+    },
+    {
+        _id: "29",
+        address: "KR 10 10-60",
+        carta: "https://espacio-10-60.cluvi.co/?fbclid=PAZXh0bgNhZW0CMTEAAaahOg4IW4no0VHKwwq62gVl8cAAJNyK8ORi96L1EHUiO_KERBlBzSCc6WU_aem_eann68Al3MgdeZy26qe6ag",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Delantal negro, camiseta negra",
+        image_carousel: [espacio_10_60_1, espacio_10_60_2],
+        image: espacio_10_60,
+        lat: 3.4506262,
+        lng: -76.5321389,
+        marca_logo: budweiser,
+        marca: budweiser,
+        marker: espacio_10_60_marker,
+        name: "Espacio 10-60",
+        promo: "",
+        schedule: "8:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: "https://espacio-10-60.cluvi.co/?fbclid=PAZXh0bgNhZW0CMTEAAaahOg4IW4no0VHKwwq62gVl8cAAJNyK8ORi96L1EHUiO_KERBlBzSCc6WU_aem_eann68Al3MgdeZy26qe6ag"
+    },
+    {
+        _id: "30",
+        address: "CL 1 OESTE 2 - 38",
+        carta: "https://app.menupp.co/menu/thelobby?fbclid=PAZXh0bgNhZW0CMTEAAabHlCmOUJSG1xxhknY8DrZTXGbKsBGtTnq2bldq53WjL2XsT4-xWUEBEfk_aem_0ddXufiU_jBhI49_xSOdlA",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Camisa blanca, pantalon casual",
+        image_carousel: [the_lobby1, the_lobby2, the_lobby3, the_lobby4],
+        image: the_lobby,
+        lat: 3.45007932,
+        lng: -76.54101966,
+        marca_logo: budweiser,
+        marca: budweiser,
+        marker: the_lobby_marker,
+        name: "The Lobby",
+        promo: "",
+        schedule: "9:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: "https://app.menupp.co/menu/thelobby?fbclid=PAZXh0bgNhZW0CMTEAAabHlCmOUJSG1xxhknY8DrZTXGbKsBGtTnq2bldq53WjL2XsT4-xWUEBEfk_aem_0ddXufiU_jBhI49_xSOdlA"
+    },
+    {
+        _id: "31",
+        address: "KR 2 OESTE 2-39",
+        carta: "",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Camisa negra",
+        image_carousel: [sagsa1, sagsa2, sagsa3],
+        image: sagsa,
+        lat: 3.45074,
+        lng: -76.54215,
+        marca_logo: budweiser,
+        marca: budweiser,
+        marker: sagsa_marker,
+        name: "Sagsa",
+        promo: "",
+        schedule: "9:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: ""
+    },
+    {
+        _id: "32",
+        address: "KR 105 14 250",
+        carta: "https://app.menupp.co/restaurant/icepub?fbclid=PAZXh0bgNhZW0CMTEAAaY55Ze3Vqt7PSgHh8fm-Nb_VCsakI7IRxmqnpYEWzzR-lHAqWHes9805ts_aem_pIMjCN29rlKFbM0pnbNOsw",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Gorra, camiseta negra, delantal",
+        image_carousel: [icepub1, icepub2, icepub3],
+        image: icepub,
+        lat: 3.3753808,
+        lng: -76.5351392,
+        marca_logo: budweiser,
+        marca: budweiser,
+        marker: icepub_marker,
+        name: "Icepub",
+        promo: "",
+        schedule: "7:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: "https://app.menupp.co/restaurant/icepub?fbclid=PAZXh0bgNhZW0CMTEAAaY55Ze3Vqt7PSgHh8fm-Nb_VCsakI7IRxmqnpYEWzzR-lHAqWHes9805ts_aem_pIMjCN29rlKFbM0pnbNOsw"
+    },
+    {
+        _id: "33",
+        address: "CL 21 5 43",
+        carta: "https://www.instagram.com/stories/highlights/17997970337484080/?hl=es",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Camisa negra",
+        image_carousel: [la_over1, la_over2, la_over3],
+        image: la_over,
+        lat: 3.4555464,
+        lng: -76.5240923,
+        marca_logo: budweiser,
+        marca: budweiser,
+        marker: la_over_marker,
+        name: "La Over",
+        promo: "",
+        schedule: "7:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: "https://www.instagram.com/stories/highlights/17997970337484080/?hl=es"
+    },
+    {
+        _id: "34",
+        address: "AV 10 7N 10",
+        carta: "https://drive.google.com/file/d/1dAJhOJk3RuaH4Rpq1uVecYdUXY8fq8wn/view",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Buzo negro polo",
+        image_carousel: [donde_fabio1, donde_fabio2],
+        image: donde_fabio,
+        lat: 3.4562687,
+        lng: -76.52591691,
+        marca_logo: budweiser,
+        marca: budweiser,
+        marker: donde_fabio_marker,
+        name: "Donde Fabio",
+        promo: "",
+        schedule: "8:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: "https://drive.google.com/file/d/1dAJhOJk3RuaH4Rpq1uVecYdUXY8fq8wn/view"
+    }
+
 
 
 

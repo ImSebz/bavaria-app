@@ -3,17 +3,32 @@
 .navbar {
     padding: 20px 0px 0 0;
     display: flex;
-    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
 }
 
+.navbar-cali {
+    background-image: url(/src/assetsCali/navbar-cali.png);
+    background-size: 100%;
+    padding: 5px;
+    background-position: center;
+    margin-bottom: 10px;
+}
 .navbar li {
     cursor: pointer;
 }
 
+.navbar-cali .logo {
+    width: 200px !important;
+    position: relative;
+    margin-left: 20px;
+
+}
+
 .navbar .logo {
     width: 100px;
-
 }
 
 .navbar-menu {
@@ -22,6 +37,7 @@
     gap: 20px;
     color: #000;
     font-size: 18px;
+    margin-right: 10px;
 }
 
 .navbar-ruta-p {
@@ -84,10 +100,19 @@
     display: inline;
 }
 
-@media screen and (max-width: 1050px) {
-    .navbar .logo {
-        width: 60px;
+@media screen and (max-width: 768px) {
+
+    .navbar-cali .logo {
+        width: 100px !important;
+        position: relative;
+        top: -30px;
+        margin-left: 0;
     }
+    
+    .navbar .logo {
+        width: 100px;
+    }
+
 
     .navbar li {
         cursor: pointer;
@@ -109,6 +134,7 @@
         padding-right: 21px;
         top: -5px;
         margin-bottom: -40px;
+        margin-right: 10px;
     }
 
     .navbar-ruta-p {

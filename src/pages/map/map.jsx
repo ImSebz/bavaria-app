@@ -61,7 +61,7 @@ function MyComponent() {
                     icon={{
                         url: location.marker,
                         scaledSize: new window.google.maps.Size(75, 75),
-                        size: new window.google.maps.Size(75, 75), 
+                        size: new window.google.maps.Size(75, 75),
                     }}
                 />
             ))}
