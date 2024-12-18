@@ -9,10 +9,6 @@
     cursor: pointer;
 }
 
-.location-item:hover {
-    transform: scale(1.08);
-}
-
 .location-item-img-container {
     width: 100%;
     height: 180px;
