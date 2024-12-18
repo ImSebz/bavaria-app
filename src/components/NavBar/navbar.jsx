@@ -29,8 +29,8 @@ const Navbar = () => {
 
     return (
         <div className={`navbar ${isCaliRoute || isMapaCaliRoute ? 'navbar-cali' : ''}`}>
-            <Link to="/" onClick={() => { setMenu("home") }}>
-            <img src={isCaliRoute || isMapaCaliRoute ? assetsCali.logoHighEndCali : assets.logoHighEnd} className='logo' alt="Logo" />
+            <Link to={isCaliRoute || isMapaCaliRoute ? "/cali" : "/"} onClick={() => { setMenu(isCaliRoute || isMapaCaliRoute ? "cali" : "home") }}>
+                <img src={isCaliRoute || isMapaCaliRoute ? assetsCali.logoHighEndCali : assets.logoHighEnd} className='logo' alt="Logo" />
             </Link>
             <ul className={`sidebar-menu ${isSidebarOpen ? 'open' : ''}`}>
                 <li onClick={handleMenuClick} className='hamburger'>
@@ -46,7 +46,7 @@ const Navbar = () => {
                     <li className={menu === "ciudades" ? "active" : ""}>Ciudades</li>
                 </Link>
             </ul>
-        
+
             <ul className="navbar-menu">
                 <Link to={isCaliRoute || isMapaCaliRoute ? "/cali" : "/"} onClick={() => { setMenu("home") }}>
                     <li className={menu === "home" ? "active" : ""} id='home-li'>Inicio</li>

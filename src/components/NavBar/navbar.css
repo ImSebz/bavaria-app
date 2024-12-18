@@ -12,7 +12,8 @@
 
 .navbar-cali {
     background-image: url(/src/assetsCali/navbar-cali.png);
-    background-size: 100%;
+    background-size: 90%;
+    background-repeat: no-repeat;
     padding: 5px;
     background-position: center;
     margin-bottom: 20px;
@@ -102,6 +103,10 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .navbar-cali {
+        background-size: 100%;
+    }
 
     .navbar-cali .logo {
         width: 100px !important;
