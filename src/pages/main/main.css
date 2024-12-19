@@ -27,15 +27,20 @@
 }
 
 .btn-ciudad {
-    width: 50%;
+    width: 180px;
     border: none;
     padding: 15px;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     border: solid #000 1px;
     background-color: #fff;
     border-radius: 5px;
     transition: all 0.5s ease;
     cursor: pointer;
+}
+
+.btn-ciudad:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 /* Desktop media query */
@@ -53,4 +58,6 @@
     .btn-ciudad {
         width: 200px;
     }
+
+    
 }
