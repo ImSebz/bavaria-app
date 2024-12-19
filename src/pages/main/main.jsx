@@ -4,14 +4,12 @@ import './main.css';
 const main = () => {
     return (
         <>
-            <div>
-                <h1>Selecciona tu ciudad</h1>
-                <div>
-                    <br />
-                    <button>Cartagena</button>
-                    <br />
-                    <br />
-                    <button>Cali</button>
+            <div className='inicio-container'>
+                <h1>¡Bienvenido a la Ruta de la Cerveza!</h1>
+                <h2>Elige tu ciudad y prepárate para descubrir las mejores experiencias cerca de ti.</h2>
+                <div className='inicio-btns'>
+                    <button className='btn-ciudad'>Cali</button>
+                    <button className='btn-ciudad'>Cartagena</button>
                 </div>
             </div>
         </>
