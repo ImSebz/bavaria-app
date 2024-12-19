@@ -7,7 +7,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .navbar-cali {
@@ -16,7 +16,7 @@
     background-position: 0 49%;
     background-repeat: no-repeat;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .navbar li {
     cursor: pointer;
@@ -30,7 +30,9 @@
 }
 
 .navbar .logo {
-    width: 100px;
+    width: 200px;
+    position: relative;
+    margin-left: 20px;
 }
 
 .navbar-menu {
@@ -117,7 +119,8 @@
     }
     
     .navbar .logo {
-        width: 100px;
+        width: 150px;
+        margin-left: 0;
     }
 
 
