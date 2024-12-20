@@ -302,7 +302,7 @@ export const location_list_cali = [
     {
         _id: "3",
         address: "AV 2 N 7-09",
-        carta: "https://app.menupp.co/restaurant/boitara?fbclid=PAAaa_-G6sA-M-5o29OyrS9YHkyLOTJZyS7JwbLcA9X5SfHPQFDaNhv8PiYV0_aem_Aaer9WIV8pBrJcn89PnqLSinsJO-kUkVH_vCRp1WcqKMrJoukD4ffskagYwi34o517Y",
+        carta: "https://menupp.co/tresfronteras",
         category: "Restaurante",
         description: "",
         dress_code: "Ropa casual jeans clasico, camisa casual o blusa elegante",
@@ -313,7 +313,7 @@ export const location_list_cali = [
         marca_logo: clubColombia_logo,
         marca: clubColombia,
         marker: tres_fronteras_marker,
-        name: "Boitará",
+        name: "Paraleloo",
         promo: "",
         schedule: "12:00m - 11:00pm",
         subtitle: "Restaurante",
@@ -941,4 +941,9 @@ export const location_list_cali = [
         subtitle: "Discoteca",
         url_reserva: "https://drive.google.com/file/d/1dAJhOJk3RuaH4Rpq1uVecYdUXY8fq8wn/view"
     },
+    {
+        _id: "35",
+        address: "AV 3 N 7-19",
+        carta: "",
+    }
 ]
