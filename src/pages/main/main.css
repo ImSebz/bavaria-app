@@ -43,6 +43,24 @@
     color: #fff;
 }
 
+.inicio-photo-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.inicio-photo-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
 /* Desktop media query */
 
 @media screen and (min-width: 768px) {

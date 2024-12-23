@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { assets } from '../../assets/assets';
 import './main.css';
+
 
 const main = () => {
     return (
@@ -15,6 +17,9 @@ const main = () => {
                     <Link to="/cartagena">
                     <button className='btn-ciudad'>Cartagena</button>
                     </Link>
+                </div>
+                <div className='inicio-photo-container'>
+                    <img src={ assets.high_end_mobile } alt="" />
                 </div>
             </div>
         </>
