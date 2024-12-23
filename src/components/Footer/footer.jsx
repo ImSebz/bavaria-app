@@ -15,7 +15,7 @@ function Footer() {
             <div className='footer-content'>
                 <div className='footer-content-left'>
                     <div className='footer-logo-cont'>
-                        <img className='footer-logo-img' src={assets.logoHighEnd} alt="Logo Bavaria" />
+                        <Link to="/"> <img className='footer-logo-img' src={assets.logoHighEnd} alt="Logo Bavaria" /></Link>
                     </div>
                     {/* <div className="footer-social-icons">
                         <img src={assets.facebook_icon} alt="" />
@@ -44,7 +44,7 @@ function Footer() {
                     <h2>Menú</h2>
                     <ul>
                         <Link to="/" onClick={scrollToTop}><li>Inicio</li></Link>
-                        <Link to="/Mapa" onClick={scrollToTop} ><li>Mapa</li></Link>
+                        {/* <Link to="/Mapa" onClick={scrollToTop} ><li>Mapa</li></Link> */}
                     </ul>
                 </div>
             </div>

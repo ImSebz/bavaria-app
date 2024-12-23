@@ -39,9 +39,11 @@ const Navbar = () => {
                 <Link to={isCaliRoute || isMapaCaliRoute ? "/cali" : "/"} onClick={() => { setMenu("home"); setIsSidebarOpen(false); }}>
                     <li className={menu === "home" ? "active" : ""}>Inicio</li>
                 </Link>
-                <Link to={isCaliRoute || isMapaCaliRoute ? "/mapa-cali" : "/mapa"} onClick={() => { setMenu("map"); setIsSidebarOpen(false); }}>
-                    <li className={menu === "map" ? "active" : ""}>Mapa</li>
-                </Link>
+                {(location.pathname !== '/') && (
+                    <Link to={isCaliRoute || isMapaCaliRoute ? "/mapa-cali" : "/mapa"} onClick={() => { setMenu("map"); setIsSidebarOpen(false); }}>
+                        <li className={menu === "map" ? "active" : ""}>Mapa</li>
+                    </Link>
+                )}
                 <Link to="/ciudades" onClick={() => { setMenu("ciudades"); setIsSidebarOpen(false); }}>
                     <li className={menu === "ciudades" ? "active" : ""}>Ciudades</li>
                 </Link>
@@ -51,9 +53,11 @@ const Navbar = () => {
                 <Link to={isCaliRoute || isMapaCaliRoute ? "/cali" : "/"} onClick={() => { setMenu("home") }}>
                     <li className={menu === "home" ? "active" : ""} id='home-li'>Inicio</li>
                 </Link>
-                <Link to={isCaliRoute || isMapaCaliRoute ? "/mapa-cali" : "/mapa"} onClick={() => { setMenu("map") }}>
-                    <li className={menu === "map" ? "active" : ""} id='mapa-li'>Mapa</li>
-                </Link>
+                {(location.pathname !== '/') && (
+                    <Link to={isCaliRoute || isMapaCaliRoute ? "/mapa-cali" : "/mapa"} onClick={() => { setMenu("map") }}>
+                        <li className={menu === "map" ? "active" : ""} id='mapa-li'>Mapa</li>
+                    </Link>
+                )}
                 <Link to="/ciudades" onClick={() => { setMenu("ciudades") }}>
                     <li className={menu === "ciudades" ? "active" : ""} id='ciudades-li'>Ciudades</li>
                 </Link>

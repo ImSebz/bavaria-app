@@ -17,8 +17,7 @@
 }
 
 .footer-logo-img {
-    width: 140px;
-    height: 140px;
+    width: 340px;
 }
 
 .footer-content {
@@ -72,7 +71,7 @@
 }
 
 .footer-copyright {
-    font-size: 13px;
+    font-size: 1rem;
 }
 
 @media (max-width: 750px) {
@@ -88,8 +87,7 @@
     }
 
     .footer-logo-img {
-        width: 120px;
-        height: 120px;
+        width: 300px;
     }
 
 }

@@ -8,11 +8,11 @@ const Citys = () => {
             <div className='main-city-container'>
                 <h1>Selecciona tu ciudad</h1>
                 <div className='city-button-container'>
-                    <Link to="/">
-                        <button className='btn-city'>Cartagena</button>
-                    </Link>
                     <Link to="/cali">
                         <button className='btn-city'>Cali</button>
+                    </Link>
+                    <Link to="/cartagena">
+                        <button className='btn-city'>Cartagena</button>
                     </Link>
                 </div>
             </div>
