@@ -45,7 +45,7 @@ import club_farallones2 from './club_farallones2.jpg';
 import club_farallones3 from './club_farallones3.jpg';
 import club_farallones4 from './club_farallones4.jpg';
 import clubColombia from './club_colombia.svg';
-import clubColombia_logo from './club_colombia_logo.svg';
+import clubColombia_logo from './club_colombia_logo.png';
 import clubes from './clubes.jpg';
 import corona from './corona.svg';
 import corona_logo from './corona_logo.svg';
@@ -941,9 +941,4 @@ export const location_list_cali = [
         subtitle: "Discoteca",
         url_reserva: "https://drive.google.com/file/d/1dAJhOJk3RuaH4Rpq1uVecYdUXY8fq8wn/view"
     },
-    {
-        _id: "35",
-        address: "AV 3 N 7-19",
-        carta: "",
-    }
 ]
