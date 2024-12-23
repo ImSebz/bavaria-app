@@ -10,11 +10,13 @@ function Footer() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
+    const mainRoute  = location.pathname === '/';
+
     return (
         <div className='footer' id='footer'>
             <div className='footer-content'>
                 <div className='footer-content-left'>
-                    <div className='footer-logo-cont'>
+                <div className={`footer-logo-cont ${mainRoute ? 'hide-on-mobile' : ''}`}>
                         <Link to="/"> <img className='footer-logo-img' src={assets.logoHighEnd} alt="Logo Bavaria" /></Link>
                     </div>
                     {/* <div className="footer-social-icons">
