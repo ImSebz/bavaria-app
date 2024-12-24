@@ -12,8 +12,6 @@ import callao from './callao.jpg';
 import callao_marker from './callao_marker.png';
 import callao1 from './callao1.jpg';
 import callao2 from './callao2.jpg';
-import callao3 from './callao3.jpg';
-import callao4 from './callao4.jpg';
 import cartaIcon from './carta.svg';
 import caruzo from './caruzo.jpg';
 import caruzo_marker from './caruzo_marker.png';
@@ -501,7 +499,7 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Ropa sport jeans, camiseta oversize, blusa sin escote, pantalon casual o jeans",
-        image_carousel: [callao1, callao2, callao3, callao4],
+        image_carousel: [callao1, callao2],
         image: callao,
         lat: 3.4478923,
         lng: -76.5330733, 
