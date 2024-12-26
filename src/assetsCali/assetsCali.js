@@ -397,7 +397,7 @@ export const location_list_cali = [
         category: "Restaurante",
         description: "",
         dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formalo",
-        image_carousel: [citadino1, citadino2, citadino3, citadino4, citadino5, citadino6],
+        image_carousel: [citadino1, citadino2, citadino3, citadino4, citadino5],
         image: citadino,
         lat: 3.4501533,
         lng: -76.5412048,
