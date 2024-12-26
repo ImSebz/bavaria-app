@@ -19,6 +19,7 @@ import caruzo1 from './caruzo1.jpg';
 import caruzo2 from './caruzo2.jpg';
 import caruzo3 from './caruzo3.jpg';
 import casa_iberica from './casa_iberica.jpg';
+import casa_iberica_marker from './casa_iberica_marker.png';
 import casa_iberica1 from './casa_iberica1.png';
 import casa_iberica2 from './casa_iberica2.png';
 import citadino from './citadino.jpg';
@@ -66,6 +67,7 @@ import florDeLaCanela1 from './flor_de_la_canela1.jpg';
 import florDeLaCanela2 from './flor_de_la_canela2.jpg';
 import florDeLaCanelaMarker from './flor_de_la_canela_marker.png';
 import hacienda_del_bosque from './hacienda_del_bosque.jpg';
+import hacienda_del_bosque_marker from './hacienda_del_bosque_marker.png';
 import hacienda_del_bosque1 from './hacienda_del_bosque1.jpg';
 import hacienda_del_bosque2 from './hacienda_del_bosque2.jpg';
 import hacienda_del_bosque3 from './hacienda_del_bosque3.jpg';
@@ -119,6 +121,7 @@ import logoHighEnd from './logo_high_end.svg';
 import logoHighEndCali from './logo_high_end_cali.png';
 import mapaIcon from './mapa.svg';
 import mercadillo from './mercadillo.jpg';
+import mercadillo_marker from './mercadillo_marker.png';
 import mercadillo1 from './mercadillo1.jpg';
 import monchis from './monchis.jpg';
 import monchis_marker from './monchis_marker.png';
@@ -146,6 +149,7 @@ import nuevo_leon4 from './nuevo_leon4.jpg';
 import nuevo_leon5 from './nuevo_leon5.jpg';
 import nuevo_leon6 from './nuevo_leon6.jpg';
 import platillos_voladores from './platillos_voladores.jpg';
+import platillos_voladores_marker from './platillos_voladores_marker.png';
 import platillos_voladores1 from './platillos_voladores1.jpg';
 import platillos_voladores2 from './platillos_voladores2.jpg';
 import plazoleta_municipal from './plazoleta_municipal.jpg';
@@ -958,7 +962,7 @@ export const location_list_cali = [
         lng: -76.5372494,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: platillos_voladores_marker,
         name: "Platillos Voladores",
         promo: "",
         schedule: "12:00pm - 10:00pm / 6:00pm - 10:00pm",
@@ -978,7 +982,7 @@ export const location_list_cali = [
         lng: -76.5435839,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: casa_iberica_marker,
         name: "Casa Ibérica",
         promo: "",
         schedule: "12:00pm - 10:00pm",
@@ -998,7 +1002,7 @@ export const location_list_cali = [
         lng: -76.5429077,
         marca_logo: bbc_logo,
         marca: bbc_logo,
-        marker: null,
+        marker: mercadillo_marker,
         name: "Mercadillo Peñon",
         promo: "",
         schedule: "11:00pm - 10:00pm",
@@ -1018,7 +1022,7 @@ export const location_list_cali = [
         lng: -76.565026,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: hacienda_del_bosque_marker,
         name: "Hacienda del Bosque",
         promo: "",
         schedule: "2:00pm - 10:00pm",
