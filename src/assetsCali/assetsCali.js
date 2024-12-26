@@ -18,20 +18,17 @@ import caruzo_marker from './caruzo_marker.png';
 import caruzo1 from './caruzo1.jpg';
 import caruzo2 from './caruzo2.jpg';
 import caruzo3 from './caruzo3.jpg';
-import caruzo4 from './caruzo4.jpg';
+import casa_iberica from './casa_iberica.jpg';
+import casa_iberica1 from './casa_iberica1.png';
+import casa_iberica2 from './casa_iberica2.png';
 import citadino from './citadino.jpg';
 import citadino_marker from './citadino_marker.png';
 import citadino1 from './citadino1.jpg';
-import citadino10 from './citadino10.jpg';
-import citadino11 from './citadino11.jpg';
 import citadino2 from './citadino2.jpg';
 import citadino3 from './citadino3.jpg';
 import citadino4 from './citadino4.jpg';
 import citadino5 from './citadino5.jpg';
 import citadino6 from './citadino6.jpg';
-import citadino7 from './citadino7.jpg';
-import citadino8 from './citadino8.jpg';
-import citadino9 from './citadino9.jpg';
 import club_campestre from './club_campestre.jpg';
 import club_campestre_marker from './club_campestre_marker.png';
 import club_campestre1 from './club_campestre1.jpg';
@@ -398,7 +395,7 @@ export const location_list_cali = [
         category: "Restaurante",
         description: "",
         dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formalo",
-        image_carousel: [citadino1, citadino2, citadino3, citadino4, citadino5, citadino6, citadino7, citadino8, citadino9, citadino10, citadino11],
+        image_carousel: [citadino1, citadino2, citadino3, citadino4, citadino5, citadino6],
         image: citadino,
         lat: 3.4501533,
         lng: -76.5412048,
@@ -539,7 +536,7 @@ export const location_list_cali = [
         category: "Rooftop",
         description: "",
         dress_code: "Ropa casual jeans clasico, camisa casual o blusa elegante",
-        image_carousel: [caruzo1, caruzo2, caruzo3, caruzo4],
+        image_carousel: [caruzo1, caruzo2, caruzo3],
         image: caruzo,
         lat: 3.3344461,
         lng: -76.539331,
@@ -979,8 +976,8 @@ export const location_list_cali = [
         category: "Restaurante",
         description: "",
         dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formal",
-        image_carousel: [],
-        image: restaurante,
+        image_carousel: [casa_iberica1, casa_iberica2],
+        image: casa_iberica,
         lat: 3.4492956,
         lng: -76.5435839,
         marca_logo: stella_logo,
