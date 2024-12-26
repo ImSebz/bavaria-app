@@ -188,7 +188,6 @@ import the_lobby_marker from './the_lobby_marker.png';
 import the_lobby1 from './the_lobby1.jpg';
 import the_lobby2 from './the_lobby2.jpg';
 import the_lobby3 from './the_lobby3.jpg';
-import the_lobby4 from './the_lobby4.jpg';
 import tizones from './tizones.jpg';
 import tizones_marker from './tizones_marker.png';
 import tizones1 from './tizones1.jpg';
@@ -858,7 +857,7 @@ export const location_list_cali = [
         category: "Discoteca",
         description: "",
         dress_code: "Ropa sport jeans, polo, camiseta oversize, blusa sin escote, pantalon casual o jeans",
-        image_carousel: [the_lobby1, the_lobby2, the_lobby3, the_lobby4],
+        image_carousel: [the_lobby1, the_lobby2, the_lobby3],
         image: the_lobby,
         lat: 3.4499875,
         lng: -76.5435905,
