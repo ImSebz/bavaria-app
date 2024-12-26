@@ -33,13 +33,11 @@ import club_campestre from './club_campestre.jpg';
 import club_campestre_marker from './club_campestre_marker.png';
 import club_campestre1 from './club_campestre1.jpg';
 import club_campestre2 from './club_campestre2.jpg';
-import club_campestre3 from './club_campestre3.jpg';
 import club_farallones from './club_farallones.jpg';
 import club_farallones_marker from './club_farallones_marker.png';
 import club_farallones1 from './club_farallones1.jpg';
 import club_farallones2 from './club_farallones2.jpg';
 import club_farallones3 from './club_farallones3.jpg';
-import club_farallones4 from './club_farallones4.jpg';
 import clubColombia from './club_colombia.svg';
 import clubColombia_logo from './club_colombia_logo.png';
 import clubes from './clubes.jpg';
@@ -77,8 +75,6 @@ import hotel_movich from './hotel_movich.jpg';
 import hotel_movich_marker from './hotel_movich_marker.png';
 import hotel_movich1 from './hotel_movich1.jpg';
 import hotel_movich2 from './hotel_movich2.jpg';
-import hotel_movich3 from './hotel_movich3.jpg';
-import hotel_movich4 from './hotel_movich4.jpg';
 import icepub from './icepub.jpg';
 import icepub_marker from './icepub_marker.png';
 import icepub1 from './icepub1.jpg';
@@ -191,13 +187,13 @@ import tizones from './tizones.jpg';
 import tizones_marker from './tizones_marker.png';
 import tizones1 from './tizones1.jpg';
 import tizones2 from './tizones2.jpg';
+import tizones3 from './tizones3.jpg';
+import tizones4 from './tizones4.jpg';
 import topa_tolondra from './topa_tolondra.jpg';
 import topa_tolondra_marker from './topa_tolondra_marker.png';
 import topa_tolondra1 from './topa_tolondra1.jpg';
 import topa_tolondra2 from './topa_tolondra2.jpg';
 import topa_tolondra3 from './topa_tolondra3.jpg';
-import topa_tolondra4 from './topa_tolondra4.jpg';
-import topa_tolondra5 from './topa_tolondra5.jpg';
 import tres_fronteras from './tres_fronteras.jpg';
 import tres_fronteras_marker from './tres_fronteras_marker.png';
 import tres_fronteras1 from './tres_fronteras1.jpg';
@@ -354,7 +350,7 @@ export const location_list_cali = [
         category: "Restaurante",
         description: "",
         dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formal",
-        image_carousel: [tizones1, tizones2],
+        image_carousel: [tizones1, tizones2, tizones3, tizones4],
         image: tizones,
         lat: 3.4713002,
         lng: -76.5325632,
@@ -455,7 +451,7 @@ export const location_list_cali = [
         category: "Restaurante",
         description: "",
         dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formal",
-        image_carousel: [hotel_movich1, hotel_movich2, hotel_movich3, hotel_movich4],
+        image_carousel: [hotel_movich1, hotel_movich2],
         image: hotel_movich,
         lat: 3.4558548,
         lng: -76.5371638,
@@ -596,7 +592,7 @@ export const location_list_cali = [
         category: "Clubes",
         description: "",
         dress_code: "Ropa sport de tenis, jeans casual, blusa casual sin escotes, pantalon casual",
-        image_carousel: [club_farallones1, club_farallones2, club_farallones3, club_farallones4],
+        image_carousel: [club_farallones1, club_farallones2, club_farallones3],
         image: club_farallones,
         lat: 3.3309783,
         lng: -76.5458734,
@@ -616,7 +612,7 @@ export const location_list_cali = [
         category: "Clubes",
         description: "",
         dress_code: "Ropa sport de Golf, jeans casual, blusa casual sin escotes, pantalon casual",
-        image_carousel: [club_campestre1, club_campestre2, club_campestre3],
+        image_carousel: [club_campestre1, club_campestre2],
         image: club_campestre,
         lat: 3.3691575,
         lng: -76.5449291,
@@ -696,7 +692,7 @@ export const location_list_cali = [
         category: "Bar",
         description: "",
         dress_code: "Ropa elegante, camisa formal pantalon casual, blusa elegante escote, pantalon formal o clasico",
-        image_carousel: [topa_tolondra1, topa_tolondra2, topa_tolondra3, topa_tolondra4, topa_tolondra5],
+        image_carousel: [topa_tolondra1, topa_tolondra2, topa_tolondra3],
         image: topa_tolondra,
         lat: 3.4442907,
         lng: -76.5390882,
