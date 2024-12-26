@@ -29,7 +29,6 @@ import citadino2 from './citadino2.jpg';
 import citadino3 from './citadino3.jpg';
 import citadino4 from './citadino4.jpg';
 import citadino5 from './citadino5.jpg';
-import citadino6 from './citadino6.jpg';
 import club_campestre from './club_campestre.jpg';
 import club_campestre_marker from './club_campestre_marker.png';
 import club_campestre1 from './club_campestre1.jpg';
@@ -121,6 +120,10 @@ import logoHighEnd from './logo_high_end.svg';
 import logoHighEndCali from './logo_high_end_cali.png';
 import mapaIcon from './mapa.svg';
 import mercadillo from './mercadillo.jpg';
+import mercadillo1 from './mercadillo1.jpg';
+import mercadillo2 from './mercadillo2.jpg';
+import mercadillo3 from './mercadillo3.jpg';
+import mercadillo4 from './mercadillo4.jpg';
 import mercadillo_marker from './mercadillo_marker.png';
 import mercadillo1 from './mercadillo1.jpg';
 import monchis from './monchis.jpg';
@@ -996,7 +999,7 @@ export const location_list_cali = [
         category: "Restaurante",
         description: "",
         dress_code: "Ropa sport jeans, camiseta oversize, blusa sin escote, pantalon casual o jeans",
-        image_carousel: [mercadillo1],
+        image_carousel: [mercadillo1, mercadillo2, mercadillo3, mercadillo4],
         image: mercadillo,
         lat: 3.4501004,
         lng: -76.5429077,
