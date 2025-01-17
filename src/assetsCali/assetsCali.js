@@ -152,6 +152,7 @@ import tizones2 from './tizones2.jpg';
 import tizones3 from './tizones3.jpg';
 import tizones4 from './tizones4.jpg';
 import tortelli from './tortelli.jpg';
+import tortelli_marker from './tortelli_marker.png';
 import tortelli1 from './tortelli1.jpg';
 import tortelli2 from './tortelli2.jpg';
 import tortelli3 from './tortelli3.jpg';
@@ -176,6 +177,7 @@ import zur1 from './zur1.jpg';
 import zur2 from './zur2.jpg';
 import zur3 from './zur3.jpg';
 import guayabo from './guayabo.jpg';
+import guayabo_marker from './guayabo_marker.png';
 import guayabo1 from './guayabo1.jpg';
 import guayabo2 from './guayabo2.jpg';
 import guayabo3 from './guayabo3.jpg';
@@ -282,7 +284,7 @@ export const location_list_cali = [
         lng: -76.5425819,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: tortelli_marker,
         name: "Tortelli",
         promo: "",
         schedule: "11:00pm - 10:00pm",
@@ -424,7 +426,7 @@ export const location_list_cali = [
         lng: -76.5329442,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: guayabo_marker,
         name: "El Guayabo Café",
         promo: "",
         schedule: "4:00pm - 10:00pm",
