@@ -108,14 +108,13 @@
     .navbar-cali {
         background-image: url(/src/assetsCali/navbar-cali.png);
         background-size: cover;
-        min-height: 138px;
         background-position: center;
     }
 
     .navbar-cali .logo {
         width: 100px !important;
         position: relative;
-        top: -40px;
+        top: -20px;
         margin-left: 0;
     }
     
