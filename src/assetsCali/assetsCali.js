@@ -48,14 +48,6 @@ import donde_fabio from './donde_fabio.jpg';
 import donde_fabio_marker from './donde_fabio_marker.png';
 import donde_fabio1 from './donde_fabio1.jpg';
 import donde_fabio2 from './donde_fabio2.jpg';
-import epoca from './epoca.jpg';
-import epoca_marker from './epoca_marker.png';
-import epoca1 from './epoca1.jpg';
-import epoca2 from './epoca2.jpg';
-import epoca3 from './epoca3.jpg';
-import epoca4 from './epoca4.jpg';
-import epoca5 from './epoca5.jpg';
-import epoca6 from './epoca6.jpg';
 import espacio_10_60 from './espacio_10_60.jpg';
 import espacio_10_60_1 from './espacio_10_60_1.jpg';
 import espacio_10_60_2 from './espacio_10_60_2.jpg';
@@ -72,37 +64,18 @@ import hacienda_del_bosque2 from './hacienda_del_bosque2.jpg';
 import hacienda_del_bosque3 from './hacienda_del_bosque3.jpg';
 import hacienda_del_bosque4 from './hacienda_del_bosque4.jpg';
 import hacienda_del_bosque5 from './hacienda_del_bosque5.jpg';
-import hotel_movich from './hotel_movich.jpg';
-import hotel_movich_marker from './hotel_movich_marker.png';
-import hotel_movich1 from './hotel_movich1.jpg';
-import hotel_movich2 from './hotel_movich2.jpg';
 import icepub from './icepub.jpg';
 import icepub_marker from './icepub_marker.png';
 import icepub1 from './icepub1.jpg';
 import icepub2 from './icepub2.jpg';
 import icepub3 from './icepub3.jpg';
 import instagram_icon from './instagram_icon.svg';
-import kkahuate from './kkahuate.jpg';
-import kkahuate_marker from './kkahuate_marker.png';
-import kkahuate1 from './kkahuate1.jpg';
-import kkahuate2 from './kkahuate2.jpg';
-import kkahuate3 from './kkahuate3.jpg';
-import kkahuate4 from './kkahuate4.jpg';
-import la_calle from './la_calle.jpg';
-import la_calle_marker from './la_calle_marker.png';
 import la_casona from './la_casona.jpeg';
 import la_casona_marker from './la_casona_marker.png';
 import la_casona1 from './la_casona1.jpeg';
 import la_casona2 from './la_casona2.jpeg';
 import la_casona3 from './la_casona3.jpeg';
 import la_casona4 from './la_casona4.jpg';
-import la_comitiva from './la_comitiva.jpg';
-import la_comitiva_marker from './la_comitiva_marker.png';
-import la_comitiva1 from './la_comitiva1.jpg';
-import la_comitiva2 from './la_comitiva2.jpg';
-import la_comitiva3 from './la_comitiva3.jpg';
-import la_comitiva4 from './la_comitiva4.jpg';
-import la_comitiva5 from './la_comitiva5.jpg';
 import la_over from './la_over.jpg';
 import la_over_marker from './la_over_marker.png';
 import la_over1 from './la_over1.jpg';
@@ -125,23 +98,12 @@ import mercadillo1 from './mercadillo1.jpg';
 import mercadillo2 from './mercadillo2.jpg';
 import mercadillo3 from './mercadillo3.jpg';
 import mercadillo4 from './mercadillo4.jpg';
-import monchis from './monchis.jpg';
-import monchis_marker from './monchis_marker.png';
-import monchis1 from './monchis1.jpg';
-import monchis2 from './monchis2.jpg';
-import monchis3 from './monchis3.jpg';
 import mulato from './mulato.jpg';
 import mulato_marker from './mulato_marker.png';
 import mulato1 from './mulato1.jpg';
 import mulato2 from './mulato2.jpg';
 import mulato3 from './mulato3.jpg';
 import mulato4 from './mulato4.jpg';
-import nueve_avenue from './nueve_avenue.jpg';
-import nueve_avenue_marker from './nueve_avenue_marker.png';
-import nueve_avenue1 from './nueve_avenue1.jpg';
-import nueve_avenue2 from './nueve_avenue2.jpg';
-import nueve_avenue3 from './nueve_avenue3.jpg';
-import nueve_avenue4 from './nueve_avenue4.jpg';
 import nuevo_leon from './nuevo_leon.jpg';
 import nuevo_leon_marker from './nuevo_leon_marker.png';
 import nuevo_leon1 from './nuevo_leon1.jpg';
@@ -166,11 +128,6 @@ import plazoleta_municipal7 from './plazoleta_municipal7.jpg';
 import reservaIcon from './reserva.svg';
 import restaurante from './restaurante.jpg';
 import rooftop from './rooftop.jpg';
-import route66 from './route66.jpg';
-import route66_marker from './route66_marker.png';
-import route661 from './route661.jpg';
-import route662 from './route662.jpg';
-import route663 from './route663.jpg';
 import sabor_molido from './sabor_molido.jpg';
 import sabor_molido_marker from './sabor_molido_marker.png';
 import sabor_molido1 from './sabor_molido1.jpg';
@@ -194,14 +151,16 @@ import tizones1 from './tizones1.jpg';
 import tizones2 from './tizones2.jpg';
 import tizones3 from './tizones3.jpg';
 import tizones4 from './tizones4.jpg';
+import tortelli from './tortelli.jpg';
+import tortelli1 from './tortelli1.jpg';
+import tortelli2 from './tortelli2.jpg';
+import tortelli3 from './tortelli3.jpg';
+import tortelli4 from './tortelli4.jpg';
 import topa_tolondra from './topa_tolondra.jpg';
 import topa_tolondra_marker from './topa_tolondra_marker.png';
 import topa_tolondra1 from './topa_tolondra1.jpg';
 import topa_tolondra2 from './topa_tolondra2.jpg';
 import topa_tolondra3 from './topa_tolondra3.jpg';
-import tres_fronteras from './tres_fronteras.jpg';
-import tres_fronteras_marker from './tres_fronteras_marker.png';
-import tres_fronteras1 from './tres_fronteras1.jpg';
 import x_icon from './x_icon.svg';
 import zonag from './zonag.jpg';
 import zonag_marker from './zonag_marker.png';
@@ -216,6 +175,10 @@ import zur_marker from './zur_marker.png';
 import zur1 from './zur1.jpg';
 import zur2 from './zur2.jpg';
 import zur3 from './zur3.jpg';
+import guayabo from './guayabo.jpg';
+import guayabo1 from './guayabo1.jpg';
+import guayabo2 from './guayabo2.jpg';
+import guayabo3 from './guayabo3.jpg';
 
 export const assetsCali = {
     bar,
@@ -305,6 +268,26 @@ export const location_list_cali = [
         schedule: "2:00pm - 10:00pm",
         subtitle: "Restaurante",
         url_reserva: "https://www.haciendadelbosque.com.co/menus"
+    },
+    {
+        _id: "3",
+        address: "Cl. 3 Oe. #3-15, COMUNA 3",
+        carta: "https://menupp.co/tortelli",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formal",
+        image_carousel: [tortelli1, tortelli2, tortelli3, tortelli4],
+        image: tortelli,
+        lat: 3.4498495,
+        lng: -76.5425819,
+        marca_logo: stella_logo,
+        marca: stella,
+        marker: null,
+        name: "Tortelli",
+        promo: "",
+        schedule: "11:00pm - 10:00pm",
+        subtitle: "Restaurante",
+        url_reserva: "https://menupp.co/tortelli"
     },
     {
         _id: "4",
@@ -427,6 +410,26 @@ export const location_list_cali = [
         subtitle: "Restaurante",
         url_reserva: "https://linktr.ee/lacasonavallunacali?lt_utm_source=lt_share_link#321602347",
 
+    },
+    {
+        _id: "10",
+        address: "Cl. 21 Nte. #9-17, Santa Monica Residential",
+        carta: "https://app.menupp.co/restaurant/elguayabo",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa sport jeans, camiseta oversize, blusa sin escote, pantalon casual o jeans",
+        image_carousel: [guayabo1, guayabo2, guayabo3],
+        image: guayabo,
+        lat: 3.4627946,
+        lng: -76.5329442,
+        marca_logo: corona_logo,
+        marca: corona,
+        marker: null,
+        name: "El Guayabo Café",
+        promo: "",
+        schedule: "4:00pm - 10:00pm",
+        subtitle: "Restaurante",
+        url_reserva: "https://app.menupp.co/restaurant/elguayabo"
     },
     {
         _id: "11",
