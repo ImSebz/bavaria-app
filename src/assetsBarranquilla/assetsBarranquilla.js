@@ -1,0 +1,856 @@
+import bar from './bar.jpg';
+import bbc_logo from './bbc_logo.png';
+import bourbon from './bourbon.jpg';
+import bourbon1 from './bourbon1.jpg';
+import bourbon2 from './bourbon2.jpg';
+import bourbon3 from './bourbon3.jpg';
+import bourbon4 from './bourbon4.jpg';
+import bourbon5 from './bourbon5.jpg';
+import bourbonMarker from './bourbonMarker.png';
+import budweiser from './budweiser_logo.svg';
+import callao from './callao.jpg';
+import callao_marker from './callao_marker.png';
+import callao1 from './callao1.jpg';
+import callao2 from './callao2.jpg';
+import cartaIcon from './carta.svg';
+import caruzo from './caruzo.jpg';
+import caruzo_marker from './caruzo_marker.png';
+import caruzo1 from './caruzo1.jpg';
+import caruzo2 from './caruzo2.jpg';
+import caruzo3 from './caruzo3.jpg';
+import casa_iberica from './casa_iberica.jpg';
+import casa_iberica_marker from './casa_iberica_marker.png';
+import casa_iberica1 from './casa_iberica1.png';
+import casa_iberica2 from './casa_iberica2.png';
+import citadino from './citadino.jpg';
+import citadino_marker from './citadino_marker.png';
+import citadino1 from './citadino1.jpg';
+import citadino2 from './citadino2.jpg';
+import citadino3 from './citadino3.jpg';
+import citadino4 from './citadino4.jpg';
+import citadino5 from './citadino5.jpg';
+import club_campestre from './club_campestre.jpg';
+import club_campestre_marker from './club_campestre_marker.png';
+import club_campestre1 from './club_campestre1.jpg';
+import club_campestre2 from './club_campestre2.jpg';
+import club_farallones from './club_farallones.jpg';
+import club_farallones_marker from './club_farallones_marker.png';
+import club_farallones1 from './club_farallones1.jpg';
+import club_farallones2 from './club_farallones2.jpg';
+import club_farallones3 from './club_farallones3.jpg';
+import clubColombia from './club_colombia.svg';
+import clubColombia_logo from './club_colombia_logo.png';
+import clubes from './clubes.jpg';
+import corona from './corona.svg';
+import corona_logo from './corona_logo.svg';
+import discoteca from './discoteca.jpg';
+import donde_fabio from './donde_fabio.jpg';
+import donde_fabio_marker from './donde_fabio_marker.png';
+import donde_fabio1 from './donde_fabio1.jpg';
+import donde_fabio2 from './donde_fabio2.jpg';
+import espacio_10_60 from './espacio_10_60.jpg';
+import espacio_10_60_1 from './espacio_10_60_1.jpg';
+import espacio_10_60_2 from './espacio_10_60_2.jpg';
+import espacio_10_60_marker from './espacio_10_60_marker.png';
+import facebook_icon from './facebook_icon.svg';
+import florDeLaCanela from './flor_de_la_canela.jpg';
+import florDeLaCanela1 from './flor_de_la_canela1.jpg';
+import florDeLaCanela2 from './flor_de_la_canela2.jpg';
+import florDeLaCanelaMarker from './flor_de_la_canela_marker.png';
+import hacienda_del_bosque from './hacienda_del_bosque.jpg';
+import hacienda_del_bosque_marker from './hacienda_del_bosque_marker.png';
+import hacienda_del_bosque1 from './hacienda_del_bosque1.jpg';
+import hacienda_del_bosque2 from './hacienda_del_bosque2.jpg';
+import hacienda_del_bosque3 from './hacienda_del_bosque3.jpg';
+import hacienda_del_bosque4 from './hacienda_del_bosque4.jpg';
+import hacienda_del_bosque5 from './hacienda_del_bosque5.jpg';
+import icepub from './icepub.jpg';
+import icepub_marker from './icepub_marker.png';
+import icepub1 from './icepub1.jpg';
+import icepub2 from './icepub2.jpg';
+import icepub3 from './icepub3.jpg';
+import instagram_icon from './instagram_icon.svg';
+import la_casona from './la_casona.jpeg';
+import la_casona_marker from './la_casona_marker.png';
+import la_casona1 from './la_casona1.jpeg';
+import la_casona2 from './la_casona2.jpeg';
+import la_casona3 from './la_casona3.jpeg';
+import la_casona4 from './la_casona4.jpg';
+import la_over from './la_over.jpg';
+import la_over_marker from './la_over_marker.png';
+import la_over1 from './la_over1.jpg';
+import la_over2 from './la_over2.jpg';
+import la_over3 from './la_over3.jpg';
+import la_pergola from './pergola.jpg';
+import la_pergola_marker from './la_pergola_marker.png';
+import la_pergola1 from './pergola1.jpg';
+import la_pergola2 from './pergola2.jpg';
+import la_pergola3 from './pergola3.jpg';
+import licores_rr from './licores_rr.jpg';
+import licores_rr_marker from './licores_rr_marker.png';
+import licores_rr1 from './licores_rr1.jpg';
+import logoHighEnd from './logo_high_end.svg';
+import logoHighEndCali from './logo_high_end_cali.png';
+import mapaIcon from './mapa.svg';
+import mercadillo from './mercadillo.jpg';
+import mercadillo_marker from './mercadillo_marker.png';
+import mercadillo1 from './mercadillo1.jpg';
+import mercadillo2 from './mercadillo2.jpg';
+import mercadillo3 from './mercadillo3.jpg';
+import mercadillo4 from './mercadillo4.jpg';
+import mulato from './mulato.jpg';
+import mulato_marker from './mulato_marker.png';
+import mulato1 from './mulato1.jpg';
+import mulato2 from './mulato2.jpg';
+import mulato3 from './mulato3.jpg';
+import mulato4 from './mulato4.jpg';
+import nuevo_leon from './nuevo_leon.jpg';
+import nuevo_leon_marker from './nuevo_leon_marker.png';
+import nuevo_leon1 from './nuevo_leon1.jpg';
+import nuevo_leon2 from './nuevo_leon2.jpg';
+import nuevo_leon3 from './nuevo_leon3.jpg';
+import nuevo_leon4 from './nuevo_leon4.jpg';
+import nuevo_leon5 from './nuevo_leon5.jpg';
+import nuevo_leon6 from './nuevo_leon6.jpg';
+import platillos_voladores from './platillos_voladores.jpg';
+import platillos_voladores_marker from './platillos_voladores_marker.png';
+import platillos_voladores1 from './platillos_voladores1.jpg';
+import platillos_voladores2 from './platillos_voladores2.jpg';
+import plazoleta_municipal from './plazoleta_municipal.jpg';
+import plazoleta_municipal_marker from './plazoleta_municipal_marker.png';
+import plazoleta_municipal1 from './plazoleta_municipal1.jpg';
+import plazoleta_municipal2 from './plazoleta_municipal2.jpg';
+import plazoleta_municipal3 from './plazoleta_municipal3.jpg';
+import plazoleta_municipal4 from './plazoleta_municipal4.jpg';
+import plazoleta_municipal5 from './plazoleta_municipal5.jpg';
+import plazoleta_municipal6 from './plazoleta_municipal6.jpg';
+import plazoleta_municipal7 from './plazoleta_municipal7.jpg';
+import reservaIcon from './reserva.svg';
+import restaurante from './restaurante.jpg';
+import rooftop from './rooftop.jpg';
+import sabor_molido from './sabor_molido.jpg';
+import sabor_molido_marker from './sabor_molido_marker.png';
+import sabor_molido1 from './sabor_molido1.jpg';
+import sabor_molido2 from './sabor_molido2.jpg';
+import sabor_molido3 from './sabor_molido3.jpg';
+import sagsa from './sagsa.jpg';
+import sagsa_marker from './sagsa_marker.png';
+import sagsa1 from './sagsa1.jpg';
+import sagsa2 from './sagsa2.jpg';
+import sagsa3 from './sagsa3.jpg';
+import stella from './stella.svg';
+import stella_logo from './stella_logo.svg';
+import the_lobby from './the_lobby.jpg';
+import the_lobby_marker from './the_lobby_marker.png';
+import the_lobby1 from './the_lobby1.jpg';
+import the_lobby2 from './the_lobby2.jpg';
+import the_lobby3 from './the_lobby3.jpg';
+import tizones from './tizones.jpg';
+import tizones_marker from './tizones_marker.png';
+import tizones1 from './tizones1.jpg';
+import tizones2 from './tizones2.jpg';
+import tizones3 from './tizones3.jpg';
+import tizones4 from './tizones4.jpg';
+import tortelli from './tortelli.jpg';
+import tortelli_marker from './tortelli_marker.png';
+import tortelli1 from './tortelli1.jpg';
+import tortelli2 from './tortelli2.jpg';
+import tortelli3 from './tortelli3.jpg';
+import tortelli4 from './tortelli4.jpg';
+import topa_tolondra from './topa_tolondra.jpg';
+import topa_tolondra_marker from './topa_tolondra_marker.png';
+import topa_tolondra1 from './topa_tolondra1.jpg';
+import topa_tolondra2 from './topa_tolondra2.jpg';
+import topa_tolondra3 from './topa_tolondra3.jpg';
+import x_icon from './x_icon.svg';
+import zonag from './zonag.jpg';
+import zonag_marker from './zonag_marker.png';
+import zonag1 from './zonag1.jpg';
+import zorro_azul from './zorro_azul.jpg';
+import zorro_azul_marker from './zorro_azul_marker.png';
+import zorro_azul1 from './zorro_azul1.jpg';
+import zorro_azul2 from './zorro_azul2.jpg';
+import zorro_azul3 from './zorro_azul3.jpg';
+import zur from './zur.jpg';
+import zur_marker from './zur_marker.png';
+import zur1 from './zur1.jpg';
+import zur2 from './zur2.jpg';
+import zur3 from './zur3.jpg';
+import guayabo from './guayabo.jpg';
+import guayabo_marker from './guayabo_marker.png';
+import guayabo1 from './guayabo1.jpg';
+import guayabo2 from './guayabo2.jpg';
+import guayabo3 from './guayabo3.jpg';
+
+export const assetsBarranquilla = {
+    bar,
+    bbc_logo,
+    budweiser,
+    cartaIcon,
+    clubColombia_logo,
+    clubColombia,
+    clubes,
+    corona_logo,
+    corona,
+    discoteca,
+    facebook_icon,
+    instagram_icon,
+    logoHighEnd,
+    logoHighEndCali,
+    mapaIcon,
+    reservaIcon,
+    restaurante,
+    rooftop,
+    stella_logo,
+    stella,
+    x_icon,
+};
+
+export const sites_list_barranquilla = [
+    {
+        site_name: "Restaurante",
+        site_image: restaurante
+    },
+    {
+        site_name: "Rooftop",
+        site_image: rooftop
+    },
+    {
+        site_name: "Clubes",
+        site_image: clubes
+    },
+
+    {
+        site_name: "Bar",
+        site_image: bar
+    },
+    {
+        site_name: "Discoteca",
+        site_image: discoteca
+    },
+]
+
+export const location_list_barranquilla = [
+    {
+        _id: "1",
+        address: "Av. 3 Nte. #7-19, Granada",
+        carta: "https://menupp.co/platillosvoladores/venue/oQaFKUVkS5mPUVNoaZ6T?type=normal",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formal",
+        image_carousel: [platillos_voladores1, platillos_voladores2],
+        image: platillos_voladores,
+        lat: 3.4536479,
+        lng: -76.5372494,
+        marca_logo: stella_logo,
+        marca: stella,
+        marker: platillos_voladores_marker,
+        name: "Platillos Voladores",
+        promo: "",
+        schedule: "12:00pm - 10:00pm / 6:00pm - 10:00pm",
+        subtitle: "Restaurante",
+        url_reserva: "https://menupp.co/platillosvoladores/venue/oQaFKUVkS5mPUVNoaZ6T?type=normal"
+    },
+    {
+        _id: "2",
+        address: "Cra. 2 Oe. #14-250, Arboledas Santa Teresita",
+        carta: "https://www.haciendadelbosque.com.co/menus",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formal",
+        image_carousel: [hacienda_del_bosque1, hacienda_del_bosque2, hacienda_del_bosque3, hacienda_del_bosque4, hacienda_del_bosque5],
+        image: hacienda_del_bosque,
+        lat: 3.4478395,
+        lng: -76.565026,
+        marca_logo: stella_logo,
+        marca: stella,
+        marker: hacienda_del_bosque_marker,
+        name: "Hacienda del Bosque",
+        promo: "",
+        schedule: "2:00pm - 10:00pm",
+        subtitle: "Restaurante",
+        url_reserva: "https://www.haciendadelbosque.com.co/menus"
+    },
+    {
+        _id: "3",
+        address: "Cl. 3 Oe. #3-15, COMUNA 3",
+        carta: "https://menupp.co/tortelli",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formal",
+        image_carousel: [tortelli1, tortelli2, tortelli3, tortelli4],
+        image: tortelli,
+        lat: 3.4498495,
+        lng: -76.5425819,
+        marca_logo: stella_logo,
+        marca: stella,
+        marker: tortelli_marker,
+        name: "Tortelli",
+        promo: "",
+        schedule: "11:00pm - 10:00pm",
+        subtitle: "Restaurante",
+        url_reserva: "https://menupp.co/tortelli"
+    },
+    {
+        _id: "4",
+        address: "Av. 6 Bis Nte. # 27-50",
+        carta: "https://app.menupp.co/restaurant/laflordelacanela?fbclid=PAZXh0bgNhZW0CMTEAAaY4XFPNbnOpnxKYvpFPPa-QK9IRyxc5XL102uMGhE27nu5fxl5XLmlHK5k_aem_IO8Xo_U9ld3yokJvZsLxSQ ",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Camisa casual, pantalon casual, blusa sin escote, pantalon claisco o casual",
+        image_carousel: [florDeLaCanela1, florDeLaCanela2],
+        image: florDeLaCanela,
+        lat: 3.4695666,
+        lng: -76.531667,
+        marca_logo: stella_logo,
+        marca: stella,
+        marker: florDeLaCanelaMarker,
+        name: "La Flor De La Canela",
+        promo: "",
+        schedule: "12:00m - 10:00pm",
+        subtitle: "Restaurante",
+        url_reserva: "https://app.menupp.co/restaurant/laflordelacanela?fbclid=PAZXh0bgNhZW0CMTEAAaY4XFPNbnOpnxKYvpFPPa-QK9IRyxc5XL102uMGhE27nu5fxl5XLmlHK5k_aem_IO8Xo_U9ld3yokJvZsLxSQ",
+    },
+    {
+        _id: "5",
+        address: "Av. 6b Nte. #28-57",
+        carta: "https://menupp.co/tizones/group/UlgETARGe1yyQknxJWvb",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formal",
+        image_carousel: [tizones1, tizones2, tizones3, tizones4],
+        image: tizones,
+        lat: 3.4713002,
+        lng: -76.5325632,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: tizones_marker,
+        name: "Tizones Ltda",
+        promo: "",
+        schedule: "12:00m - 2:00am",
+        subtitle: "Restaurante",
+        url_reserva: "https://menupp.co/tizones/group/UlgETARGe1yyQknxJWvb",
+    },
+    {
+        _id: "6",
+        address: "Cl. 1 Oe. #2-24, COMUNA 3",
+        carta: "https://app.menupp.co/restaurant/citadinogastrobar?fbclid=PAZXh0bgNhZW0CMTEAAaa1TntminFdVTUf1qIPO4XOojJ2oohAjWdpxvT2HGMh1MQ0ZuCrGUac7Bg_aem_v4F0kCnQkWcrB-Yan-OcLw",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formalo",
+        image_carousel: [citadino1, citadino2, citadino3, citadino4, citadino5],
+        image: citadino,
+        lat: 3.4501533,
+        lng: -76.5412048,
+        marca_logo: stella_logo,
+        marca: stella,
+        marker: citadino_marker,
+        name: "Citadino Gastro Bar",
+        promo: "",
+        schedule: "12:00m - 1:00am",
+        subtitle: "Restaurante",
+        url_reserva: "https://app.menupp.co/restaurant/citadinogastrobar?fbclid=PAZXh0bgNhZW0CMTEAAaa1TntminFdVTUf1qIPO4XOojJ2oohAjWdpxvT2HGMh1MQ0ZuCrGUac7Bg_aem_v4F0kCnQkWcrB-Yan-OcLw"
+    },
+    {
+        _id: "7",
+        address: "Cra. 3 #1 80COMUNA, COMUNA 3",
+        carta: "https://menupp.co/elmercadillo",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa sport jeans, camiseta oversize, blusa sin escote, pantalon casual o jeans",
+        image_carousel: [mercadillo1, mercadillo2, mercadillo3, mercadillo4],
+        image: mercadillo,
+        lat: 3.4501004,
+        lng: -76.5429077,
+        marca_logo: bbc_logo,
+        marca: bbc_logo,
+        marker: mercadillo_marker,
+        name: "Mercadillo Peñon",
+        promo: "",
+        schedule: "11:00pm - 10:00pm",
+        subtitle: "Restaurante",	
+        url_reserva: "https://menupp.co/elmercadillo"
+    },
+    {
+        _id: "8",
+        address: "Av. 4 Nte., Granada",
+        carta: "https://linktr.ee/plazuelamunicipalco?fbclid=PAZXh0bgNhZW0CMTEAAaZrQbcOY734oSAOTx4JojElGC94bBOcG0-_quYamRM25FaC6CQ8RdhtVAc_aem_tBalrhWr-AUDX1i3AFI3nA",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa casual, jeans, camisetas, blusa formal, pantalones clasicos",
+        image_carousel: [plazoleta_municipal1, plazoleta_municipal2, plazoleta_municipal3, plazoleta_municipal4, plazoleta_municipal5, plazoleta_municipal6, plazoleta_municipal7],
+        image: plazoleta_municipal,
+        lat: 3.455236,
+        lng: -76.5357401,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: plazoleta_municipal_marker,
+        name: "Plazoleta Municipal Jairo Varela",
+        promo: "",
+        schedule: "12:00m - 12:00m",
+        subtitle: "Restaurante",
+        url_reserva: "https://linktr.ee/plazuelamunicipalco?fbclid=PAZXh0bgNhZW0CMTEAAaZrQbcOY734oSAOTx4JojElGC94bBOcG0-_quYamRM25FaC6CQ8RdhtVAc_aem_tBalrhWr-AUDX1i3AFI3nA"
+
+    },
+    {
+        _id: "9",
+        address: "Cra. 38d #4C - 54",
+        carta: "https://linktr.ee/lacasonavallunacali?lt_utm_source=lt_share_link#321602347",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa casual jeans clasico, camisa casual o blusa elegante",
+        image_carousel: [la_casona1, la_casona2, la_casona3, la_casona4],
+        image: la_casona,
+        lat: 3.4260513,
+        lng: -76.554154,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: la_casona_marker,
+        name: "La Casona Valluna",
+        promo: "",
+        schedule: "12:00m - 2:00am",
+        subtitle: "Restaurante",
+        url_reserva: "https://linktr.ee/lacasonavallunacali?lt_utm_source=lt_share_link#321602347",
+
+    },
+    {
+        _id: "10",
+        address: "Cl. 21 Nte. #9-17, Santa Monica Residential",
+        carta: "https://app.menupp.co/restaurant/elguayabo",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa sport jeans, camiseta oversize, blusa sin escote, pantalon casual o jeans",
+        image_carousel: [guayabo1, guayabo2, guayabo3],
+        image: guayabo,
+        lat: 3.4627946,
+        lng: -76.5329442,
+        marca_logo: corona_logo,
+        marca: corona,
+        marker: guayabo_marker,
+        name: "El Guayabo Café",
+        promo: "",
+        schedule: "4:00pm - 10:00pm",
+        subtitle: "Restaurante",
+        url_reserva: "https://app.menupp.co/restaurant/elguayabo"
+    },
+    {
+        _id: "11",
+        address: "Cl. 3a Oe. #3-07, Barrio Peñon",
+        carta: "",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formal",
+        image_carousel: [casa_iberica1, casa_iberica2],
+        image: casa_iberica,
+        lat: 3.4492956,
+        lng: -76.5435839,
+        marca_logo: stella_logo,
+        marca: stella,
+        marker: casa_iberica_marker,
+        name: "Casa Ibérica",
+        promo: "",
+        schedule: "12:00pm - 10:00pm",
+        subtitle: "Restaurante",
+        url_reserva: ""
+    },
+    {
+        _id: "12",
+        address: "Cl. 16a #123-00 Casa 9, Barrio Pance",
+        carta: "https://menupp.co/zur/venue/A7vkGEWJIdOPz1lRgGOO/menu/0291d58d-8c8e-4f8a-bf30-7faa191c014a",
+        category: "Restaurante",
+        description: "",
+        dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formal",
+        image_carousel: [zur1, zur2, zur3],
+        image: zur,
+        lat: 3.3388229,
+        lng: -76.535404,
+        marca_logo: stella_logo,
+        marca: stella,
+        marker: zur_marker,
+        name: "Zur",
+        promo: "",
+        schedule: "12:00m - 10:00pm",
+        subtitle: "Restaurante",
+        url_reserva: "https://menupp.co/zur/venue/A7vkGEWJIdOPz1lRgGOO/menu/0291d58d-8c8e-4f8a-bf30-7faa191c014a",
+    },
+    {
+        _id: "13",
+        address: "Cra. 9 #10-04, COMUNA 3",
+        carta: "https://menupp.co/callao?fbclid=PAZXh0bgNhZW0CMTEAAab9UpvT4nbpPlrHAAzeGdB2ZNuraICALA7ljDvWbmV1TGdp02KPEcXJ56Q_aem_jGjvvzy6s8NfRAoft4qbDg",
+        category: "Rooftop",
+        description: "",
+        dress_code: "Ropa sport jeans, camiseta oversize, blusa sin escote, pantalon casual o jeans",
+        image_carousel: [callao1, callao2],
+        image: callao,
+        lat: 3.4478923,
+        lng: -76.5330733, 
+        marca_logo: stella_logo,
+        marca: stella,
+        marker: callao_marker,
+        name: "Callao",
+        promo: "",
+        schedule: "6:00pm - 4:00am",
+        subtitle: "Rooftop",
+        url_reserva: "https://menupp.co/callao?fbclid=PAZXh0bgNhZW0CMTEAAab9UpvT4nbpPlrHAAzeGdB2ZNuraICALA7ljDvWbmV1TGdp02KPEcXJ56Q_aem_jGjvvzy6s8NfRAoft4qbDg"
+    },
+    {
+        _id: "14",
+        address: "Cra. 4 #11-69",
+        carta: "https://menupp.co/zorroazul?fbclid=PAZXh0bgNhZW0CMTEAAabXGIAIlRcRMkcTdd6Ej5L2GDGuEy3KkaZRC9ZtoR_Us2ahQeoRTCFzHfI_aem_RZWu2P0luiUR7EDHoshebg",
+        category: "Rooftop",
+        description: "",
+        dress_code: "Ropa casual jeans clasico, camisa casual o blusa elegante",
+        image_carousel: [zorro_azul1, zorro_azul2, zorro_azul3],
+        image: zorro_azul,
+        lat: 3.4523486,
+        lng: -76.5325986,
+        marca_logo: corona_logo,
+        marca: corona,
+        marker: zorro_azul_marker,
+        name: "Zorro Azul",
+        promo: "",
+        schedule: "4:00pm - 3:00am",
+        subtitle: "Rooftop",
+        url_reserva: "https://menupp.co/zorroazul?fbclid=PAZXh0bgNhZW0CMTEAAabXGIAIlRcRMkcTdd6Ej5L2GDGuEy3KkaZRC9ZtoR_Us2ahQeoRTCFzHfI_aem_RZWu2P0luiUR7EDHoshebg"
+    },
+    {
+        _id: "15",
+        address: "Cra 2 #13-42, San Pedro",
+        carta: "https://linktr.ee/lapergola?fbclid=PAZXh0bgNhZW0CMTEAAabJvq4txnEmMM9ScQk13ZWekuq8LXNKrXLCOGaR1s1An-SKHzwb1oZ-l_g_aem_HT8LYMlhxlA6MjJtwPxWGw",
+        category: "Rooftop",
+        description: "",
+        dress_code: "Ropa sport jeans, camiseta oversize, blusa sin escote, pantalon casual o jeans",
+        image_carousel: [la_pergola1, la_pergola2, la_pergola3],
+        image: la_pergola,
+        lat: 3.4547566,
+        lng: -76.5371772,
+        marca_logo: corona_logo,
+        marca: corona,
+        marker: la_pergola_marker,
+        name: "La Pergola Clandestina",
+        promo: "",
+        schedule: "6:00pm - 4:00am",
+        subtitle: "Rooftop",
+        url_reserva: "https://linktr.ee/lapergola?fbclid=PAZXh0bgNhZW0CMTEAAabJvq4txnEmMM9ScQk13ZWekuq8LXNKrXLCOGaR1s1An-SKHzwb1oZ-l_g_aem_HT8LYMlhxlA6MjJtwPxWGw"
+    },
+    {
+        _id: "16",
+        address: "Cl. 18 #127-118, Barrio Pance",
+        carta: "https://www.instagram.com/caruzo.cali/?igsh=OXkxNHUzemVodHEx ",
+        category: "Rooftop",
+        description: "",
+        dress_code: "Ropa casual jeans clasico, camisa casual o blusa elegante",
+        image_carousel: [caruzo1, caruzo2, caruzo3],
+        image: caruzo,
+        lat: 3.3344461,
+        lng: -76.539331,
+        marca_logo: corona_logo,
+        marca: corona,
+        marker: caruzo_marker,
+        name: "Caruzo Rooftop",
+        promo: "",
+        schedule: "",
+        subtitle: "Rooftop",
+        url_reserva: "https://www.instagram.com/caruzo.cali/?igsh=OXkxNHUzemVodHEx "
+    },
+    {
+        _id: "17",
+        address: "Cl. 48 #86-133, Comuna 17",
+        carta: "https://app.menupp.co/restaurant/nuevoleon/menu/eYp4V6Nv2vIL6vzOVwtf?fbclid=PAZXh0bgNhZW0CMTEAAaYSpAmGYS6nJ48TAtsyPyLo7MjZ3TgOpXZGLWoDZlq1Y73YRA6UOvZX-GU_aem_vL_CodP_2awnKzBvvfqhtw",
+        category: "Rooftop",
+        description: "",
+        dress_code: "Ropa casual jeans clasico, camisa casual o blusa elegante",
+        image_carousel: [nuevo_leon1, nuevo_leon2, nuevo_leon3, nuevo_leon4, nuevo_leon5, nuevo_leon6],
+        image: nuevo_leon,
+        lat: 3.37818,
+        lng: -76.5186284,
+        marca_logo: corona_logo,
+        marca: corona,
+        marker: nuevo_leon_marker,
+        name: "Nuevo Leon",
+        promo: "",
+        schedule: "5:00pm - 12:00am",
+        subtitle: "Rooftop",
+        url_reserva: "https://app.menupp.co/restaurant/nuevoleon/menu/eYp4V6Nv2vIL6vzOVwtf?fbclid=PAZXh0bgNhZW0CMTEAAaYSpAmGYS6nJ48TAtsyPyLo7MjZ3TgOpXZGLWoDZlq1Y73YRA6UOvZX-GU_aem_vL_CodP_2awnKzBvvfqhtw"
+    },
+    {
+        _id: "18",
+        address: "Cra. 105 #14-89, Ciudad Jardín",
+        carta: "https://drive.google.com/drive/folders/12W-hUiF9C9cOwse5gba6C_MQDpYJi1gV?fbclid=PAZXh0bgNhZW0CMTEAAaY-oPZrfo14YFellvSmlV5kmO0wszBP13hL2Posm3jXQ8pOO6XnXfpdcqg_aem_FCycemFsclxJqtnt-46SoQ",
+        category: "Rooftop",
+        description: "",
+        dress_code: "Ropa casual jeans clasico, camisa casual o blusa elegante",
+        image_carousel: [sabor_molido1, sabor_molido2, sabor_molido3],
+        image: sabor_molido,
+        lat: 3.3646435,
+        lng: -76.5374798,
+        marca_logo: corona_logo,
+        marca: corona,
+        marker: sabor_molido_marker,
+        name: "Sabor Molido",
+        promo: "",
+        schedule: "11:00am - 2:00am",
+        subtitle: "Rooftop",
+        url_reserva: "https://drive.google.com/drive/folders/12W-hUiF9C9cOwse5gba6C_MQDpYJi1gV?fbclid=PAZXh0bgNhZW0CMTEAAaY-oPZrfo14YFellvSmlV5kmO0wszBP13hL2Posm3jXQ8pOO6XnXfpdcqg_aem_FCycemFsclxJqtnt-46SoQ"
+    },
+    {
+        _id: "19",
+        address: "KR 127 AV EL BANCO",
+        carta: "https://campestrecali.com/servicio/hoyo-19/",
+        category: "Clubes",
+        description: "",
+        dress_code: "Ropa sport de tenis, jeans casual, blusa casual sin escotes, pantalon casual",
+        image_carousel: [club_farallones1, club_farallones2, club_farallones3],
+        image: club_farallones,
+        lat: 3.3309783,
+        lng: -76.5458734,
+        marca_logo: stella_logo,
+        marca: stella,
+        marker: club_farallones_marker,
+        name: "Club Campestre Farallones",
+        promo: "",
+        schedule: "6:00am - 9:00pm",
+        subtitle: "Clubes",
+        url_reserva: "https://campestrecali.com/servicio/hoyo-19/"
+    },
+    {
+        _id: "20",
+        address: "KR 100 5 00",
+        carta: "https://clubfarallones.org/menu-pizzera/",
+        category: "Clubes",
+        description: "",
+        dress_code: "Ropa sport de Golf, jeans casual, blusa casual sin escotes, pantalon casual",
+        image_carousel: [club_campestre1, club_campestre2],
+        image: club_campestre,
+        lat: 3.3691575,
+        lng: -76.5449291,
+        marca_logo: stella_logo,
+        marca: stella,
+        marker: club_campestre_marker,
+        name: "Club Campestre Cali",
+        promo: "",
+        schedule: "6:00am - 9:00pm",
+        subtitle: "Clubes",
+        url_reserva:"https://clubfarallones.org/menu-pizzera/",
+    },
+    {
+        _id: "21",
+        address: "# 7, Cra. 32 #43",
+        carta: "https://drive.google.com/file/d/1jDJXS6AEp9TYV3pNnhtCAag7qyzUWljy/view?usp=drive_link",
+        category: "Bar",
+        description: "",
+        dress_code: "Ropa elegante, camisa formal pantalon casual, blusa elegante escote, pantalon formal o clasico",
+        image_carousel: [mulato1, mulato2, mulato3, mulato4],
+        image: mulato,
+        lat: 3.4294719,
+        lng: -76.5468004,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: mulato_marker,
+        name: "El Mulato Carabet",
+        promo: "",
+        schedule: "6:00pm - 3:00am",
+        subtitle: "Bar",
+        url_reserva: "https://drive.google.com/file/d/1jDJXS6AEp9TYV3pNnhtCAag7qyzUWljy/view?usp=drive_link"
+    },
+    {
+        _id: "22",
+        address: "Cl. 5 #13-27, COMUNA 3",
+        carta: "",
+        category: "Bar",
+        description: "",
+        dress_code: "Ropa elegante, camisa formal pantalon casual, blusa elegante escote, pantalon formal o clasico",
+        image_carousel: [topa_tolondra1, topa_tolondra2, topa_tolondra3],
+        image: topa_tolondra,
+        lat: 3.4442907,
+        lng: -76.5390882,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: topa_tolondra_marker,
+        name: "La Topa Tolondra Salsa Bar",
+        promo: "",
+        schedule: "7:00pm - 3:00am",
+        subtitle: "Bar",
+        url_reserva: ""
+    },
+    {
+        _id: "23",
+        address: "Avenida 9 #15AN 27, Barrio Granada, Av. 9 Nte. #15",
+        carta: "https://app.menupp.co/restaurant/bourbonst",
+        category: "Bar",
+        description: "",
+        dress_code: "Ropa sport jeans, camiseta oversize, blusa sin escote, pantalon casual o jeans",
+        image_carousel: [bourbon1, bourbon2, bourbon3, bourbon4, bourbon5],
+        image: bourbon,
+        lat: 3.4600304,
+        lng: -76.5364674,
+        marca_logo: corona_logo,
+        marca: corona,
+        marker: bourbonMarker,
+        name: "Bourbon St. Granada",
+        promo: "",
+        schedule: "5:00pm-2:00am",
+        subtitle: "Bar",
+        url_reserva: "https://app.menupp.co/restaurant/bourbonst"
+    },
+    {
+        _id: "24",
+        address: "Cl. 11 #6611, Comuna 17",
+        carta: "",
+        category: "Bar",
+        description: "",
+        dress_code: "Ropa casual camisa, jeans, polos, blusa casual o escote",
+        image_carousel: [zonag1],
+        image: zonag,
+        lat: 3.3976887,
+        lng: -76.5579777,
+        marca_logo: corona_logo,
+        marca: corona,
+        marker: zonag_marker,
+        name: "Zona G Liquor Store",
+        promo: "",
+        schedule: "4:00pm - 2:00am",
+        subtitle: "Bar",
+        url_reserva: ""
+    },
+    {
+        _id: "25",
+        address: "Cl. 11a #65 A - 145, Comuna 17",
+        carta: "",
+        category: "Bar",
+        description: "",
+        dress_code: "Todo tipo de ropa",
+        image_carousel: [licores_rr1],
+        image: licores_rr,
+        lat: 3.3982999,
+        lng: -76.5420471,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: licores_rr_marker,
+        name: "Licores Rr Limonar",
+        promo: "",
+        schedule: "3:00pm - 3:00am",
+        subtitle: "Bar",
+        url_reserva: ""
+    },
+    {
+        _id: "26",
+        address: "Cl. 1 Oe. #2-38, COMUNA 3",
+        carta: "https://app.menupp.co/menu/thelobby?fbclid=PAZXh0bgNhZW0CMTEAAabHlCmOUJSG1xxhknY8DrZTXGbKsBGtTnq2bldq53WjL2XsT4-xWUEBEfk_aem_0ddXufiU_jBhI49_xSOdlA",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Ropa sport jeans, polo, camiseta oversize, blusa sin escote, pantalon casual o jeans",
+        image_carousel: [the_lobby1, the_lobby2, the_lobby3],
+        image: the_lobby,
+        lat: 3.4499875,
+        lng: -76.5435905,
+        marca_logo: budweiser,
+        marca: budweiser,
+        marker: the_lobby_marker,
+        name: "The Lobby Disco",
+        promo: "",
+        schedule: "9:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: "https://app.menupp.co/menu/thelobby?fbclid=PAZXh0bgNhZW0CMTEAAabHlCmOUJSG1xxhknY8DrZTXGbKsBGtTnq2bldq53WjL2XsT4-xWUEBEfk_aem_0ddXufiU_jBhI49_xSOdlA"
+    },
+    {
+        _id: "27",
+        address: "Cl. 2 Oe. #2-39, COMUNA 3",
+        carta: "",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Ropa sport jeans, polo, camiseta oversize, blusa sin escote, pantalon casual o jeans",
+        image_carousel: [sagsa1, sagsa2, sagsa3],
+        image: sagsa,
+        lat: 3.4502411,
+        lng: -76.5443443,
+        marca_logo: budweiser,
+        marca: budweiser,
+        marker: sagsa_marker,
+        name: "Sagsa",
+        promo: "",
+        schedule: "9:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: ""
+    },
+    {
+        _id: "28",
+        address: "Cl. 20 #3-14, San Nicolas",
+        carta: "https://drive.google.com/file/d/1dAJhOJk3RuaH4Rpq1uVecYdUXY8fq8wn/view",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Ropa ejecutiva, casual, pantalon dril, camisa manga larga o corta formal, jeans clasicos, camibuzo",
+        image_carousel: [donde_fabio1, donde_fabio2],
+        image: donde_fabio,
+        lat: 3.455999,
+        lng: -76.5285366,
+        marca_logo: budweiser,
+        marca: budweiser,
+        marker: donde_fabio_marker,
+        name: "Donde Fabio Club",
+        promo: "",
+        schedule: "8:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: "https://drive.google.com/file/d/1dAJhOJk3RuaH4Rpq1uVecYdUXY8fq8wn/view"
+    },
+    {
+        _id: "29",
+        address: "Cra. 105 #14-250",
+        carta: "https://app.menupp.co/restaurant/icepub?fbclid=PAZXh0bgNhZW0CMTEAAaY55Ze3Vqt7PSgHh8fm-Nb_VCsakI7IRxmqnpYEWzzR-lHAqWHes9805ts_aem_pIMjCN29rlKFbM0pnbNOsw",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Ropa sport jeans, camiseta oversize, blusa sin escote, pantalon casual o jeans",
+        image_carousel: [icepub1, icepub2, icepub3],
+        image: icepub,
+        lat: 3.3639894,
+        lng: -76.536023,
+        marca_logo: corona_logo,
+        marca: corona,
+        marker: icepub_marker,
+        name: "IcePub Gastro Bar",
+        promo: "",
+        schedule: "7:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: "https://app.menupp.co/restaurant/icepub?fbclid=PAZXh0bgNhZW0CMTEAAaY55Ze3Vqt7PSgHh8fm-Nb_VCsakI7IRxmqnpYEWzzR-lHAqWHes9805ts_aem_pIMjCN29rlKFbM0pnbNOsw"
+    },
+    {
+        _id: "30",
+        address: "Cra. 10 #10-60, COMUNA 3",
+        carta: "https://espacio-10-60.cluvi.co/?fbclid=PAZXh0bgNhZW0CMTEAAaahOg4IW4no0VHKwwq62gVl8cAAJNyK8ORi96L1EHUiO_KERBlBzSCc6WU_aem_eann68Al3MgdeZy26qe6ag",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Ropa sport jeans, camiseta oversize, blusa sin escote, pantalon casual o jeans",
+        image_carousel: [espacio_10_60_1, espacio_10_60_2],
+        image: espacio_10_60,
+        lat: 3.4469788,
+        lng: -76.5345496,
+        marca_logo: budweiser,
+        marca: budweiser,
+        marker: espacio_10_60_marker,
+        name: "Espacio 10-60",
+        promo: "",
+        schedule: "8:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: "https://espacio-10-60.cluvi.co/?fbclid=PAZXh0bgNhZW0CMTEAAaahOg4IW4no0VHKwwq62gVl8cAAJNyK8ORi96L1EHUiO_KERBlBzSCc6WU_aem_eann68Al3MgdeZy26qe6ag"
+    },
+    {
+        _id: "31",
+        address: "Cra. 5 #21 - 58, COMUNA 3",
+        carta: "https://www.instagram.com/stories/highlights/17997970337484080/?hl=es",
+        category: "Discoteca",
+        description: "",
+        dress_code: "Ropa sport jeans, camiseta oversize, blusa sin escote, pantalon casual o jeans",
+        image_carousel: [la_over1, la_over2, la_over3],
+        image: la_over,
+        lat: 3.4552556,
+        lng: -76.5265623,
+        marca_logo: budweiser,
+        marca: budweiser,
+        marker: la_over_marker,
+        name: "La Over",
+        promo: "",
+        schedule: "7:00pm - 3:00am",
+        subtitle: "Discoteca",
+        url_reserva: "https://www.instagram.com/stories/highlights/17997970337484080/?hl=es"
+    },
+]
