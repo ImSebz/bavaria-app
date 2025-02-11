@@ -86,8 +86,8 @@
         text-align: center;
     }
 
-    .footer-logo-img {
-        width: 300px;
+    .footer-logo-cont.hide-on-mobile {
+        display: none;
     }
 
 }

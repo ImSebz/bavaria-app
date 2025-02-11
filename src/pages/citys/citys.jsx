@@ -8,6 +8,9 @@ const Citys = () => {
             <div className='main-city-container'>
                 <h1>Selecciona tu ciudad</h1>
                 <div className='city-button-container'>
+                    <Link to="/barranquilla">
+                        <button className='btn-city'>Barranquilla</button>
+                    </Link>
                     <Link to="/cali">
                         <button className='btn-city'>Cali</button>
                     </Link>

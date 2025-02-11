@@ -44,6 +44,8 @@ import don_juan6 from './don_juan6.png'
 import don_juan7 from './don_juan7.png'
 import don_juan8 from './don_juan8.png'
 import facebook_icon from './facebook_icon.svg'
+import high_end_desktop from './high_end_desktop.png'
+import high_end_mobile from './high_end_mobile.png'
 import home_burgers_bocagrande from './home_burgers_bocagrande.jpg'
 import home_burgers_bocagrande_marker from './home_burgers_bocagrande_marker.svg'
 import home_burgers_centro from './home_burgers_centro.jpg'
@@ -183,6 +185,8 @@ export const assets = {
     don_juan7,
     don_juan8,
     facebook_icon,
+    high_end_desktop,
+    high_end_mobile,
     home_burgers_bocagrande_marker,
     home_burgers_bocagrande,
     home_burgers_centro_marker,
