@@ -242,7 +242,7 @@ export const location_list_barranquilla = [
         marca_logo: budweiser,
         marca: budweiser,
         marker: null,
-        name: "Coliseo Sport Bar 84",
+        name: "Coliseo Burger 84",
         promo: "",
         schedule: "12pm-11pm",
         subtitle: "Sportbar",
@@ -290,6 +290,26 @@ export const location_list_barranquilla = [
     },
     {
         _id: "12",
+        address: "Gran malecon del rio",
+        carta: "",
+        category: "Plaza Turística",
+        description: "",
+        dress_code: "",
+        image_carousel: [],
+        image: logoHighEnd,
+        lat: 11.0233041,
+        lng: -74.7963798,
+        marca_logo: clubColombia_logo,
+        marca: clubColombia,
+        marker: null,
+        name: "Caimán del Río",
+        promo: "",
+        schedule: "10am-10pm",
+        subtitle: "Plaza Turística",
+        url_reserva: ""
+    },
+    {
+        _id: "13",
         address: "Cl. 1 #57 5, Puerto Colombia",
         carta: "",
         category: "Plaza Turística",
@@ -309,7 +329,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "13",
+        _id: "14",
         address: "Cra. 51B # 79 - 97",
         carta: "",
         category: "Restaurante",
@@ -329,7 +349,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "14",
+        _id: "15",
         address: "Cra. 53 #85 13",
         carta: "",
         category: "Restaurante",
@@ -349,7 +369,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "15",
+        _id: "16",
         address: "Cra. 52 #76-126",
         carta: "",
         category: "Restaurante",
@@ -369,7 +389,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "16",
+        _id: "17",
         address: "Cra. 52 #76 - 208",
         carta: "",
         category: "Bar",
@@ -389,7 +409,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "17",
+        _id: "18",
         address: "Cl. 2 #22-61, Puerto Colombia",
         carta: "",
         category: "Beach Club",
@@ -409,7 +429,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "18",
+        _id: "19",
         address: "Cra. 59b #81- 158",
         carta: "",
         category: "Restaurante",
@@ -429,7 +449,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "19",
+        _id: "20",
         address: "Cra. 59b #81- 158",
         carta: "",
         category: "Restaurante",
@@ -449,7 +469,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "20",
+        _id: "21",
         address: "Cl. 99 #53 - 40",
         carta: "",
         category: "Restaurante",
@@ -462,14 +482,14 @@ export const location_list_barranquilla = [
         marca_logo: stella_logo,
         marca: stella,
         marker: null,
-        name: "Redentor",
+        name: "Redentore",
         promo: "",
         schedule: "12pm-10pm",
         subtitle: "Restaurante",
         url_reserva: ""
     },
     {
-        _id: "21",
+        _id: "22",
         address: "Cra. 52 #74-73",
         carta: "",
         category: "Bar",
@@ -489,7 +509,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "22",
+        _id: "23",
         address: "Cl. 84 #44-60",
         carta: "",
         category: "Bar",
@@ -509,7 +529,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "23",
+        _id: "24",
         address: "Cl. 99 #53 - 40",
         carta: "",
         category: "Bar",
@@ -529,7 +549,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "24",
+        _id: "25",
         address: "Cra. 51B #85-16",
         carta: "",
         category: "Restaurante",
@@ -549,7 +569,7 @@ export const location_list_barranquilla = [
         url_reserva: ""
     },
     {
-        _id: "25",
+        _id: "26",
         address: "Cra 53 #85-61",
         carta: "",
         category: "Restaurante",
@@ -568,12 +588,4 @@ export const location_list_barranquilla = [
         subtitle: "Restaurante",
         url_reserva: ""
     },
-
-
-
-
-
-
-
-
 ]
