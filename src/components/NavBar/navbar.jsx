@@ -5,6 +5,7 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import './navbar.css';
 import { assets } from '../../assets/assets';
 import { assetsCali } from '../../assetsCali/assetsCali';
+import { assetsBarranquilla } from '../../assetsBarranquilla/assetsBarranquilla';
 
 const Navbar = () => {
     const [menu, setMenu] = useState("home");
@@ -12,11 +13,13 @@ const Navbar = () => {
     const location = useLocation();
     const isCaliRoute = location.pathname === '/cali';
     const isMapaCaliRoute = location.pathname === '/mapa-cali';
+    const isBarranquillaRoute = location.pathname === '/barranquilla';
+    const isMapaBarranquillaRoute = location.pathname === '/mapa-barranquilla';
 
     useEffect(() => {
         if (location.pathname === '/') {
             setMenu("home");
-        } else if (location.pathname === '/mapa') {
+        } else if (location.pathname === '/mapa' || location.pathname === '/mapa-cali' || location.pathname === '/mapa-barranquilla') {
             setMenu("map");
         } else if (location.pathname === '/ciudades') {
             setMenu("ciudades");
@@ -28,19 +31,20 @@ const Navbar = () => {
     };
 
     return (
-        <div className={`navbar ${isCaliRoute || isMapaCaliRoute ? 'navbar-cali' : ''}`}>
-            <Link to={isCaliRoute || isMapaCaliRoute ? "/" : "/"} onClick={() => { setMenu(isCaliRoute || isMapaCaliRoute ? "cali" : "home") }}>
+        <div className={`navbar ${isCaliRoute || isMapaCaliRoute ? 'navbar-cali' : isBarranquillaRoute || isMapaBarranquillaRoute ? 'navbar-barranquilla' : ''}`}>
+            <Link to="/" onClick={() => { setMenu("home") }}>
+                {/* <img src={isCaliRoute || isMapaCaliRoute ? assetsCali.logoHighEndCali : isBarranquillaRoute || isMapaBarranquillaRoute ? assetsBarranquilla.logoHighEndBarranquilla : assets.logoHighEnd} className='logo' alt="Logo" /> */}
                 <img src={isCaliRoute || isMapaCaliRoute ? assetsCali.logoHighEndCali : assets.logoHighEnd} className='logo' alt="Logo" />
             </Link>
             <ul className={`sidebar-menu ${isSidebarOpen ? 'open' : ''}`}>
                 <li onClick={handleMenuClick} className='hamburger'>
                     <FontAwesomeIcon icon={isSidebarOpen ? faXmark : faBars} className='menu-icon' />
                 </li>
-                <Link to={isCaliRoute || isMapaCaliRoute ? "/cali" : "/"} onClick={() => { setMenu("home"); setIsSidebarOpen(false); }}>
+                <Link to="/" onClick={() => { setMenu("home"); setIsSidebarOpen(false); }}>
                     <li className={menu === "home" ? "active" : ""}>Inicio</li>
                 </Link>
                 {(location.pathname !== '/') && (
-                    <Link to={isCaliRoute || isMapaCaliRoute ? "/mapa-cali" : "/mapa"} onClick={() => { setMenu("map"); setIsSidebarOpen(false); }}>
+                    <Link to={isCaliRoute || isMapaCaliRoute ? "/mapa-cali" : isBarranquillaRoute || isMapaBarranquillaRoute ? "/mapa-barranquilla" : "/mapa"} onClick={() => { setMenu("map"); setIsSidebarOpen(false); }}>
                         <li className={menu === "map" ? "active" : ""}>Mapa</li>
                     </Link>
                 )}
@@ -50,11 +54,11 @@ const Navbar = () => {
             </ul>
 
             <ul className="navbar-menu">
-                <Link to={isCaliRoute || isMapaCaliRoute ? "/cali" : "/"} onClick={() => { setMenu("home") }}>
+                <Link to="/" onClick={() => { setMenu("home") }}>
                     <li className={menu === "home" ? "active" : ""} id='home-li'>Inicio</li>
                 </Link>
                 {(location.pathname !== '/') && (
-                    <Link to={isCaliRoute || isMapaCaliRoute ? "/mapa-cali" : "/mapa"} onClick={() => { setMenu("map") }}>
+                    <Link to={isCaliRoute || isMapaCaliRoute ? "/mapa-cali" : isBarranquillaRoute || isMapaBarranquillaRoute ? "/mapa-barranquilla" : "/mapa"} onClick={() => { setMenu("map") }}>
                         <li className={menu === "map" ? "active" : ""} id='mapa-li'>Mapa</li>
                     </Link>
                 )}
