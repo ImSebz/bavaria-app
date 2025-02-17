@@ -19,6 +19,29 @@ import rooftop from './rooftop.jpg';
 import stella from './stella.svg';
 import stella_logo from './stella_logo.svg';
 import x_icon from './x_icon.svg';
+import cantina_la_maria from './cantina-la-maria.jpg';
+import cantina_la_maria1 from './cantina-la-maria1.jpg';
+import cantina_la_maria2 from './cantina-la-maria2.jpg';
+import cantina_la_maria3 from './cantina-la-maria3.jpg';
+import bourbon from './bourbon.jpg';
+import bourbon1 from './bourbon1.jpg';
+import bourbon2 from './bourbon2.jpg';
+import bourbon3 from './bourbon3.jpg';
+import bourbon4 from './bourbon4.jpg';
+import coliseo from './coliseo.jpg';
+import coliseo1 from './coliseo1.jpg';
+import coliseo2 from './coliseo2.jpg';
+import coliseo3 from './coliseo3.jpg';
+import cucayo from './cucayo.jpg';
+import cucayo1 from './cucayo1.jpg';
+import elvis from './elvis.jpg';
+import elvis1 from './elvis1.jpg';
+import elvis2 from './elvis2.jpg';
+import hotel_prado from './hotel-prado.jpg';
+import hotel_prado1 from './hotel-prado1.jpg';
+import hotel_prado2 from './hotel-prado2.jpg';
+import hotel_prado3 from './hotel-prado3.jpg';
+import hotel_prado4 from './hotel-prado4.jpg';
 
 export const assetsBarranquilla = {
     bar,
@@ -235,8 +258,8 @@ export const location_list_barranquilla = [
         category: "Sportbar",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [coliseo1, coliseo2, coliseo3],
+        image: coliseo,
         lat: 11.0105891,
         lng: -74.8142204,
         marca_logo: budweiser,
@@ -275,8 +298,8 @@ export const location_list_barranquilla = [
         category: "Bar",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [elvis1, elvis2],
+        image: elvis,
         lat: 11.0110896,
         lng: -74.8096925,
         marca_logo: clubColombia_logo,
@@ -355,8 +378,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [cucayo1],
+        image: cucayo,
         lat: 11.0078999,
         lng: -74.820032,
         marca_logo: clubColombia_logo,
@@ -415,8 +438,8 @@ export const location_list_barranquilla = [
         category: "Beach Club",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [hotel_prado1, hotel_prado2, hotel_prado3, hotel_prado4],
+        image: hotel_prado,
         lat: 11.0058973,
         lng: -74.9548221,
         marca_logo: corona_logo,
@@ -495,8 +518,8 @@ export const location_list_barranquilla = [
         category: "Bar",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [bourbon1, bourbon2, bourbon3, bourbon4],
+        image: bourbon,
         lat: 11.0074484,
         lng: -74.8213871,
         marca_logo: bbc_logo,
@@ -535,8 +558,8 @@ export const location_list_barranquilla = [
         category: "Bar",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [cantina_la_maria1, cantina_la_maria2, cantina_la_maria3],
+        image: cantina_la_maria,
         lat: 11.0152751,
         lng: -74.8290945,
         marca_logo: corona_logo,
