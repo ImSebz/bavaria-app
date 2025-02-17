@@ -71,7 +71,7 @@ export const location_list_barranquilla = [
     {
         _id: "1",
         address: "Cra. 55 #75 - 67",
-        carta: "",
+        carta: "https://okra.cluvi.co/okra/menu-digital/home",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -86,12 +86,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12pm-11pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://okra.cluvi.co/okra/menu-digital/home"
     },
     {
         _id: "2",
         address: "Cra. 55 #75 - 67",
-        carta: "",
+        carta: "https://palo-de-mango.cluvi.co/palo-de-mango/menu-digital/home",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -106,12 +106,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12pm-3pm. 5pm-11pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://palo-de-mango.cluvi.co/palo-de-mango/menu-digital/home"
     },
     {
         _id: "3",
         address: "Cra. 55 #75 - 67",
-        carta: "",
+        carta: "https://menu.tu-mesa.com/lola/330/menu/",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -126,12 +126,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12pm-3pm. 5pm-11pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://menu.tu-mesa.com/lola/330/menu/"
     },
     {
         _id: "4",
         address: "Cra. 55 #75 - 67",
-        carta: "",
+        carta: "https://menu.tu-mesa.com/kinto-elemento/",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -146,12 +146,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12pm-3pm. 6pm-11pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://menu.tu-mesa.com/kinto-elemento/"
     },
     {
         _id: "5",
         address: "Cra. 52 #76 - 208",
-        carta: "",
+        carta: "https://linktr.ee/NOAMENU?fbclid=PAZXh0bgNhZW0CMTEAAabMhPgXA0BcjQdMsxSMoOII5zeOx0OdkWFpg0A6RN6hIIf94Dc50N_88ak_aem_0j8sI0a6i13ATR33WN4UMg",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -166,12 +166,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12pm-3pm. 6pm-11pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://linktr.ee/NOAMENU?fbclid=PAZXh0bgNhZW0CMTEAAabMhPgXA0BcjQdMsxSMoOII5zeOx0OdkWFpg0A6RN6hIIf94Dc50N_88ak_aem_0j8sI0a6i13ATR33WN4UMg"
     },
     {
         _id: "6",
         address: "Cra. 51B #79-211",
-        carta: "",
+        carta: "https://la-unica.cluvi.co/la-unica-barranquilla/menu-digital/home?fbclid=PAZXh0bgNhZW0CMTEAAaZGLhUJ8R3yQxySkPaAZWYnZjX3E14xadTGT7OAt3Uz2c0sQFRAmAdBtNs_aem_dCfSGSKXqJqmQEQWGwMlaw",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -186,12 +186,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12pm-4pm. 7pm-12pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://la-unica.cluvi.co/la-unica-barranquilla/menu-digital/home?fbclid=PAZXh0bgNhZW0CMTEAAaZGLhUJ8R3yQxySkPaAZWYnZjX3E14xadTGT7OAt3Uz2c0sQFRAmAdBtNs_aem_dCfSGSKXqJqmQEQWGwMlaw"
     },
     {
         _id: "7",
         address: "Cl. 98 #56-18",
-        carta: "",
+        carta: "https://tripulante.cluvi.co/tripulante/menu-digital/home",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -206,7 +206,7 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12pm-4pm. 7pm-12pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://tripulante.cluvi.co/tripulante/menu-digital/home"
     },
     {
         _id: "8",
@@ -231,7 +231,7 @@ export const location_list_barranquilla = [
     {
         _id: "9",
         address: "Cl. 84 #59-34",
-        carta: "",
+        carta: "https://linktr.ee/coliseoburgerstadium?fbclid=PAZXh0bgNhZW0CMTEAAaZswvIL1mZeS-PQY76E7NjvYY0wt-RQE1A7irrlVR43a_KvQZAOmOUNLo8_aem_G5ynhlZZv0j6PrX2JRByPw",
         category: "Sportbar",
         description: "",
         dress_code: "",
@@ -246,12 +246,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12pm-11pm",
         subtitle: "Sportbar",
-        url_reserva: ""
+        url_reserva: "https://linktr.ee/coliseoburgerstadium?fbclid=PAZXh0bgNhZW0CMTEAAaZswvIL1mZeS-PQY76E7NjvYY0wt-RQE1A7irrlVR43a_KvQZAOmOUNLo8_aem_G5ynhlZZv0j6PrX2JRByPw"
     },
     {
         _id: "10",
         address: "Cl. 99 #53 - 40",
-        carta: "",
+        carta: "https://digitalmenucheck.com/430b0358-6e1b-4bdc-9a98-6fa2de5791bc/index.html",
         category: "Sportbar",
         description: "",
         dress_code: "",
@@ -266,32 +266,32 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "4pm-4am",
         subtitle: "Sportbar",
-        url_reserva: ""
+        url_reserva: "https://digitalmenucheck.com/430b0358-6e1b-4bdc-9a98-6fa2de5791bc/index.html"
     },
     {
         _id: "11",
-        address: "Cra. 53 #75-124",
-        carta: "",
+        address: "Cl. 99 #53 - 40",
+        carta: "https://linktr.ee/elvisnightclub",
         category: "Bar",
         description: "",
         dress_code: "",
         image_carousel: [],
         image: logoHighEnd,
-        lat: 11.0023253,
-        lng: -74.8077317,
+        lat: 11.0110896,
+        lng: -74.8096925,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
         marker: null,
-        name: "La Popular",
+        name: "Elvis Night Club",
         promo: "",
         schedule: "6pm-3am",
         subtitle: "Bar",
-        url_reserva: ""
+        url_reserva: "https://linktr.ee/elvisnightclub"
     },
     {
         _id: "12",
         address: "Gran malecon del rio",
-        carta: "",
+        carta: "https://granmalecon.com/caiman-del-rio/?fbclid=PAZXh0bgNhZW0CMTEAAaYdKaIgdNB4KVyqewWYOBfyE2Wiax3XDR6g2ZHyamdeRNI9_8HjtZJHSzw_aem_3ou1yjcD5C-IZp1zwfUDpg",
         category: "Plaza Turística",
         description: "",
         dress_code: "",
@@ -306,12 +306,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "10am-10pm",
         subtitle: "Plaza Turística",
-        url_reserva: ""
+        url_reserva: "https://granmalecon.com/caiman-del-rio/?fbclid=PAZXh0bgNhZW0CMTEAAaYdKaIgdNB4KVyqewWYOBfyE2Wiax3XDR6g2ZHyamdeRNI9_8HjtZJHSzw_aem_3ou1yjcD5C-IZp1zwfUDpg"
     },
     {
         _id: "13",
         address: "Cl. 1 #57 5, Puerto Colombia",
-        carta: "",
+        carta: "https://www.instagram.com/muelle1888/?hl=es",
         category: "Plaza Turística",
         description: "",
         dress_code: "",
@@ -322,16 +322,16 @@ export const location_list_barranquilla = [
         marca_logo: clubColombia_logo,
         marca: clubColombia,
         marker: null,
-        name: "Centro Gastronómico Internacional Muelle 1888",
+        name: "Muelle 1888",
         promo: "",
         schedule: "12pm-10pm",
         subtitle: "Plaza Turística",
-        url_reserva: ""
+        url_reserva: "https://www.instagram.com/muelle1888/?hl=es"
     },
     {
         _id: "14",
         address: "Cra. 51B # 79 - 97",
-        carta: "",
+        carta: "https://linktr.ee/varaderobarranquilla?fbclid=PAZXh0bgNhZW0CMTEAAaaz6b8LbxveKnM9yTFbCbghm66C0hl4Aka-wyLETHqt203GR8w6S44OPDM_aem_J7VG3r97CKaJMWBu9tLeeA",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -346,12 +346,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12am-11pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://linktr.ee/varaderobarranquilla?fbclid=PAZXh0bgNhZW0CMTEAAaaz6b8LbxveKnM9yTFbCbghm66C0hl4Aka-wyLETHqt203GR8w6S44OPDM_aem_J7VG3r97CKaJMWBu9tLeeA"
     },
     {
         _id: "15",
         address: "Cra. 53 #85 13",
-        carta: "",
+        carta: "https://linktr.ee/cucayo.cocina?fbclid=PAZXh0bgNhZW0CMTEAAaZIK46RivkYsWGn0zOAzvG6iak_umVSZzu-aJLlB01dkap1CLRHbuOxAqg_aem_E9Ur1t82lL4WPbWFr-oQIg",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -366,12 +366,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "8am-11pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://linktr.ee/cucayo.cocina?fbclid=PAZXh0bgNhZW0CMTEAAaZIK46RivkYsWGn0zOAzvG6iak_umVSZzu-aJLlB01dkap1CLRHbuOxAqg_aem_E9Ur1t82lL4WPbWFr-oQIg"
     },
     {
         _id: "16",
         address: "Cra. 52 #76-126",
-        carta: "",
+        carta: "https://mistura-1.cluvi.co/?fbclid=PAZXh0bgNhZW0CMTEAAaYWE2_nVhoVfQTnlxkZ-g0INmPUz_MaeU1XsCBXo8CxVrbh9tZ9A-Z4gEs_aem_WpLlFKtkrkiP158WksmoaQ",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -386,12 +386,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12pm-3pm. 7pm-11pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://mistura-1.cluvi.co/?fbclid=PAZXh0bgNhZW0CMTEAAaYWE2_nVhoVfQTnlxkZ-g0INmPUz_MaeU1XsCBXo8CxVrbh9tZ9A-Z4gEs_aem_WpLlFKtkrkiP158WksmoaQ"
     },
     {
         _id: "17",
         address: "Cra. 52 #76 - 208",
-        carta: "",
+        carta: "https://linktr.ee/BARLAOMENU",
         category: "Bar",
         description: "",
         dress_code: "",
@@ -406,12 +406,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "6pm-1am",
         subtitle: "Bar",
-        url_reserva: ""
+        url_reserva: "https://linktr.ee/BARLAOMENU"
     },
     {
         _id: "18",
         address: "Cl. 2 #22-61, Puerto Colombia",
-        carta: "",
+        carta: "https://hotelpradomar.co/es/carta-menu/",
         category: "Beach Club",
         description: "",
         dress_code: "",
@@ -426,12 +426,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "9am-9pm",
         subtitle: "Beach Club",
-        url_reserva: ""
+        url_reserva: "https://hotelpradomar.co/es/carta-menu/"
     },
     {
         _id: "19",
         address: "Cra. 59b #81- 158",
-        carta: "",
+        carta: "https://linktr.ee/segundocol?fbclid=PAZXh0bgNhZW0CMTEAAaYZSG178CTVfzG7ulWlGRlgbPAAgJG1xtHZSouYdSvvD46eSPr5IfO24Vk_aem_n6UEMebELHtP0lTbV6NEkw",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -446,12 +446,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "6pm-12am",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://linktr.ee/segundocol?fbclid=PAZXh0bgNhZW0CMTEAAaYZSG178CTVfzG7ulWlGRlgbPAAgJG1xtHZSouYdSvvD46eSPr5IfO24Vk_aem_n6UEMebELHtP0lTbV6NEkw"
     },
     {
         _id: "20",
         address: "Cra. 59b #81- 158",
-        carta: "",
+        carta: "https://linktr.ee/devoto?fbclid=PAZXh0bgNhZW0CMTEAAaaMwPLrJtHp7HgllxuJhxIo75Mxlr7KV7yEWoU6Xk1mGDLtHgEzd55sKEA_aem_EVcy12ENGVapj-s0-X4a3A",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -466,12 +466,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "10am-9pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://linktr.ee/devoto?fbclid=PAZXh0bgNhZW0CMTEAAaaMwPLrJtHp7HgllxuJhxIo75Mxlr7KV7yEWoU6Xk1mGDLtHgEzd55sKEA_aem_EVcy12ENGVapj-s0-X4a3A"
     },
     {
         _id: "21",
         address: "Cl. 99 #53 - 40",
-        carta: "",
+        carta: "https://www.instagram.com/redentore.co/",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -486,12 +486,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12pm-10pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://www.instagram.com/redentore.co/"
     },
     {
         _id: "22",
         address: "Cra. 52 #74-73",
-        carta: "",
+        carta: "http://bourbonst.co/wp-content/uploads/2019/09/Menu.pdf",
         category: "Bar",
         description: "",
         dress_code: "",
@@ -506,12 +506,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "6pm-3am",
         subtitle: "Bar",
-        url_reserva: ""
+        url_reserva: "http://bourbonst.co/wp-content/uploads/2019/09/Menu.pdf"
     },
     {
         _id: "23",
         address: "Cl. 84 #44-60",
-        carta: "",
+        carta: "https://www.instagram.com/logialicores/",
         category: "Bar",
         description: "",
         dress_code: "",
@@ -526,12 +526,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "4pm-4am",
         subtitle: "Bar",
-        url_reserva: ""
+        url_reserva: "https://www.instagram.com/logialicores/"
     },
     {
         _id: "24",
         address: "Cl. 99 #53 - 40",
-        carta: "",
+        carta: "https://www.instagram.com/cantinalamaria/?hl=es",
         category: "Bar",
         description: "",
         dress_code: "",
@@ -546,12 +546,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "6pm-3am",
         subtitle: "Bar",
-        url_reserva: ""
+        url_reserva: "https://www.instagram.com/cantinalamaria/?hl=es"
     },
     {
         _id: "25",
         address: "Cra. 51B #85-16",
-        carta: "",
+        carta: "https://domicilios.hotrestaurante.com/?utm_source=home",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -566,12 +566,12 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "11am-11pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://domicilios.hotrestaurante.com/?utm_source=home"
     },
     {
         _id: "26",
         address: "Cra 53 #85-61",
-        carta: "",
+        carta: "https://www.porthos.com.co/menu",
         category: "Restaurante",
         description: "",
         dress_code: "",
@@ -586,6 +586,6 @@ export const location_list_barranquilla = [
         promo: "",
         schedule: "12pm-11pm",
         subtitle: "Restaurante",
-        url_reserva: ""
+        url_reserva: "https://www.porthos.com.co/menu"
     },
 ]
