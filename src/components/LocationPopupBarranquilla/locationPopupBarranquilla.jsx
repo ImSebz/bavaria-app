@@ -60,7 +60,7 @@ const LocationPopupBarranquilla = ({ isOpen, onRequestClose, location }) => {
             </Carousel>
             <div className='modal-location-desc'>
                 <div className='modal-location-desc-right'>
-                    <p><span>Dress code:</span> {location.dress_code}</p>
+                    {/* <p><span>Dress code:</span> {location.dress_code}</p> */}
                     <p><span>Horario:</span> {location.schedule}</p>
                 </div>
                 <div className="modal-location-desc-left">
