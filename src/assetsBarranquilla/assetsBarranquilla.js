@@ -100,6 +100,9 @@ import barlao from './barlao.jpg';
 import barlao1 from './barlao1.jpg';
 import barlao2 from './barlao2.jpg';
 import barlao3 from './barlao3.jpg';
+import sportbar from './sportbar.jpg';
+import plaza_turistica from './plaza-turistica.jpg';
+import beach_club from './beach-club.jpg';
 
 
 export const assetsBarranquilla = {
@@ -137,15 +140,15 @@ export const sites_list_barranquilla = [
     },
     {
         site_name: "Sportbar",
-        site_image: discoteca
+        site_image: sportbar
     },
     {
         site_name: "Plaza Turística",
-        site_image: discoteca
+        site_image: plaza_turistica
     },
     {
         site_name: "Beach Club",
-        site_image: discoteca
+        site_image: beach_club
     },
 ]
 
