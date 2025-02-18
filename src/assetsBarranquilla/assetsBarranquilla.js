@@ -42,6 +42,65 @@ import hotel_prado1 from './hotel-prado1.jpg';
 import hotel_prado2 from './hotel-prado2.jpg';
 import hotel_prado3 from './hotel-prado3.jpg';
 import hotel_prado4 from './hotel-prado4.jpg';
+import jrr from './jrr.jpg';
+import jrr1 from './jrr1.jpg';
+import jrr2 from './jrr2.jpg';
+import kinto from './kinto.jpg';
+import kinto1 from './kinto1.jpg';
+import kinto2 from './kinto2.jpg';
+import la_unica from './la-unica.jpg';
+import la_unica1 from './la-unica1.jpg';
+import la_unica2 from './la-unica2.jpg';
+import la_unica3 from './la-unica3.jpg';
+import lola from './lola.jpg';
+import lola1 from './lola1.jpg';
+import lola2 from './lola2.jpg';
+import lola3 from './lola3.jpg';
+import mistura from './mistura.jpg';
+import mistura1 from './mistura1.jpg';
+import mistura2 from './mistura2.jpg';
+import mistura3 from './mistura3.jpg';
+import muelle from './muelle.jpg';
+import muelle1 from './muelle1.jpg';
+import muelle2 from './muelle2.jpg';
+import noa_sushi from './noa-sushi.jpg';
+import noa_sushi1 from './noa-sushi1.jpg';
+import noa_sushi2 from './noa-sushi2.jpg';
+import noa_sushi3 from './noa-sushi3.jpg';
+import noa_sushi4 from './noa-sushi4.jpg';
+import okra from './okra.jpg';
+import okra1 from './okra1.jpg';
+import okra2 from './okra2.jpg';
+import okra3 from './okra3.jpg';
+import okra4 from './okra4.jpg';
+import palo from './palo.jpg';
+import palo1 from './palo1.jpg';
+import palo2 from './palo2.jpg';
+import palo3 from './palo3.jpg';
+import porthos from './porthos.jpg';
+import porthos1 from './porthos1.jpg';
+import porthos2 from './porthos2.jpg';
+import porthos3 from './porthos3.jpg';
+import redentore from './redentore.jpg';
+import redentore1 from './redentore1.jpg';
+import tripulante from './tripulante.jpg';
+import tripulante1 from './tripulante1.jpg';
+import tripulante2 from './tripulante2.jpg';
+import tripulante3 from './tripulante3.jpg';
+import tripulante4 from './tripulante4.jpg';
+import varadero from './varadero.jpg';
+import varadero1 from './varadero1.jpg';
+import varadero2 from './varadero2.jpg';
+import varadero3 from './varadero3.jpg';
+import varadero4 from './varadero4.jpg';
+import varadero5 from './varadero5.jpg';
+import zamba from './zamba.jpg';
+import zamba1 from './zamba1.jpg';
+import barlao from './barlao.jpg';
+import barlao1 from './barlao1.jpg';
+import barlao2 from './barlao2.jpg';
+import barlao3 from './barlao3.jpg';
+
 
 export const assetsBarranquilla = {
     bar,
@@ -98,8 +157,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [okra1, okra2, okra3, okra4],
+        image: okra,
         lat: 11.002929,
         lng: -74.8059268,
         marca_logo: stella_logo,
@@ -118,8 +177,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [palo1, palo2, palo3],
+        image: palo,
         lat: 11.002929,
         lng: -74.8059268,
         marca_logo: clubColombia_logo,
@@ -138,8 +197,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [lola1, lola2, lola3],
+        image: lola,
         lat: 11.002929,
         lng: -74.8059268,
         marca_logo: stella_logo,
@@ -158,8 +217,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [kinto1, kinto2],
+        image: kinto,
         lat: 11.002929,
         lng: -74.8059268,
         marca_logo: stella_logo,
@@ -178,14 +237,14 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [noa_sushi1, noa_sushi2, noa_sushi3, noa_sushi4],
+        image: noa_sushi,
         lat: 11.0033764,
         lng: -74.8128998,
         marca_logo: stella_logo,
         marca: stella,
         marker: null,
-        name: "Noa Sushi & Robata",
+        name: "Noa Sushi",
         promo: "",
         schedule: "12pm-3pm. 6pm-11pm",
         subtitle: "Restaurante",
@@ -198,8 +257,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [la_unica1, la_unica2, la_unica3],
+        image: la_unica,
         lat: 11.0031797,
         lng: -74.8159527,
         marca_logo: stella_logo,
@@ -218,8 +277,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [tripulante1, tripulante2, tripulante3, tripulante4],
+        image: tripulante,
         lat: 11.0158101,
         lng: -74.8257723,
         marca_logo: corona_logo,
@@ -238,14 +297,14 @@ export const location_list_barranquilla = [
         category: "Bar",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [jrr1, jrr2],
+        image: jrr,
         lat: 11.0064954,
         lng: -74.8219655,
         marca_logo: budweiser,
         marca: budweiser,
         marker: null,
-        name: "JRr Boutique de Licores",
+        name: "JRR Boutique de Licores",
         promo: "",
         schedule: "10am-4am",
         subtitle: "Bar",
@@ -278,8 +337,8 @@ export const location_list_barranquilla = [
         category: "Sportbar",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [zamba1],
+        image: zamba,
         lat: 11.0158471,
         lng: -74.8279911,
         marca_logo: budweiser,
@@ -338,8 +397,8 @@ export const location_list_barranquilla = [
         category: "Plaza Turística",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [muelle1, muelle2],
+        image: muelle,
         lat: 10.9896634,
         lng: -74.9614565,
         marca_logo: clubColombia_logo,
@@ -358,8 +417,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [varadero1, varadero2, varadero3, varadero4, varadero5],
+        image: varadero,
         lat: 11.0027086,
         lng: -74.810051,
         marca_logo: clubColombia_logo,
@@ -398,8 +457,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [mistura1, mistura2, mistura3],
+        image: mistura,
         lat: 11.0031265,
         lng: -74.809902,
         marca_logo: stella_logo,
@@ -418,8 +477,8 @@ export const location_list_barranquilla = [
         category: "Bar",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [barlao1, barlao2, barlao3],
+        image: barlao,
         lat: 11.003365,
         lng: -74.8084014,
         marca_logo: stella_logo,
@@ -498,8 +557,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [redentore1],
+        image: redentore,
         lat: 11.0110896,
         lng: -74.8096925,
         marca_logo: stella_logo,
@@ -598,14 +657,14 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [porthos1, porthos2, porthos3],
+        image: porthos,
         lat: 11.0082417,
         lng: -74.8226603,
         marca_logo: stella_logo,
         marca: stella,
         marker: null,
-        name: "Porthos Steakhouse and Pub 53",
+        name: "Porthos",
         promo: "",
         schedule: "12pm-11pm",
         subtitle: "Restaurante",
