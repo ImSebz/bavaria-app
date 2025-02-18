@@ -44,6 +44,8 @@ import jrr2 from './jrr2.jpg';
 import kinto from './kinto.jpg';
 import kinto1 from './kinto1.jpg';
 import kinto2 from './kinto2.jpg';
+import kinto3 from './kinto3.jpg';
+import kinto4 from './kinto4.jpg';
 import la_unica from './la-unica.jpg';
 import la_unica1 from './la-unica1.jpg';
 import la_unica2 from './la-unica2.jpg';
@@ -220,7 +222,7 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [kinto1, kinto2],
+        image_carousel: [kinto1, kinto2, kinto3, kinto4],
         image: kinto,
         lat: 11.002929,
         lng: -74.8059268,
