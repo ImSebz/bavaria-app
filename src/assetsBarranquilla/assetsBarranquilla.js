@@ -11,6 +11,13 @@ import bourbon2 from './bourbon2.jpg';
 import bourbon3 from './bourbon3.jpg';
 import bourbon4 from './bourbon4.jpg';
 import budweiser from './budweiser_logo.svg';
+import caiman from './caiman.jpg';
+import caiman1 from './caiman1.jpg';
+import caiman2 from './caiman2.jpg';
+import caiman3 from './caiman3.jpg';
+import caiman4 from './caiman4.jpg';
+import caiman5 from './caiman5.jpg';
+import caiman6 from './caiman6.jpg';
 import cantina_la_maria from './cantina-la-maria.jpg';
 import cantina_la_maria1 from './cantina-la-maria1.jpg';
 import cantina_la_maria2 from './cantina-la-maria2.jpg';
@@ -27,6 +34,10 @@ import corona from './corona.svg';
 import corona_logo from './corona_logo.svg';
 import cucayo from './cucayo.jpg';
 import cucayo1 from './cucayo1.jpg';
+import devoto from './devoto.jpg';
+import devoto1 from './devoto1.jpg';
+import devoto2 from './devoto2.jpg';
+import devoto3 from './devoto3.jpg';
 import discoteca from './discoteca.jpg';
 import elvis from './elvis.jpg';
 import elvis1 from './elvis1.jpg';
@@ -50,6 +61,9 @@ import la_unica from './la-unica.jpg';
 import la_unica1 from './la-unica1.jpg';
 import la_unica2 from './la-unica2.jpg';
 import la_unica3 from './la-unica3.jpg';
+import logia from './logia.jpg';
+import logia1 from './logia1.jpg';
+import logia2 from './logia2.jpg';
 import logoHighEnd from './logo_high_end.svg';
 import logoHighEndCali from './logo_high_end_cali.png';
 import lola from './lola.jpg';
@@ -83,11 +97,16 @@ import porthos from './porthos.jpg';
 import porthos1 from './porthos1.jpg';
 import porthos2 from './porthos2.jpg';
 import porthos3 from './porthos3.jpg';
+import punto_multiple from './punto-multiple.jpg';
+import punto_multiple1 from './punto-multiple1.jpg';
 import redentore from './redentore.jpg';
 import redentore1 from './redentore1.jpg';
 import reservaIcon from './reserva.svg';
 import restaurante from './restaurante.jpg';
 import rooftop from './rooftop.jpg';
+import segundo from './segundo.jpg';
+import segundo1 from './segundo1.jpg';
+import segundo2 from './segundo2.jpg';
 import sportbar from './sportbar.jpg';
 import stella from './stella.svg';
 import stella_logo from './stella_logo.svg';
@@ -382,8 +401,8 @@ export const location_list_barranquilla = [
         category: "Plaza Turística",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [caiman1, caiman2, caiman3, caiman4, caiman5, caiman6],
+        image: caiman,
         lat: 11.0233041,
         lng: -74.7963798,
         marca_logo: clubColombia_logo,
@@ -522,8 +541,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [segundo1, segundo2],
+        image: segundo,
         lat: 11.0110896,
         lng: -74.8096925,
         marca_logo: stella_logo,
@@ -542,8 +561,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [devoto1, devoto2, devoto3],
+        image: devoto,
         lat: 11.0110896,
         lng: -74.8096925,
         marca_logo: stella_logo,
@@ -602,8 +621,8 @@ export const location_list_barranquilla = [
         category: "Bar",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [logia1, logia2],
+        image: logia,
         lat: 11.0004514,
         lng: -74.8240651,
         marca_logo: budweiser,
@@ -642,8 +661,8 @@ export const location_list_barranquilla = [
         category: "Restaurante",
         description: "",
         dress_code: "",
-        image_carousel: [],
-        image: logoHighEnd,
+        image_carousel: [punto_multiple1],
+        image: punto_multiple,
         lat: 11.0069732,
         lng: -74.8191085,
         marca_logo: clubColombia_logo,
