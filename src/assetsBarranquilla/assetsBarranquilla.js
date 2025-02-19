@@ -1,5 +1,6 @@
 import bar from './bar.jpg';
 import barlao from './barlao.jpg';
+import barlao_marker from './barlao-marker.png';
 import barlao1 from './barlao1.jpg';
 import barlao2 from './barlao2.jpg';
 import barlao3 from './barlao3.jpg';
@@ -19,6 +20,7 @@ import caiman4 from './caiman4.jpg';
 import caiman5 from './caiman5.jpg';
 import caiman6 from './caiman6.jpg';
 import cantina_la_maria from './cantina-la-maria.jpg';
+import cantina_la_maria_marker from './cantina-la-maria-marker.png';
 import cantina_la_maria1 from './cantina-la-maria1.jpg';
 import cantina_la_maria2 from './cantina-la-maria2.jpg';
 import cantina_la_maria3 from './cantina-la-maria3.jpg';
@@ -40,6 +42,7 @@ import devoto2 from './devoto2.jpg';
 import devoto3 from './devoto3.jpg';
 import discoteca from './discoteca.jpg';
 import elvis from './elvis.jpg';
+import elvis_marker from './elvis-marker.png';
 import elvis1 from './elvis1.jpg';
 import elvis2 from './elvis2.jpg';
 import facebook_icon from './facebook_icon.svg';
@@ -50,23 +53,28 @@ import hotel_prado3 from './hotel-prado3.jpg';
 import hotel_prado4 from './hotel-prado4.jpg';
 import instagram_icon from './instagram_icon.svg';
 import jrr from './jrr.jpg';
+import jrr_marker from './jrr-marker.png';
 import jrr1 from './jrr1.jpg';
 import jrr2 from './jrr2.jpg';
 import kinto from './kinto.jpg';
+import kinto_marker from './kinto-marker.png';
 import kinto1 from './kinto1.jpg';
 import kinto2 from './kinto2.jpg';
 import kinto3 from './kinto3.jpg';
 import kinto4 from './kinto4.jpg';
 import la_unica from './la-unica.jpg';
+import la_unica_marker  from './la-unica-marker.png';
 import la_unica1 from './la-unica1.jpg';
 import la_unica2 from './la-unica2.jpg';
 import la_unica3 from './la-unica3.jpg';
 import logia from './logia.jpg';
+import logia_marker from './logia-marker.png';
 import logia1 from './logia1.jpg';
 import logia2 from './logia2.jpg';
 import logoHighEnd from './logo_high_end.svg';
 import logoHighEndCali from './logo_high_end_cali.png';
 import lola from './lola.jpg';
+import lola_marker from './lola-marker.png';
 import lola1 from './lola1.jpg';
 import lola2 from './lola2.jpg';
 import lola3 from './lola3.jpg';
@@ -84,6 +92,7 @@ import noa_sushi2 from './noa-sushi2.jpg';
 import noa_sushi3 from './noa-sushi3.jpg';
 import noa_sushi4 from './noa-sushi4.jpg';
 import okra from './okra.jpg';
+import okra_marker from './okra-marker.png';
 import okra1 from './okra1.jpg';
 import okra2 from './okra2.jpg';
 import okra3 from './okra3.jpg';
@@ -94,6 +103,7 @@ import palo2 from './palo2.jpg';
 import palo3 from './palo3.jpg';
 import plaza_turistica from './plaza-turistica.jpg';
 import porthos from './porthos.jpg';
+import porthos_marker from './porthos-marker.png';
 import porthos1 from './porthos1.jpg';
 import porthos2 from './porthos2.jpg';
 import porthos3 from './porthos3.jpg';
@@ -187,7 +197,7 @@ export const location_list_barranquilla = [
         lng: -74.8059268,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: okra_marker,
         name: "Okra",
         promo: "",
         schedule: "12pm-11pm",
@@ -227,7 +237,7 @@ export const location_list_barranquilla = [
         lng: -74.8059268,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: lola_marker,
         name: "Lola Bar",
         promo: "",
         schedule: "12pm-3pm. 5pm-11pm",
@@ -247,7 +257,7 @@ export const location_list_barranquilla = [
         lng: -74.8059268,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: kinto_marker,
         name: "Kinto Elemento",
         promo: "",
         schedule: "12pm-3pm. 6pm-11pm",
@@ -287,7 +297,7 @@ export const location_list_barranquilla = [
         lng: -74.8159527,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: la_unica_marker,
         name: "La Única",
         promo: "",
         schedule: "12pm-4pm. 7pm-12pm",
@@ -327,7 +337,7 @@ export const location_list_barranquilla = [
         lng: -74.8219655,
         marca_logo: budweiser,
         marca: budweiser,
-        marker: null,
+        marker: jrr_marker,
         name: "JRR Boutique de Licores",
         promo: "",
         schedule: "10am-4am",
@@ -387,7 +397,7 @@ export const location_list_barranquilla = [
         lng: -74.8096925,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: elvis_marker,
         name: "Elvis Night Club",
         promo: "",
         schedule: "6pm-3am",
@@ -507,7 +517,7 @@ export const location_list_barranquilla = [
         lng: -74.8084014,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: barlao_marker,
         name: "Barlao",
         promo: "",
         schedule: "6pm-1am",
@@ -627,7 +637,7 @@ export const location_list_barranquilla = [
         lng: -74.8240651,
         marca_logo: budweiser,
         marca: budweiser,
-        marker: null,
+        marker: logia_marker,
         name: "Logia Licores",
         promo: "",
         schedule: "4pm-4am",
@@ -647,7 +657,7 @@ export const location_list_barranquilla = [
         lng: -74.8290945,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: cantina_la_maria_marker,
         name: "Cantina La María",
         promo: "",
         schedule: "6pm-3am",
@@ -687,7 +697,7 @@ export const location_list_barranquilla = [
         lng: -74.8226603,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: porthos_marker,
         name: "Porthos",
         promo: "",
         schedule: "12pm-11pm",
