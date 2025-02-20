@@ -35,6 +35,7 @@ import coliseo3 from './coliseo3.jpg';
 import corona from './corona.svg';
 import corona_logo from './corona_logo.svg';
 import cucayo from './cucayo.jpg';
+import cucayo_marker from './cucayo-marker.png';
 import cucayo1 from './cucayo1.jpg';
 import devoto from './devoto.jpg';
 import devoto1 from './devoto1.jpg';
@@ -98,6 +99,7 @@ import okra2 from './okra2.jpg';
 import okra3 from './okra3.jpg';
 import okra4 from './okra4.jpg';
 import palo from './palo.jpg';
+import palo_marker from './palo-marker.png';
 import palo1 from './palo1.jpg';
 import palo2 from './palo2.jpg';
 import palo3 from './palo3.jpg';
@@ -110,6 +112,7 @@ import porthos3 from './porthos3.jpg';
 import punto_multiple from './punto-multiple.jpg';
 import punto_multiple1 from './punto-multiple1.jpg';
 import redentore from './redentore.jpg';
+import redentore_marker from './redentore-marker.png';
 import redentore1 from './redentore1.jpg';
 import reservaIcon from './reserva.svg';
 import restaurante from './restaurante.jpg';
@@ -126,6 +129,7 @@ import tripulante2 from './tripulante2.jpg';
 import tripulante3 from './tripulante3.jpg';
 import tripulante4 from './tripulante4.jpg';
 import varadero from './varadero.jpg';
+import varadero_marker from './varadero-marker.png';
 import varadero1 from './varadero1.jpg';
 import varadero2 from './varadero2.jpg';
 import varadero3 from './varadero3.jpg';
@@ -217,7 +221,7 @@ export const location_list_barranquilla = [
         lng: -74.8059268,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: palo_marker,
         name: "Palo de Mango",
         promo: "",
         schedule: "12pm-3pm. 5pm-11pm",
@@ -457,7 +461,7 @@ export const location_list_barranquilla = [
         lng: -74.810051,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: varadero_marker,
         name: "Varadero",
         promo: "",
         schedule: "12am-11pm",
@@ -477,7 +481,7 @@ export const location_list_barranquilla = [
         lng: -74.820032,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: cucayo_marker,
         name: "CUCAYO - Cocina de Aquí",
         promo: "",
         schedule: "8am-11pm",
@@ -597,7 +601,7 @@ export const location_list_barranquilla = [
         lng: -74.8096925,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: redentore_marker,
         name: "Redentore",
         promo: "",
         schedule: "12pm-10pm",
