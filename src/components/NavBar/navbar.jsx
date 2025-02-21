@@ -11,6 +11,8 @@ const Navbar = () => {
     const [menu, setMenu] = useState("home");
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const location = useLocation();
+    const isCartagenaRoute = location.pathname === '/cartagena';
+    const isMapaCartagenaRoute = location.pathname === '/mapa';
     const isCaliRoute = location.pathname === '/cali';
     const isMapaCaliRoute = location.pathname === '/mapa-cali';
     const isBarranquillaRoute = location.pathname === '/barranquilla';
@@ -52,6 +54,12 @@ const Navbar = () => {
                     <li className={menu === "ciudades" ? "active" : ""}>Ciudades</li>
                 </Link>
             </ul>
+
+            {/* Nombre de la ciudad */}
+
+            <div className='city-name'>
+                <h2>{isCaliRoute || isMapaCaliRoute ? 'Cali' : isBarranquillaRoute || isMapaBarranquillaRoute ? 'Barranquilla' : isCartagenaRoute || isMapaCartagenaRoute ? 'Cartagena' : ''}</h2>
+            </div>
 
             <ul className="navbar-menu">
                 <Link to="/" onClick={() => { setMenu("home") }}>

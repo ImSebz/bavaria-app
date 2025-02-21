@@ -88,6 +88,11 @@
     display: inline;
 }
 
+.city-name {
+    font-size: 1.2rem;
+    margin-left: 0;
+}
+
 @media screen and (max-width: 768px) {
 
     .navbar-cali {
@@ -134,6 +139,11 @@
 
     .navbar-ruta-p {
         margin-left: 15px;
+    }
+
+    .city-name {
+        font-size: 1rem;
+        margin-left: 5%;
     }
 
 
