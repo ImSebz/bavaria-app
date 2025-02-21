@@ -13,6 +13,7 @@ import bourbon3 from './bourbon3.jpg';
 import bourbon4 from './bourbon4.jpg';
 import budweiser from './budweiser_logo.svg';
 import caiman from './caiman.jpg';
+import caiman_marker from './caiman-marker.png';
 import caiman1 from './caiman1.jpg';
 import caiman2 from './caiman2.jpg';
 import caiman3 from './caiman3.jpg';
@@ -48,6 +49,7 @@ import elvis1 from './elvis1.jpg';
 import elvis2 from './elvis2.jpg';
 import facebook_icon from './facebook_icon.svg';
 import hotel_prado from './hotel-prado.jpg';
+import hotel_prado_marker from './hotel-prado-marker.png';
 import hotel_prado1 from './hotel-prado1.jpg';
 import hotel_prado2 from './hotel-prado2.jpg';
 import hotel_prado3 from './hotel-prado3.jpg';
@@ -81,6 +83,7 @@ import lola2 from './lola2.jpg';
 import lola3 from './lola3.jpg';
 import mapaIcon from './mapa.svg';
 import mistura from './mistura.jpg';
+import mistura_marker from './mistura-marker.png';
 import mistura1 from './mistura1.jpg';
 import mistura2 from './mistura2.jpg';
 import mistura3 from './mistura3.jpg';
@@ -88,6 +91,7 @@ import muelle from './muelle.jpg';
 import muelle1 from './muelle1.jpg';
 import muelle2 from './muelle2.jpg';
 import noa_sushi from './noa-sushi.jpg';
+import noa_sushi_marker from './noa-sushi-marker.png';
 import noa_sushi1 from './noa-sushi1.jpg';
 import noa_sushi2 from './noa-sushi2.jpg';
 import noa_sushi3 from './noa-sushi3.jpg';
@@ -124,6 +128,7 @@ import sportbar from './sportbar.jpg';
 import stella from './stella.svg';
 import stella_logo from './stella_logo.svg';
 import tripulante from './tripulante.jpg';
+import tripulante_marker from './tripulante-marker.png';
 import tripulante1 from './tripulante1.jpg';
 import tripulante2 from './tripulante2.jpg';
 import tripulante3 from './tripulante3.jpg';
@@ -281,7 +286,7 @@ export const location_list_barranquilla = [
         lng: -74.8128998,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: noa_sushi_marker,
         name: "Noa Sushi",
         promo: "",
         schedule: "12pm-3pm. 6pm-11pm",
@@ -321,7 +326,7 @@ export const location_list_barranquilla = [
         lng: -74.8257723,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: tripulante_marker,
         name: "Tripulante",
         promo: "",
         schedule: "12pm-4pm. 7pm-12pm",
@@ -421,7 +426,7 @@ export const location_list_barranquilla = [
         lng: -74.7963798,
         marca_logo: clubColombia_logo,
         marca: clubColombia,
-        marker: null,
+        marker: caiman_marker,
         name: "Caimán del Río",
         promo: "",
         schedule: "10am-10pm",
@@ -501,7 +506,7 @@ export const location_list_barranquilla = [
         lng: -74.809902,
         marca_logo: stella_logo,
         marca: stella,
-        marker: null,
+        marker: mistura_marker,
         name: "Mistura",
         promo: "",
         schedule: "12pm-3pm. 7pm-11pm",
@@ -541,7 +546,7 @@ export const location_list_barranquilla = [
         lng: -74.9548221,
         marca_logo: corona_logo,
         marca: corona,
-        marker: null,
+        marker: hotel_prado_marker,
         name: "Hotel Pradomar",
         promo: "",
         schedule: "9am-9pm",

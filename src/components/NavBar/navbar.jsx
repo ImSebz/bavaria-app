@@ -31,7 +31,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className={`navbar ${isCaliRoute || isMapaCaliRoute ? 'navbar-cali' : isBarranquillaRoute || isMapaBarranquillaRoute ? 'navbar-barranquilla' : ''}`}>
+        <div className='navbar'>
             <Link to="/" onClick={() => { setMenu("home") }}>
                 {/* <img src={isCaliRoute || isMapaCaliRoute ? assetsCali.logoHighEndCali : isBarranquillaRoute || isMapaBarranquillaRoute ? assetsBarranquilla.logoHighEndBarranquilla : assets.logoHighEnd} className='logo' alt="Logo" /> */}
                 <img src={isCaliRoute || isMapaCaliRoute ? assetsCali.logoHighEndCali : assets.logoHighEnd} className='logo' alt="Logo" />

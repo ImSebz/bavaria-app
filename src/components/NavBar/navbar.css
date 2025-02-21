@@ -9,23 +9,8 @@
     margin-bottom: 50px;
 }
 
-.navbar-cali {
-    background-image: url(/src/assetsCali/navbar-cali-desktop.png);
-    background-size:  100% 100%;
-    background-repeat: no-repeat;
-    padding: 5px;
-    margin-bottom: 50px;
-    height: 100px;
-}
 .navbar li {
     cursor: pointer;
-}
-
-.navbar-cali .logo {
-    width: 200px !important;
-    position: relative;
-    margin-left: 20px;
-
 }
 
 .navbar .logo {
